@@ -1,0 +1,60 @@
+import axios from 'axios';
+import { writeFileSync, createReadStream, unlinkSync } from 'fs';
+import path from 'path';
+
+const config = {
+  name: "removebg",
+  version: "2.7",
+  credits: "Hazeyy (Converted by Grim)",
+  description: "( 𝙍𝙚𝙢𝙤𝙫𝙚 𝘽𝙖𝙘𝙠𝙜𝙧𝙤𝙪𝙣𝙙 𝙋𝙝𝙤𝙩𝙤 )",
+  commandCategory: "no prefix",
+  usage: "[reply to an image]",
+  cooldown: 3,
+};
+
+async function onCall({ message }) {
+  const { body, messageReply } = message;
+  const args = body.split(/\s+/);
+  args.shift();
+
+  try {
+    const response = await axios.get("https://hazeyy-apis-combine.kyrinwu.repl.co");
+    if (response.data.hasOwnProperty("error")) {
+      return message.reply(response.data.error);
+    }
+
+    let pathie = path.join(global.cachePath, `${message.threadID}_${Date.now()}_removebg.png`);
+
+    let photoUrl = messageReply ? messageReply.attachments[0].url : args.join(" ");
+
+    if (!photoUrl) {
+      message.reply("📸 𝖯𝗅𝖾𝖺𝗌𝖾 𝗋𝖾𝗉𝗅𝗒 𝗍𝗈 𝖺 𝗉𝗁𝗈𝗍𝗈 𝗍𝗈 𝗉𝗋𝗈𝖼𝖾𝗌𝗌 𝖺𝗇𝖽 𝗋𝖾𝗆𝗈𝗏𝖾 𝖻𝖺𝖼𝗄𝗀𝗋𝗈𝗎𝗇𝖽𝗌.");
+      return;
+    }
+
+    const wait = await message.reply("🕟 | 𝖱𝖾𝗆𝗈𝗏𝗂𝗇𝗀 𝖡𝖺𝖼𝗄𝗀𝗋𝗈𝗎𝗇𝖽, 𝗉𝗅𝖾𝖺𝗌𝖾 𝗐𝖺𝗂𝗍...");
+      try {
+        const response = await axios.get(`https://hazeyy-apis-combine.kyrinwu.repl.co/api/try/removebg?url=${encodeURIComponent(photoUrl)}`);
+        const processedImageURL = response.data.image_data;
+
+        const img = (await axios.get(processedImageURL, { responseType: "arraybuffer" })).data;
+
+        writeFileSync(pathie, Buffer.from(img, 'binary'));
+
+        global.api.unsendMessage(wait.messageID);
+        message.reply({
+          body: "✨ 𝖧𝖾𝗋𝖾'𝗌 𝗒𝗈𝗎𝗋 𝗂𝗆𝖺𝗀𝖾 𝗐𝗂𝗍𝗁𝗈𝗎𝗍 𝖻𝖺𝖼𝗄𝗀𝗋𝗈𝗎𝗇𝖽",
+          attachment: createReadStream(pathie)
+        }, () => unlinkSync(pathie));
+      } catch (error) {
+        message.reply(`🔴 | 𝖤𝗋𝗋𝗈𝗋 𝗉𝗋𝗈𝖼𝖾𝗌𝗌𝗂𝗇𝗀 𝗂𝗆𝖺𝗀𝖾: ${error}`);
+      }
+  } catch (error) {
+    message.reply(`𝖤𝗋𝗋𝗈𝗋: ${error.message}`);
+  }
+};
+
+export default {
+  config,
+  onCall
+}

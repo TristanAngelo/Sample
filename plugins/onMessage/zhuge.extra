@@ -1,0 +1,297 @@
+import axios from 'axios';
+import { Hercai } from 'hercai';
+import path from 'path';
+import fs from 'fs';
+import { resolve } from 'path';
+import yts from 'yt-search';
+import ytdl from '@distube/ytdl-core';
+
+const herc = new Hercai();
+
+export default async function({ message, args }) {
+  const { senderID } = message;
+  const input = message.body;
+  const lowercaseMessage = input.toLowerCase();
+
+  if (input && lowercaseMessage.startsWith('zhuge, send me pictures of')) {
+    const data = input.split(" ");
+    data.shift();
+    const query = data.slice(4).join(" ");
+    message.react('⏳');
+
+    const imgData = await searchPinterest(query);
+    const name = await getUserInfo(api, senderID);
+
+    if (imgData && imgData.length > 0) {
+      message.reply({
+        body: `📸 | Hey ${name}, here are some images of your query:`,
+        attachment: imgData,
+      });
+      message.react('☑️');
+    } else {
+      message.reply("Unexpected Error while fetching images.");
+    }
+  } else if (input && lowercaseMessage.startsWith('zhuge, download ')) {
+    const args = input.split(" ");
+    args.shift();
+    const link = args.slice(1).join(" ");
+    const name = await getUserInfo(api, senderID);
+
+    if (!link || (!link.startsWith("https://www.instagram.com/") && !link.startsWith("https://www.facebook.com/") && !link.startsWith("https://www.capcut.com/") && !link.startsWith("https://x.com/") && !link.startsWith("https://www.tiktok.com/"))) {
+      message.reply("Please provide a valid Instagram, Facebook, CapCut, Twitter or TikTok video link.");
+      return;
+    }
+
+    const wait = await message.reply(`⏳ | Sure ${name}, please wait...`);
+    await downloadVideo(link, message, senderID);
+  } else if (input && lowercaseMessage.startsWith('zhuge, play')) {
+    const args = input.split(" ");
+    args.shift();
+    const videoName = args.slice(1).join(" ");
+
+    if (!videoName) {
+      return message.reply("Please provide a search query for the YouTube video.");
+    }
+
+    await playVid(videoName, message, senderID);
+  } else if (input && lowercaseMessage.startsWith('zhuge, sing')) {
+    const args = input.split(" ");
+    args.shift();
+    const songName = args.slice(1).join(" ");
+
+    if (!songName) {
+      return message.reply("Please provide a song name!");
+    }
+
+    await singAudio(songName, message, senderID);
+  } else if (lowercaseMessage.startsWith('zhuge, kiss me')) {
+    message.reply('Mwaps! 😚');
+  } else if (lowercaseMessage.startsWith('zhuge, hug me')) {
+    message.reply('*Hugs you tight* 🤗');
+  } else if (
+    input &&
+    (
+      lowercaseMessage.startsWith('zhuge') ||
+      lowercaseMessage.startsWith('zhuge, ')
+    )
+  ) {
+    const name = await getUserInfo(api, senderID);
+    const data = input.split(" ");
+    data.shift();
+    const question = data.join(" ");
+    const prompt =
+      `Pretend that your name is Zhuge Bot, a personal assistant. Your owner and developers are Dymyrius and Creighztan, I'm ${name} and my request is ${question}.`;
+
+    message.react('⏳');
+    global.api.sendTypingIndicator(message.threadID);
+
+    if (!prompt) {
+      return message.reply(`❗| Kindly provide a question or query! Please try again...`);
+    }
+
+    herc.question({
+      model: 'v3-beta',
+      content: prompt
+    })
+      .then((response) => {
+        const reply = response.reply;
+        message.react('☑');
+        message.reply(reply);
+      })
+      .catch(error => {
+        console.error(error);
+        message.reply('Error occurred.');
+      });
+  }
+};
+
+async function getUserInfo(api, userID) {
+  try {
+    const userInfo = await global.api.getUserInfo(userID);
+    return userInfo[userID].firstName;
+  } catch (error) {
+    console.error(`Error fetching user info: ${error}`);
+    return '';
+  }
+};
+
+async function searchPinterest(query) {
+  try {
+    const res = await axios.get(`https://api-dien.kira1011.repl.co/pinterest?search=${encodeURIComponent(query)}`);
+    const data = res.data.data;
+    const imgData = [];
+
+    for (let i = 0; i < 6; i++) {
+      const pathImg = path.resolve(global.cachePath, `automatedzhuge_${i + 1}.jpg`);
+      const imageResponse = await axios.get(data[i], {
+        responseType: 'arraybuffer'
+      });
+      fs.writeFileSync(pathImg, Buffer.from(imageResponse.data, 'binary'));
+      imgData.push(fs.createReadStream(pathImg));
+    }
+
+    for (let i = 1; i < 6; i++) {
+      fs.unlinkSync(resolve(global.cachePath, `automatedzhuge_${i}.jpg`));
+    }
+
+    return imgData;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+}
+
+async function downloadVideo(link, message, senderID, api) {
+  const name = await getUserInfo(api, senderID);
+
+  try {
+    let pathVid = path.join(global.cachePath, `multivideo_${message.threadID}.mp4`);
+    let videoUrl = '';
+    let videoDetails = '';
+
+    if (link.startsWith("https://www.instagram.com/")) {
+      const response = await axios.get(`https://instagramdl.hayih59124.repl.co/instagram?url=${encodeURIComponent(link)}`);
+      const result = response.data.result[0];
+      videoUrl = result._url;
+    } else if (link.startsWith("https://www.facebook.com/")) {
+      const fbResponse = await axios.get(`https://facebookdl.hayih59124.repl.co/facebook?url=${encodeURI(link)}`);
+      videoUrl = fbResponse.data.result.sd_q;
+    } else if (link.startsWith("https://www.capcut.com/")) {
+      const capcutResponse = await axios.get(`https://Capcutdl.hayih59124.repl.co/capcut?url=${link}`);
+      videoUrl = capcutResponse.data.result.video_ori;
+    } else if (link.startsWith("https://x.com/")) {
+      const twitterResponse = await axios.get(`https://www.nguyenmanh.name.vn/api/twitterDL?url=${encodeURIComponent(link)}&apikey=7A9v6W5l`);
+      videoUrl = twitterResponse.data.result.HD;
+    } else if (link.startsWith("https://www.tiktok.com/")) {
+      const tiktokResponse = await axios.get(`https://tiktokdl.hayih59124.repl.co/TikTokdl?url=${encodeURIComponent(link)}`);
+      const data = tiktokResponse.data.result.data;
+      videoUrl = data.play;
+
+      videoDetails =
+        `==== Downloaded ====\n━━━━━━━━━━━━━━━━━━\n→ Title: ${data.title}.\n→ Play Count: ${data.play_count}.\n→ Digg Count: ${data.digg_count}.\n→ Comment Count: ${data.comment_count}.\n→ Share Count: ${data.share_count}.\n→ Download Count: ${data.download_count}\n━━━━━━━━━━━━━━━━━━\n`;
+    }
+
+    const vid = (await axios.get(videoUrl, {
+      responseType: "arraybuffer"
+    })).data;
+    fs.writeFileSync(pathVid, Buffer.from(vid, 'utf-8'));
+
+    const videoInfo = `${videoDetails}Hey ${name}, here's your video!`;
+
+    message.reply({
+      body: videoInfo,
+      attachment: fs.createReadStream(pathVid)
+    }, () => fs.unlinkSync(pathVid));
+  } catch (error) {
+    message.reply(`Error fetching video: ${error}`);
+  }
+}
+
+async function playVid(videoName, message, senderID, api) {
+  const name = await getUserInfo(api, senderID);
+
+  try {
+    const wait = await message.reply(`⏳ | Sure ${name} please be patient, I'm sending your request...`);
+
+    const searchResults = await yts(videoName);
+    if (!searchResults.videos.length) {
+      return message.reply("No video found.");
+    }
+
+    const video = searchResults.videos[0];
+    const videoUrl = video.url;
+
+    const stream = ytdl(videoUrl, { filter: "audioandvideo" });
+
+    const filePath = path.join(global.cachePath, `${message.threadID}_${message.senderID}.mp4`);
+
+    stream.pipe(fs.createWriteStream(filePath));
+
+    stream.on('response', () => {
+      console.info('[DOWNLOADER]', 'Starting download now!');
+    });
+
+    stream.on('info', (info) => {
+      console.info('[DOWNLOADER]', `Downloading video: ${info.videoDetails.title}`);
+    });
+
+    stream.on('end', () => {
+      console.info('[DOWNLOADER] Downloaded');
+
+      if (fs.statSync(filePath).size > 26214400) {
+        fs.unlinkSync(filePath);
+        return message.reply('The file could not be sent because it is larger than 25MB.');
+      }
+
+      const messages = {
+        body: `📹 | Here's your video\n\n🔮 | Title: ${video.title}\n⏰ | Duration: ${video.duration.timestamp}`,
+        attachment: fs.createReadStream(filePath)
+      };
+
+      message.reply(messages, () => {
+        fs.unlinkSync(filePath);
+      });
+    });
+  } catch (error) {
+    console.error('[ERROR]', error);
+    message.reply(' An error occurred while processing the command.');
+  }
+}
+
+async function singAudio(songName, message, senderID, api) {
+  const name = await getUserInfo(api, senderID);
+
+  try {
+    await message.reply(`Wait ${name}, I'm searching for "${songName}". ⏳`)
+
+    const res = await axios.get(`https://api.popcat.xyz/lyrics?song=${encodeURIComponent(songName)}`);
+    const lyrics = res.data.lyrics || 'Not found!';
+    const title = res.data.title || 'Not found!';
+    const artist = res.data.artist || 'Not found!';
+
+    const searchResults = await yts(songName);
+    if (!searchResults.videos.length) {
+      return message.reply('Error: Invalid request.');
+    }
+
+    const video = searchResults.videos[0];
+    const videoUrl = video.url;
+
+    const stream = ytdl(videoUrl, { filter: 'audioonly' });
+
+    const filePath = path.join(
+      global.cachePath, `${Date.now()}_sing_${message.messageID}.mp3`);
+    stream.pipe(fs.createWriteStream(filePath));
+
+    stream.on('response', () => {
+      console.info('[DOWNLOADER]', 'Starting download now!');
+    });
+
+    stream.on('info', (info) => {
+      console.info('[DOWNLOADER]', `Downloading ${info.videoDetails.title} by ${info.videoDetails.author.name}`);
+    });
+
+    stream.on('end', () => {
+      console.info('[DOWNLOADER] Downloaded');
+
+      if (fs.statSync(filePath).size > 26214400) {
+        fs.unlinkSync(filePath);
+        return message.reply('[ERR] The file could not be sent because it is larger than 25MB.');
+      }
+
+      const messages = {
+        body: `❏ 𝗧𝗶𝘁𝗹𝗲: ${title}\n❏ 𝗔𝗿𝘁𝗶𝘀𝘁: ${artist}\n━━━━━━[𝗟𝘆𝗿𝗶𝗰𝘀]━━━━━━\n${lyrics}`,
+        attachment: fs.createReadStream(filePath),
+      };
+      message.reply(messages, (err) => {
+        if (err) {
+          console.error('[ERROR]', err);
+        }
+        fs.unlinkSync(filePath);
+      });
+    });
+  } catch (error) {
+    console.error('[ERROR]', error);
+    message.reply('Try again later.');
+  }
+}

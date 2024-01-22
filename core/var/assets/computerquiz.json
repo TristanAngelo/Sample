@@ -1,0 +1,1334 @@
+[
+  {
+    "question": "What is the term for a program that maliciously replicates itself and spreads to other computers?",
+    "answer": "Virus"
+  },
+  {
+    "question": "What is the primary input device for a computer?",
+    "answer": "Keyboard"
+  },
+  {
+    "question": "What is the most common computer operating system?",
+    "answer": "Windows"
+  },
+  {
+    "question": "What type of software protects a computer from malware?",
+    "answer": "Antivirus"
+  },
+  {
+    "question": "What is the basic unit of data storage in a computer?",
+    "answer": "Byte"
+  },
+  {
+    "question": "What is the process of converting data into a coded form to prevent unauthorized access?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the central processing unit of a computer?",
+    "answer": "CPU"
+  },
+  {
+    "question": "What type of software allows you to browse the web?",
+    "answer": "Browser"
+  },
+  {
+    "question": "What is the act of removing a file or data from a computer's memory?",
+    "answer": "Delete"
+  },
+  {
+    "question": "What is the name for a program that performs a specific task on a computer?",
+    "answer": "Application"
+  },
+  {
+    "question": "What is the term for a small piece of data stored by websites on your computer?",
+    "answer": "Cookie"
+  },
+  {
+    "question": "What is the code that represents characters, such as letters and numbers, in a computer?",
+    "answer": "ASCII"
+  },
+  {
+    "question": "What is the process of copying and moving files on a computer?",
+    "answer": "File management"
+  },
+  {
+    "question": "What is the software used to create and edit documents, spreadsheets, and presentations?",
+    "answer": "Office"
+  },
+  {
+    "question": "What is the term for a high-speed internet connection?",
+    "answer": "Broadband"
+  },
+  {
+    "question": "What is the abbreviation for a small program that enhances the functionality of a web browser?",
+    "answer": "Add-on"
+  },
+  {
+    "question": "What is the hardware component that displays information on a computer screen?",
+    "answer": "Monitor"
+  },
+  {
+    "question": "What is the process of copying text or files from one location and placing them in another?",
+    "answer": "Copy"
+  },
+  {
+    "question": "What is the software that manages and organizes files on a computer?",
+    "answer": "File Explorer"
+  },
+  {
+    "question": "What is the name for a computer's temporary storage area?",
+    "answer": "Cache"
+  },
+  {
+    "question": "What is the code that represents colors on a computer display?",
+    "answer": "RGB"
+  },
+  {
+    "question": "What is the act of shutting down and restarting a computer?",
+    "answer": "Reboot"
+  },
+  {
+    "question": "What is the abbreviation for read-only memory, a type of computer storage?",
+    "answer": "ROM"
+  },
+  {
+    "question": "What is the process of connecting to a remote computer over the internet?",
+    "answer": "Remote access"
+  },
+  {
+    "question": "What is the software used to protect a computer from unauthorized access?",
+    "answer": "Firewall"
+  },
+  {
+    "question": "What is the abbreviation for a program that searches the web for information?",
+    "answer": "Search engine"
+  },
+  {
+    "question": "What is the hardware component that allows a computer to connect to a network?",
+    "answer": "Network card"
+  },
+  {
+    "question": "What is the abbreviation for a program that displays web pages?",
+    "answer": "Browser"
+  },
+  {
+    "question": "What is the process of making a duplicate copy of data for backup purposes?",
+    "answer": "Backup"
+  },
+  {
+    "question": "What is the software that manages email communication?",
+    "answer": "Email client"
+  },
+  {
+    "question": "What is the abbreviation for a program that plays audio and video files?",
+    "answer": "Media player"
+  },
+  {
+    "question": "What is the hardware component that stores data on a computer?",
+    "answer": "Hard drive"
+  },
+  {
+    "question": "What is the process of converting data from analog to digital format?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the abbreviation for a program that protects a computer from malware?",
+    "answer": "AV"
+  },
+  {
+    "question": "What is the hardware component that allows a computer to connect to the internet?",
+    "answer": "Modem"
+  },
+  {
+    "question": "What is the process of rearranging data in a specific order on a computer?",
+    "answer": "Sorting"
+  },
+  {
+    "question": "What is the abbreviation for a program that displays web pages?",
+    "answer": "WWW"
+  },
+  {
+    "question": "What is the hardware component that processes graphics and video in a computer?",
+    "answer": "GPU"
+  },
+  {
+    "question": "What is the process of converting data from digital to analog format?",
+    "answer": "Analog conversion"
+  },
+  {
+    "question": "What is the abbreviation for a program that provides security for internet browsing?",
+    "answer": "VPN"
+  },
+  {
+    "question": "What is the hardware component that allows a computer to connect to a wireless network?",
+    "answer": "Wi-Fi adapter"
+  },
+  {
+    "question": "What is the process of erasing all data on a computer storage device?",
+    "answer": "Format"
+  },
+  {
+    "question": "What is the abbreviation for a program that compresses and decompresses files?",
+    "answer": "ZIP"
+  },
+  {
+    "question": "What is the hardware component that controls input and output devices on a computer?",
+    "answer": "Motherboard"
+  },
+  {
+    "question": "What is the process of converting speech or audio into text on a computer?",
+    "answer": "Transcription"
+  },
+  {
+    "question": "What is the abbreviation for a program that simulates a real-world environment?",
+    "answer": "VR"
+  },
+  {
+    "question": "What is the hardware component that connects to the internet and shares the connection with other devices?",
+    "answer": "Router"
+  },
+  {
+    "question": "What is the process of restoring a computer to its original factory settings?",
+    "answer": "Reset"
+  },
+  {
+    "question": "What is the abbreviation for a program that organizes and manages data in a tabular format?",
+    "answer": "DB"
+  },
+  {
+    "question": "What is the hardware component that allows a computer to display images and text?",
+    "answer": "Graphics card"
+  },
+  {
+    "question": "What is the process of copying data from a remote server to a local computer?",
+    "answer": "Download"
+  },
+  {
+    "question": "What is the software that manages databases?",
+    "answer": "Database"
+  },
+  {
+    "question": "What is the process of identifying and fixing errors in computer code?",
+    "answer": "Debugging"
+  },
+  {
+    "question": "What is the hardware component that stores data temporarily for quick access by the CPU?",
+    "answer": "Cache"
+  },
+  {
+    "question": "What is the software that allows remote access to another computer or server?",
+    "answer": "Remote desktop"
+  },
+  {
+    "question": "What is the process of converting human-readable code into machine code?",
+    "answer": "Compilation"
+  },
+  {
+    "question": "What is the hardware component that provides power to a computer?",
+    "answer": "Power supply"
+  },
+  {
+    "question": "What is the software that simulates the behavior of a computer system?",
+    "answer": "Emulation"
+  },
+  {
+    "question": "What is the process of arranging data in a specific order based on a set of criteria?",
+    "answer": "Sorting"
+  },
+  {
+    "question": "What is the hardware component that connects peripheral devices to a computer?",
+    "answer": "Port"
+  },
+  {
+    "question": "What is the software that protects a computer from unauthorized access and cyber threats?",
+    "answer": "Security"
+  },
+  {
+    "question": "What is the process of copying data from a local computer to a remote server?",
+    "answer": "Upload"
+  },
+  {
+    "question": "What is the hardware component that displays text and graphics on a computer screen?",
+    "answer": "Monitor"
+  },
+  {
+    "question": "What is the software that allows users to create and edit vector graphics?",
+    "answer": "Illustrator"
+  },
+  {
+    "question": "What is the process of recovering lost or deleted data from a storage device?",
+    "answer": "Data recovery"
+  },
+  {
+    "question": "What is the hardware component that reads and writes data to storage devices?",
+    "answer": "Drive"
+  },
+  {
+    "question": "What is the software that enables communication between a user and a computer's operating system?",
+    "answer": "Shell"
+  },
+  {
+    "question": "What is the process of converting digital signals to analog for transmission over telephone lines?",
+    "answer": "Modulation"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to the internet via a telephone line?",
+    "answer": "Modem"
+  },
+  {
+    "question": "What is the software that protects a computer from malicious software and threats?",
+    "answer": "Firewall"
+  },
+  {
+    "question": "What is the process of running multiple operating systems on a single computer?",
+    "answer": "Virtualization"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a network?",
+    "answer": "Network card"
+  },
+  {
+    "question": "What is the software that provides a user interface for interacting with a computer?",
+    "answer": "Operating system"
+  },
+  {
+    "question": "What is the process of encoding data for secure transmission over the internet?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the hardware component that stores data for long-term retrieval?",
+    "answer": "Storage"
+  },
+  {
+    "question": "What is the software that manages and organizes email communication?",
+    "answer": "Email client"
+  },
+  {
+    "question": "What is the process of converting analog signals to digital for computer processing?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a wireless network?",
+    "answer": "Wi-Fi adapter"
+  },
+  {
+    "question": "What is the software that allows users to create and edit raster graphics?",
+    "answer": "Photoshop"
+  },
+  {
+    "question": "What is the process of converting a computer's logical address to a physical address?",
+    "answer": "Address resolution"
+  },
+  {
+    "question": "What is the hardware component that stores a computer's firmware and startup instructions?",
+    "answer": "BIOS"
+  },
+  {
+    "question": "What is the software that manages and controls hardware devices on a computer?",
+    "answer": "Driver"
+  },
+  {
+    "question": "What is the process of reducing the size of a file for efficient storage or transmission?",
+    "answer": "Compression"
+  },
+  {
+    "question": "What is the hardware component that processes and manages a computer's memory?",
+    "answer": "Memory controller"
+  },
+  {
+    "question": "What is the software that allows users to create and edit 3D models?",
+    "answer": "3D modeling"
+  },
+  {
+    "question": "What is the process of copying data from a local network to a remote server?",
+    "answer": "File transfer"
+  },
+  {
+    "question": "What is the hardware component that stores frequently accessed data for quick retrieval?",
+    "answer": "SSD"
+  },
+  {
+    "question": "What is the software that provides a graphical user interface for managing files and folders?",
+    "answer": "File manager"
+  },
+  {
+    "question": "What is the process of monitoring and recording a computer's activity for security purposes?",
+    "answer": "Logging"
+  },
+  {
+    "question": "What is the hardware component that connects external devices to a computer?",
+    "answer": "Port"
+  },
+  {
+    "question": "What is the software that simulates a real-world environment for training or entertainment?",
+    "answer": "Simulation"
+  },
+  {
+    "question": "What is the process of converting text and images into machine-readable code?",
+    "answer": "OCR"
+  },
+  {
+    "question": "What is the hardware component that performs arithmetic and logic operations in a computer?",
+    "answer": "ALU"
+  },
+  {
+    "question": "What is the software that manages and organizes project tasks and schedules?",
+    "answer": "Project management"
+  },
+  {
+    "question": "What is the process of verifying the identity of a user or system?",
+    "answer": "Authentication"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a display device?",
+    "answer": "Graphics card"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of music and audio files?",
+    "answer": "Audio editor"
+  },
+  {
+    "question": "What is the process of converting human speech into text on a computer?",
+    "answer": "Speech recognition"
+  },
+  {
+    "question": "What is the hardware component that performs calculations and data processing for graphics?",
+    "answer": "GPU"
+  },
+  {
+    "question": "What is the software that allows users to create and edit spreadsheets?",
+    "answer": "Excel"
+  },
+  {
+    "question": "What is the process of copying data from one storage device to another for backup?",
+    "answer": "Cloning"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a network wirelessly?",
+    "answer": "Wireless adapter"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of vector graphics?",
+    "answer": "Inkscape"
+  },
+  {
+    "question": "What is the process of converting sound waves into digital data?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the hardware component that stores instructions and data that the CPU uses?",
+    "answer": "RAM"
+  },
+  {
+    "question": "What is the software that manages and organizes a computer's file system?",
+    "answer": "File manager"
+  },
+  {
+    "question": "What is the process of removing unused or unnecessary data from a computer's memory?",
+    "answer": "Cleanup"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a wired network?",
+    "answer": "Ethernet card"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of 3D models and animations?",
+    "answer": "Blender"
+  },
+  {
+    "question": "What is the process of running multiple virtual machines on a single physical server?",
+    "answer": "Virtualization"
+  },
+  {
+    "question": "What is the hardware component that provides power to a laptop computer?",
+    "answer": "AC adapter"
+  },
+  {
+    "question": "What is the software that translates web addresses into IP addresses?",
+    "answer": "DNS"
+  },
+  {
+    "question": "What is the process of sending data from one computer to another over the internet?",
+    "answer": "Data transfer"
+  },
+  {
+    "question": "What is the hardware component that allows for high-speed data transfer between a computer and external devices?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of audio recordings?",
+    "answer": "Audacity"
+  },
+  {
+    "question": "What is the process of recording and analyzing a computer's activity for security purposes?",
+    "answer": "Auditing"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a printer?",
+    "answer": "Print port"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of video content?",
+    "answer": "Premiere"
+  },
+  {
+    "question": "What is the process of converting human handwriting into digital text?",
+    "answer": "Handwriting recognition"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to external speakers?",
+    "answer": "Audio jack"
+  },
+  {
+    "question": "What is the software that provides a secure and private connection to the internet?",
+    "answer": "VPN"
+  },
+  {
+    "question": "What is the process of transforming data into a visual representation, often in the form of charts or graphs?",
+    "answer": "Data visualization"
+  },
+  {
+    "question": "What is the hardware component that processes and manages a computer's graphics?",
+    "answer": "Graphics processing unit (GPU)"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of web pages?",
+    "answer": "Dreamweaver"
+  },
+  {
+    "question": "What is the process of identifying and correcting errors in computer code?",
+    "answer": "Debugging"
+  },
+  {
+    "question": "What is the hardware component that allows for data storage and retrieval using optical discs?",
+    "answer": "CD/DVD drive"
+  },
+  {
+    "question": "What is the software that protects a computer from unauthorized access and data breaches?",
+    "answer": "Security software"
+  },
+  {
+    "question": "What is the term for a data structure that stores elements in a last-in, first-out (LIFO) order?",
+    "answer": "Stack"
+  },
+  {
+    "question": "What is the process of finding errors and defects in software code?",
+    "answer": "Debugging"
+  },
+  {
+    "question": "What is the concept of breaking a problem into smaller subproblems and solving them independently?",
+    "answer": "Divide and conquer"
+  },
+  {
+    "question": "What is the technique of rearranging data to be in a specific order, often in ascending or descending order?",
+    "answer": "Sorting"
+  },
+  {
+    "question": "What is the practice of protecting data from unauthorized access and ensuring its confidentiality?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the process of converting source code into machine code or bytecode?",
+    "answer": "Compilation"
+  },
+  {
+    "question": "What is the study of algorithms and their efficiency and correctness?",
+    "answer": "Algorithmics"
+  },
+  {
+    "question": "What is the method for representing a hierarchical structure of data in a visual format?",
+    "answer": "Tree"
+  },
+  {
+    "question": "What is the process of allocating and managing memory resources in a computer program?",
+    "answer": "Memory management"
+  },
+  {
+    "question": "What is the practice of designing and creating software applications?",
+    "answer": "Software development"
+  },
+  {
+    "question": "What is the concept of designing a program to be easily understandable and maintainable?",
+    "answer": "Software design"
+  },
+  {
+    "question": "What is the process of converting data from analog to digital form?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the technique of solving problems by simulating the behavior of natural phenomena?",
+    "answer": "Simulation"
+  },
+  {
+    "question": "What is the method of controlling access to resources in a multi-user environment?",
+    "answer": "Access control"
+  },
+  {
+    "question": "What is the practice of representing information in a concise and efficient form?",
+    "answer": "Data compression"
+  },
+  {
+    "question": "What is the process of converting data from digital to analog form?",
+    "answer": "Analog conversion"
+  },
+  {
+    "question": "What is the technique of searching for a specific element in a list or array?",
+    "answer": "Searching"
+  },
+  {
+    "question": "What is the method of solving problems through logical reasoning and deduction?",
+    "answer": "Algorithm"
+  },
+  {
+    "question": "What is the practice of analyzing and optimizing the efficiency of algorithms and data structures?",
+    "answer": "Algorithm analysis"
+  },
+  {
+    "question": "What is the process of translating high-level programming code into machine code?",
+    "answer": "Compilation"
+  },
+  {
+    "question": "What is the technique of finding the shortest path between two points in a graph?",
+    "answer": "Shortest path"
+  },
+  {
+    "question": "What is the method of breaking down complex problems into simpler, manageable tasks?",
+    "answer": "Decomposition"
+  },
+  {
+    "question": "What is the practice of ensuring that software meets specified requirements and functions correctly?",
+    "answer": "Software testing"
+  },
+  {
+    "question": "What is the process of predicting future events or outcomes based on historical data?",
+    "answer": "Prediction"
+  },
+  {
+    "question": "What is the concept of organizing data into key-value pairs for efficient retrieval?",
+    "answer": "Hashing"
+  },
+  {
+    "question": "What is the method of representing data in a structured format, often using tables?",
+    "answer": "Database"
+  },
+  {
+    "question": "What is the practice of securing software and systems against security threats?",
+    "answer": "Security"
+  },
+  {
+    "question": "What is the process of verifying the correctness of software through systematic testing?",
+    "answer": "Validation"
+  },
+  {
+    "question": "What is the technique of organizing data in a linear structure with nodes and edges?",
+    "answer": "Graph"
+  },
+  {
+    "question": "What is the method of encoding data in a way that is not easily reversible?",
+    "answer": "Hashing"
+  },
+  {
+    "question": "What is the practice of creating algorithms that can learn from and make predictions based on data?",
+    "answer": "Machine learning"
+  },
+  {
+    "question": "What is the process of analyzing and interpreting data to extract meaningful insights?",
+    "answer": "Data analysis"
+  },
+  {
+    "question": "What is the concept of managing and storing data in a distributed and fault-tolerant manner?",
+    "answer": "Distributed storage"
+  },
+  {
+    "question": "What is the method of representing data in a hierarchical and tree-like structure?",
+    "answer": "XML"
+  },
+  {
+    "question": "What is the practice of optimizing the performance of software or hardware?",
+    "answer": "Optimization"
+  },
+  {
+    "question": "What is the process of transforming data into a format suitable for analysis?",
+    "answer": "Data preprocessing"
+  },
+  {
+    "question": "What is the technique of organizing data into records with fields and values?",
+    "answer": "Database"
+  },
+  {
+    "question": "What is the method of securing data and communication through cryptographic techniques?",
+    "answer": "Cryptography"
+  },
+  {
+    "question": "What is the practice of designing and implementing user interfaces for software applications?",
+    "answer": "UI/UX design"
+  },
+  {
+    "question": "What is the process of ensuring the reliability and availability of software and systems?",
+    "answer": "Reliability engineering"
+  },
+  {
+    "question": "What is the concept of analyzing and optimizing algorithms for specific hardware architectures?",
+    "answer": "Algorithm engineering"
+  },
+  {
+    "question": "What is the method of representing and manipulating data using mathematical structures?",
+    "answer": "Data modeling"
+  },
+  {
+    "question": "What is the practice of using algorithms to make decisions and predictions in real-time?",
+    "answer": "Real-time computing"
+  },
+  {
+    "question": "What is the process of designing and implementing programming languages and compilers?",
+    "answer": "Language design"
+  },
+  {
+    "question": "What is the technique of managing and analyzing large datasets?",
+    "answer": "Big data"
+  },
+  {
+    "question": "What is the method of verifying the correctness of software through formal proofs?",
+    "answer": "Formal verification"
+  },
+  {
+    "question": "What is the practice of designing and implementing efficient data structures?",
+    "answer": "Data structure design"
+  },
+  {
+    "question": "What is the process of simulating the behavior of physical systems using computer models?",
+    "answer": "Computational modeling"
+  },
+  {
+    "question": "What is the concept of designing algorithms that can adapt and evolve over time?",
+    "answer": "Evolutionary algorithms"
+  },
+  {
+    "question": "What is the method of analyzing and predicting human behavior through data analysis?",
+    "answer": "Behavioral analytics"
+  },
+  {
+    "question": "What is the practice of securing information and communication systems from attacks?",
+    "answer": "Cybersecurity"
+  },
+  {
+    "question": "What is the process of converting text and images on paper into digital format?",
+    "answer": "Scanning"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a high-resolution display?",
+    "answer": "HDMI port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of 2D animations?",
+    "answer": "Toon Boom"
+  },
+  {
+    "question": "What is the process of removing a program or application from a computer?",
+    "answer": "Uninstall"
+  },
+  {
+    "question": "What is the hardware component that controls the flow of data between the CPU and other devices?",
+    "answer": "Chipset"
+  },
+  {
+    "question": "What is the software that provides a secure and encrypted connection for online transactions?",
+    "answer": "SSL"
+  },
+  {
+    "question": "What is the process of converting data from one file format to another?",
+    "answer": "File conversion"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to external storage devices?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of 2D vector graphics?",
+    "answer": "CorelDRAW"
+  },
+  {
+    "question": "What is the process of organizing and labeling data for efficient retrieval?",
+    "answer": "Data indexing"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a wireless mouse or keyboard?",
+    "answer": "Wireless receiver"
+  },
+  {
+    "question": "What is the software that provides real-time protection against computer viruses?",
+    "answer": "Antivirus"
+  },
+  {
+    "question": "What is the process of converting spoken language into written text?",
+    "answer": "Transcription"
+  },
+  {
+    "question": "What is the hardware component that provides a temporary backup power supply during outages?",
+    "answer": "UPS"
+  },
+  {
+    "question": "What is the software that allows users to create and edit digital illustrations?",
+    "answer": "Clip Studio Paint"
+  },
+  {
+    "question": "What is the process of optimizing a computer's performance by cleaning up unnecessary files and settings?",
+    "answer": "Tuning"
+  },
+  {
+    "question": "What is the hardware component that allows for data storage on optical discs?",
+    "answer": "Optical drive"
+  },
+  {
+    "question": "What is the software that enables communication between different computer programs?",
+    "answer": "Middleware"
+  },
+  {
+    "question": "What is the process of converting handwriting or drawings into digital format?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the hardware component that provides a wireless connection to the internet?",
+    "answer": "Wireless router"
+  },
+  {
+    "question": "What is the software that allows users to create and edit music compositions?",
+    "answer": "Ableton Live"
+  },
+  {
+    "question": "What is the process of copying data from one storage medium to another?",
+    "answer": "Data migration"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a scanner or camera?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of 3D animations and models?",
+    "answer": "Maya"
+  },
+  {
+    "question": "What is the process of erasing all data on a storage device, restoring it to factory settings?",
+    "answer": "Format"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a microphone?",
+    "answer": "Audio jack"
+  },
+  {
+    "question": "What is the software that monitors and logs network traffic for analysis?",
+    "answer": "Packet sniffer"
+  },
+  {
+    "question": "What is the process of converting digital images into printed documents?",
+    "answer": "Printing"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a webcam or digital camera?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that enables users to create and edit 3D models for video games?",
+    "answer": "Unity"
+  },
+  {
+    "question": "What is the process of connecting to a remote computer or network securely?",
+    "answer": "Remote access"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a projector?",
+    "answer": "VGA port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of virtual reality environments?",
+    "answer": "Unity"
+  },
+  {
+    "question": "What is the process of verifying the identity of a user or system before granting access?",
+    "answer": "Authentication"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a monitor or TV wirelessly?",
+    "answer": "Wireless display adapter"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted email communication?",
+    "answer": "PGP"
+  },
+  {
+    "question": "What is the process of converting a document from one file format to another?",
+    "answer": "File conversion"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a high-speed internet connection?",
+    "answer": "Network card"
+  },
+  {
+    "question": "What is the software that allows users to create and edit 2D animations?",
+    "answer": "Spine"
+  },
+  {
+    "question": "What is the process of scanning a computer's memory for viruses and malware?",
+    "answer": "Scanning"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a digital projector?",
+    "answer": "HDMI port"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted communication over the internet?",
+    "answer": "TLS"
+  },
+  {
+    "question": "What is the process of converting printed text into digital text?",
+    "answer": "OCR"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a touchscreen display?",
+    "answer": "Touchscreen controller"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of computer-aided design (CAD) drawings?",
+    "answer": "AutoCAD"
+  },
+  {
+    "question": "What is the process of converting spoken words into written text?",
+    "answer": "Speech recognition"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a digital drawing tablet?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that provides secure and anonymous web browsing?",
+    "answer": "Tor"
+  },
+  {
+    "question": "What is the process of transferring data from one computer to another via a direct cable connection?",
+    "answer": "Direct transfer"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a virtual reality headset?",
+    "answer": "HDMI port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of computer-aided manufacturing (CAM) files?",
+    "answer": "Mastercam"
+  },
+  {
+    "question": "What is the process of converting digital video into analog format for display on older TVs?",
+    "answer": "Analog conversion"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to an external microphone?",
+    "answer": "Audio jack"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted instant messaging?",
+    "answer": "Signal"
+  },
+  {
+    "question": "What is the process of optimizing a computer's performance by organizing data for quicker access?",
+    "answer": "Defragmentation"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a barcode scanner?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of virtual reality experiences?",
+    "answer": "Unreal Engine"
+  },
+  {
+    "question": "What is the process of protecting sensitive data by converting it into a secret code?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a digital camera?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of computer-generated imagery (CGI) for movies?",
+    "answer": "Maya"
+  },
+  {
+    "question": "What is the process of creating a virtual copy of a computer's operating system and software?",
+    "answer": "Cloning"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a MIDI keyboard?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted voice communication over the internet?",
+    "answer": "VoIP"
+  },
+  {
+    "question": "What is the process of converting an image into a pixelated or low-resolution version?",
+    "answer": "Pixelation"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a virtual reality headset wirelessly?",
+    "answer": "Wireless adapter"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of interactive web content?",
+    "answer": "Adobe Flash"
+  },
+  {
+    "question": "What is the process of removing unnecessary or redundant data from a database?",
+    "answer": "Database optimization"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to an external hard drive?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of computer-generated special effects for movies?",
+    "answer": "Houdini"
+  },
+  {
+    "question": "What is the process of converting text from one language into another using a computer?",
+    "answer": "Translation"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a graphics tablet?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that provides secure and anonymous file sharing over the internet?",
+    "answer": "BitTorrent"
+  },
+  {
+    "question": "What is the process of converting printed documents into editable digital text?",
+    "answer": "OCR"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a graphics processing unit?",
+    "answer": "PCI Express slot"
+  },
+  {
+    "question": "What is the software that enables the creation and editing of computer-generated landscapes and environments for video games?",
+    "answer": "World Machine"
+  },
+  {
+    "question": "What is the process of securely erasing data from a storage device to prevent recovery?",
+    "answer": "Shredding"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a MIDI controller?",
+    "answer": "USB port"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted messaging for business communication?",
+    "answer": "Slack"
+  },
+  {
+    "question": "What is the process of simulating the behavior of a computer system for testing and development?",
+    "answer": "Simulation"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a virtual reality headset with high-quality graphics?",
+    "answer": "DisplayPort"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of animated GIFs?",
+    "answer": "GIMP"
+  },
+  {
+    "question": "What is the process of connecting a computer to a server or remote computer using a secure protocol?",
+    "answer": "Secure shell (SSH)"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to an external graphics card for enhanced performance?",
+    "answer": "eGPU"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted video conferencing?",
+    "answer": "Zoom"
+  },
+  {
+    "question": "What is the process of optimizing a computer's storage to reduce wasted space?",
+    "answer": "Disk cleanup"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a barcode scanner wirelessly?",
+    "answer": "Bluetooth adapter"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of 3D architectural designs?",
+    "answer": "SketchUp"
+  },
+  {
+    "question": "What is the process of converting a physical object into a digital 3D model?",
+    "answer": "3D scanning"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a graphics tablet wirelessly?",
+    "answer": "Wireless receiver"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted cloud storage and file sharing?",
+    "answer": "Dropbox"
+  },
+  {
+    "question": "What is the process of removing duplicate entries from a database?",
+    "answer": "Deduplication"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a virtual reality headset for immersive experiences?",
+    "answer": "USB-C port"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of interactive multimedia presentations?",
+    "answer": "Adobe Captivate"
+  },
+  {
+    "question": "What is the process of ensuring that software and systems are up to date with the latest security patches and updates?",
+    "answer": "Patch management"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a MIDI keyboard wirelessly?",
+    "answer": "Bluetooth adapter"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted communication for team collaboration?",
+    "answer": "Microsoft Teams"
+  },
+  {
+    "question": "What is the process of converting audio from one format to another?",
+    "answer": "Audio conversion"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to a barcode scanner using RFID technology?",
+    "answer": "RFID reader"
+  },
+  {
+    "question": "What is the software that allows for the creation and editing of 3D character animations for video games and movies?",
+    "answer": "Mixamo"
+  },
+  {
+    "question": "What is the process of securing a computer's operating system and software to protect against vulnerabilities?",
+    "answer": "Hardening"
+  },
+  {
+    "question": "What is the hardware component that connects a computer to an external MIDI instrument?",
+    "answer": "MIDI interface"
+  },
+  {
+    "question": "What is the software that provides secure and encrypted video streaming and conferencing for businesses?",
+    "answer": "WebEx"
+  },
+  {
+    "question": "What is the process of optimizing a computer's storage to improve performance and efficiency?",
+    "answer": "Storage optimization"
+  },
+  {
+    "question": "What is the process of using computer algorithms to simulate human intelligence?",
+    "answer": "AI"
+  },
+  {
+    "question": "What is the term for a network of connected devices and objects that can communicate with each other?",
+    "answer": "IoT"
+  },
+  {
+    "question": "What is the technology that allows data to be transmitted wirelessly over short distances?",
+    "answer": "Bluetooth"
+  },
+  {
+    "question": "What is the abbreviation for the fifth generation of mobile network technology?",
+    "answer": "5G"
+  },
+  {
+    "question": "What is the process of encrypting data to protect it from unauthorized access?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the technology that allows computers to understand and interpret human language?",
+    "answer": "NLP"
+  },
+  {
+    "question": "What is the term for a decentralized digital currency that uses cryptography for security?",
+    "answer": "Cryptocurrency"
+  },
+  {
+    "question": "What is the technology that allows virtual objects to be overlaid on the real world?",
+    "answer": "AR"
+  },
+  {
+    "question": "What is the abbreviation for a digital ledger technology used for recording transactions?",
+    "answer": "DLT"
+  },
+  {
+    "question": "What is the process of improving a software program by fixing bugs and adding new features?",
+    "answer": "Updates"
+  },
+  {
+    "question": "What is the technology that enables machines to learn from data and improve over time?",
+    "answer": "Machine learning"
+  },
+  {
+    "question": "What is the abbreviation for the Internet Protocol version 6?",
+    "answer": "IPv6"
+  },
+  {
+    "question": "What is the process of remotely accessing and controlling a computer or device?",
+    "answer": "Remote"
+  },
+  {
+    "question": "What is the technology that allows for wireless charging of devices?",
+    "answer": "Qi"
+  },
+  {
+    "question": "What is the abbreviation for the software development process that emphasizes collaboration and automation?",
+    "answer": "DevOps"
+  },
+  {
+    "question": "What is the process of analyzing large sets of data to extract insights and patterns?",
+    "answer": "Analytics"
+  },
+  {
+    "question": "What is the technology that allows for three-dimensional printing of objects?",
+    "answer": "3D printing"
+  },
+  {
+    "question": "What is the abbreviation for the technology that simulates a virtual environment?",
+    "answer": "VR"
+  },
+  {
+    "question": "What is the process of authenticating a user's identity based on biometric characteristics?",
+    "answer": "Biometrics"
+  },
+  {
+    "question": "What is the technology that enables secure and private communication over the internet?",
+    "answer": "VPN"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables high-speed data transmission over fiber-optic cables?",
+    "answer": "FTTH"
+  },
+  {
+    "question": "What is the process of verifying the integrity and origin of data using cryptographic techniques?",
+    "answer": "Validation"
+  },
+  {
+    "question": "What is the technology that allows for real-time tracking of physical objects using sensors?",
+    "answer": "RFID"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables wireless communication between devices?",
+    "answer": "NFC"
+  },
+  {
+    "question": "What is the process of protecting computer systems from security threats and vulnerabilities?",
+    "answer": "Cybersecurity"
+  },
+  {
+    "question": "What is the technology that enables communication between devices using infrared light?",
+    "answer": "IR"
+  },
+  {
+    "question": "What is the abbreviation for the technology that connects devices and sensors to the internet?",
+    "answer": "IoT"
+  },
+  {
+    "question": "What is the process of converting analog signals into digital data for storage or transmission?",
+    "answer": "Digitization"
+  },
+  {
+    "question": "What is the technology that allows for contactless payments using smartphones and cards?",
+    "answer": "NFC"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables the sharing of content wirelessly?",
+    "answer": "DLNA"
+  },
+  {
+    "question": "What is the process of making a computer or device ready for use?",
+    "answer": "Setup"
+  },
+  {
+    "question": "What is the technology that enables the automatic recognition of objects and scenes in images and videos?",
+    "answer": "Computer vision"
+  },
+  {
+    "question": "What is the abbreviation for the technology that allows for wireless communication over short distances?",
+    "answer": "Bluetooth"
+  },
+  {
+    "question": "What is the process of encoding information in a way that can only be decoded by authorized parties?",
+    "answer": "Encryption"
+  },
+  {
+    "question": "What is the technology that allows for high-speed data transfer between devices using light signals?",
+    "answer": "Optical"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables devices to connect to the internet via cellular networks?",
+    "answer": "LTE"
+  },
+  {
+    "question": "What is the process of improving the performance of a computer or software?",
+    "answer": "Optimization"
+  },
+  {
+    "question": "What is the technology that enables wireless communication between devices using radio waves?",
+    "answer": "RF"
+  },
+  {
+    "question": "What is the abbreviation for the technology that allows for secure remote access to a network?",
+    "answer": "VPN"
+  },
+  {
+    "question": "What is the process of making a computer program or device more secure?",
+    "answer": "Hardening"
+  },
+  {
+    "question": "What is the technology that allows for the creation of digital representations of real-world objects?",
+    "answer": "Scanning"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables high-speed wireless data communication?",
+    "answer": "Wi-Fi"
+  },
+  {
+    "question": "What is the process of transforming data into a different format or structure for analysis?",
+    "answer": "Transformation"
+  },
+  {
+    "question": "What is the technology that allows for the automatic execution of tasks using predefined rules?",
+    "answer": "Automation"
+  },
+  {
+    "question": "What is the abbreviation for the technology that enables secure communication over the internet?",
+    "answer": "TLS"
+  },
+  {
+    "question": "What is the process of using computer algorithms to analyze and understand natural language?",
+    "answer": "NLP"
+  },
+  {
+    "question": "What is the technology that enables the creation of interactive and immersive digital environments?",
+    "answer": "VR"
+  },
+  {
+    "question": "What is the abbreviation for the technology that allows for wireless data communication within short distances?",
+    "answer": "Wi-Fi"
+  },
+  {
+    "question": "What is the process of removing unnecessary or redundant data from a dataset?",
+    "answer": "Data cleaning"
+  },
+  {
+    "question": "What is the technology that enables the storage and retrieval of data over the internet?",
+    "answer": "Cloud"
+  },
+  {
+    "question": "What is the abbreviation for the technology that allows for the wireless transfer of audio and video content?",
+    "answer": "DLNA"
+  },
+  {
+    "question": "What is the process of converting human-readable text into machine-readable code?",
+    "answer": "OCR"
+  }
+]

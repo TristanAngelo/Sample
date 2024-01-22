@@ -1,0 +1,1531 @@
+[
+  {
+    "question": "What is the chemical symbol for oxygen?",
+    "answer": "O"
+  },
+  {
+    "question": "What is the center of an atom called?",
+    "answer": "Nucleus"
+  },
+  {
+    "question": "Which gas makes up the majority of Earth's atmosphere?",
+    "answer": "Nitrogen"
+  },
+  {
+    "question": "What is the process by which plants make their own food using sunlight?",
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answer": "H2O"
+  },
+  {
+    "question": "What gas do humans exhale when they breathe out?",
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What is the Earth's outermost layer called?",
+    "answer": "Crust"
+  },
+  {
+    "question": "What is the process of a liquid turning into a gas called?",
+    "answer": "Evaporation"
+  },
+  {
+    "question": "What is the closest star to Earth?",
+    "answer": "The Sun"
+  },
+  {
+    "question": "Which gas gives the color blue to the Earth's sky?",
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the force that pulls objects toward the center of the Earth?",
+    "answer": "Gravity"
+  },
+  {
+    "question": "What is the chemical symbol for helium?",
+    "answer": "He"
+  },
+  {
+    "question": "What is the process by which plants release water vapor into the air?",
+    "answer": "Transpiration"
+  },
+  {
+    "question": "What is the study of fossils called?",
+    "answer": "Paleontology"
+  },
+  {
+    "question": "What is the smallest planet in our solar system?",
+    "answer": "Mercury"
+  },
+  {
+    "question": "What is the chemical symbol for carbon?",
+    "answer": "C"
+  },
+  {
+    "question": "What is the shape of DNA?",
+    "answer": "Double helix"
+  },
+  {
+    "question": "What gas do plants absorb from the air during photosynthesis?",
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answer": "Fe"
+  },
+  {
+    "question": "What is the process of a solid turning directly into a gas called?",
+    "answer": "Sublimation"
+  },
+  {
+    "question": "What is the study of matter and energy in the universe called?",
+    "answer": "Physics"
+  },
+  {
+    "question": "What is the chemical symbol for sodium?",
+    "answer": "Na"
+  },
+  {
+    "question": "What is the process of one organism benefiting at the expense of another called?",
+    "answer": "Parasitism"
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "K"
+  },
+  {
+    "question": "What is the study of the Earth's atmosphere called?",
+    "answer": "Meteorology"
+  },
+  {
+    "question": "What gas is produced when an acid reacts with a base?",
+    "answer": "Water"
+  },
+  {
+    "question": "What is the chemical symbol for silver?",
+    "answer": "Ag"
+  },
+  {
+    "question": "What is the process of a liquid turning into a solid called?",
+    "answer": "Freezing"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer": "Au"
+  },
+  {
+    "question": "Which gas do plants use for photosynthesis?",
+    "answer": "Carbon dioxide"
+  },
+  {
+    "question": "What is the smallest unit of matter?",
+    "answer": "Atom"
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "answer": "Venus"
+  },
+  {
+    "question": "What is the process by which water changes from a liquid to a gas?",
+    "answer": "Evaporation"
+  },
+  {
+    "question": "What is the force that causes objects to fall towards the Earth?",
+    "answer": "Gravity"
+  },
+  {
+    "question": "Which gas do humans breathe in?",
+    "answer": "Oxygen"
+  },
+  {
+    "question": "What is the study of fossils called?",
+    "answer": "Paleontology"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the chemical symbol for iron?",
+    "answer": "Fe"
+  },
+  {
+    "question": "What is the process by which light is bent as it passes through different mediums?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the name for a particle that is the antiparticle to an electron?",
+    "answer": "Positron"
+  },
+  {
+    "question": "Which famous equation relates energy and mass?",
+    "answer": "E=mc^2"
+  },
+  {
+    "question": "What is the unit of measurement for electric resistance?",
+    "answer": "Ohm"
+  },
+  {
+    "question": "What is the branch of physics that deals with the behavior of very small particles?",
+    "answer": "Quantum mechanics"
+  },
+  {
+    "question": "What is the name for the process by which a solid changes directly into a gas without passing through the liquid phase?",
+    "answer": "Sublimation"
+  },
+  {
+    "question": "Which element has the atomic number 92 and is used as fuel in nuclear reactors?",
+    "answer": "Uranium"
+  },
+  {
+    "question": "What is the phenomenon where a liquid travels up a narrow tube against the force of gravity?",
+    "answer": "Capillary action"
+  },
+  {
+    "question": "Which type of electromagnetic radiation has the shortest wavelength?",
+    "answer": "Gamma rays"
+  },
+  {
+    "question": "What is the name for the process by which a cell divides into two identical daughter cells?",
+    "answer": "Mitosis"
+  },
+  {
+    "question": "Who was burnt to death for suggesting that the sun might be an ordinary star?",
+    "answer": "Giordano Bruno"
+  },
+  {
+    "question": "Where does the primary photo chemical reaction occur in chloroplast?",
+    "answer": "Quantasome"
+  },
+  {
+    "question": "Who in 1231 was the first to describe the science of optics?",
+    "answer": "Robert Grosseteste"
+  },
+  {
+    "question": "What are the two functional groups in an ecosystem?",
+    "answer": "Autotrophs and heterotrophs"
+  },
+  {
+    "question": "What is the shape of s-orbital?",
+    "answer": "Spherical"
+  },
+  {
+    "question": "Which form of science dealing with the study of structural and cultural traits of human beings?",
+    "answer": "Anthropology"
+  },
+  {
+    "question": "What is the maximum capacity of d-orbital?",
+    "answer": "10 electrons"
+  },
+  {
+    "question": "Which quantum number gives the shape of the orbital?",
+    "answer": "Azimuthal quantum number"
+  },
+  {
+    "question": "Where is the world’s most active volcano located?",
+    "answer": "Hawaii"
+  },
+  {
+    "question": "What type of bond involves the sharing of electron pairs between different atoms?",
+    "answer": "Covalent"
+  },
+  {
+    "question": "What is it called when you make light change direction by passing it through a lens?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "answer": "AB-"
+
+  },
+  {
+    "question": "Diabetes develops as the result of a problem with which specific organ in the body?",
+    "answer": "Pancreas"
+  },
+  {
+    "question": " How many bones do sharks have?",
+    "answer": "Zero"
+  },
+  {
+    "question": "What is the tallest type of grass?",
+    "answer": "Bamboo"
+  },
+  {
+    "question": "How many elements are there in the periodic table?",
+    "answer": "118"
+  },
+  {
+    "question": "Which of Newton’s Laws states that ‘for every action, there is an equal and opposite reaction?",
+    "answer": "The third law of motion"
+  },
+  {
+    "question": "What is the largest known land animal?",
+    "answer": "Elephant"
+  },
+  {
+    "question": "Bronze is an alloy consisting primarily of what two elements?",
+    "answer": "Copper and Tin"
+  },
+  {
+    "question": "What inorganic molecule is produced by lightning?",
+    "answer": "Ozone"
+  },
+  {
+    "question": "The study of the weather is called what?",
+    "answer": "Meteorology"
+  },
+  {
+    "question": "What is the medical term for bad breath?",
+    "answer": "Halitosis"
+  },
+  {
+    "question": "Penicillin is used to fight what type of infections?",
+    "answer": "Bacterial"
+  },
+  {
+    "question": "What planet in our solar system has the most gravity?",
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Which two elements on the periodic table are liquids at room temperature?",
+    "answer": "Mercury and Bromine"
+  },
+  {
+    "question": "Oncology focuses on what disease?",
+    "answer": "Cancer"
+  },
+  {
+    "question": "What is the largest internal organ of the human body?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the quality of an object that allows it to float on water?",
+    "answer": "Buoyancy"
+  },
+  {
+    "question": "Animals that eat both plants and meat are called what?",
+    "answer": "Omnivores"
+  },
+  {
+    "question": "Dolly was the first-ever living creature to be cloned. What type of animal was she?",
+    "answer": "Sheep"
+  },
+  {
+    "question": "What part of the brain deals with hearing and language?",
+    "answer": "Temporal lobe"
+  },
+  {
+    "question": "What is the study of living organisms called?",
+    "answer": "Biology"
+  },
+  {
+    "question": "What is the study of the body's structure?",
+    "answer": "Anatomy"
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the name of the long bone in the upper arm?",
+    "answer": "Humerus"
+  },
+  {
+    "question": "What is the body's main blood-pumping organ?",
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the body's main respiratory organ?",
+    "answer": "Lungs"
+  },
+  {
+    "question": "What is the muscular organ that aids in digestion?",
+    "answer": "Stomach"
+  },
+  {
+    "question": "What is the main bone of the lower leg?",
+    "answer": "Tibia"
+  },
+  {
+    "question": "What is the body's largest organ system?",
+    "answer": "Integumentary"
+  },
+  {
+    "question": "What is the fluid-filled sac that cushions joints?",
+    "answer": "Bursa"
+  },
+  {
+    "question": "What is the largest bone in the human body?",
+    "answer": "Femur"
+  },
+  {
+    "question": "What is the body's primary filtering organ for blood?",
+    "answer": "Kidneys"
+  },
+  {
+    "question": "What is the tube connecting the mouth to the stomach?",
+    "answer": "Esophagus"
+  },
+  {
+    "question": "What is the body's primary organ for detoxification?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the body's outermost layer of skin?",
+    "answer": "Epidermis"
+  },
+  {
+    "question": "What is the protective covering of the brain and spinal cord?",
+    "answer": "Meninges"
+  },
+  {
+    "question": "What is the tough, fibrous tissue connecting muscles to bones?",
+    "answer": "Tendon"
+  },
+  {
+    "question": "What is the sac containing the heart?",
+    "answer": "Pericardium"
+  },
+  {
+    "question": "What is the body's main organ for producing insulin?",
+    "answer": "Pancreas"
+  },
+  {
+    "question": "What is the bone that makes up the forehead?",
+    "answer": "Frontal"
+  },
+  {
+    "question": "What is the body's main organ for storing excess glucose as glycogen?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the tube connecting the mouth to the stomach?",
+    "answer": "Esophagus"
+  },
+  {
+    "question": "What is the body's primary organ for detoxification?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the body's outermost layer of skin?",
+    "answer": "Epidermis"
+  },
+  {
+    "question": "What is the protective covering of the brain and spinal cord?",
+    "answer": "Meninges"
+  },
+  {
+    "question": "What is the tough, fibrous tissue connecting muscles to bones?",
+    "answer": "Tendon"
+  },
+  {
+    "question": "What is the sac containing the heart?",
+    "answer": "Pericardium"
+  },
+  {
+    "question": "What is the body's main organ for producing insulin?",
+    "answer": "Pancreas"
+  },
+  {
+    "question": "What is the bone that makes up the forehead?",
+    "answer": "Frontal"
+  },
+  {
+    "question": "What is the body's main organ for storing excess glucose as glycogen?",
+    "answer": "Liver"
+  },
+  {
+    "question": "What is the body's primary organ for filtering blood?",
+    "answer": "Kidneys"
+  },
+  {
+    "question": "What is the muscular organ that pumps blood?",
+    "answer": "Heart"
+  },
+  {
+    "question": "What is the body's main respiratory organ?",
+    "answer": "Lungs"
+  },
+  {
+    "question": "What is the body's primary organ for hearing?",
+    "answer": "Ear"
+  },
+  {
+    "question": "What is the bone that forms the lower jaw?",
+    "answer": "Mandible"
+  },
+  {
+    "question": "What is the body's main organ for balance and coordination?",
+    "answer": "Brain"
+  },
+  {
+    "question": "What is the muscular organ that pumps blood to the lungs?",
+    "answer": "Right Ventricle"
+  },
+  {
+    "question": "What is the body's main organ for producing red blood cells?",
+    "answer": "Bone Marrow"
+  },
+  {
+    "question": "What is the bone that forms the back of the skull?",
+    "answer": "Occipital"
+  },
+  {
+    "question": "What is the body's main organ for regulating body temperature?",
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the muscular organ that helps in breathing?",
+    "answer": "Diaphragm"
+  },
+  {
+    "question": "What is the body's main organ for vision?",
+    "answer": "Eye"
+  },
+  {
+    "question": "What is the bone that forms the upper arm?",
+    "answer": "Humerus"
+  },
+  {
+    "question": "What is the body's main organ for digestion?",
+    "answer": "Stomach"
+  },
+  {
+    "question": "What is the bone that forms the thigh?",
+    "answer": "Femur"
+  },
+  {
+    "question": "What is the body's main organ for smell?",
+    "answer": "Nose"
+  },
+  {
+    "question": "What is the bone that forms the shin?",
+    "answer": "Tibia"
+  },
+  {
+    "question": "What is the body's main organ for touch and sensation?",
+    "answer": "Skin"
+  },
+  {
+    "question": "What is the bone that forms the calf?",
+    "answer": "Fibula"
+  },
+  {
+    "question": "What is the body's main organ for balance?",
+    "answer": "Ear"
+  },
+  {
+    "question": "What is the bone that forms the collarbone?",
+    "answer": "Clavicle"
+  },
+  {
+    "question": "What is the body's main organ for taste?",
+    "answer": "Tongue"
+  },
+  {
+    "question": "What is the bone that forms the chest?",
+    "answer": "Sternum"
+  },
+  {
+    "question": "What is the body's main organ for regulating metabolism?",
+    "answer": "Thyroid"
+  },
+  {
+    "question": "What is the bone that forms the wrist?",
+    "answer": "Radius"
+  },
+  {
+    "question": "What is the body's main organ for producing antibodies?",
+    "answer": "Lymph nodes"
+  },
+  {
+    "question": "What is the bone that forms the hand?",
+    "answer": "Carpals"
+  },
+  {
+    "question": "What is the process by which green plants make their own food using sunlight?",
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "What is the control center of a cell that contains genetic material?",
+    "answer": "Nucleus"
+  },
+  {
+    "question": "What is the smallest unit of life?",
+    "answer": "Cell"
+  },
+  {
+    "question": "What is the process by which cells divide to create new cells?",
+    "answer": "Cell division"
+  },
+  {
+    "question": "What is the chemical substance that carries genetic information in living organisms?",
+    "answer": "DNA (Deoxyribonucleic acid)"
+  },
+  {
+    "question": "What is the term for an organism's genetic makeup?",
+    "answer": "Genotype"
+  },
+  {
+    "question": "What is the study of the classification of organisms called?",
+    "answer": "Taxonomy"
+  },
+  {
+    "question": "What is the process by which organisms produce offspring that are similar to themselves?",
+    "answer": "Reproduction"
+  },
+  {
+    "question": "What is the process by which an organism develops from a single fertilized egg cell?",
+    "answer": "Development"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their environments called?",
+    "answer": "Ecology"
+  },
+  {
+    "question": "What is the term for an organism's observable traits?",
+    "answer": "Phenotype"
+  },
+  {
+    "question": "What is the process by which an organism takes in and uses nutrients from its environment?",
+    "answer": "Nutrition"
+  },
+  {
+    "question": "What is the study of the structure and function of tissues and organs called?",
+    "answer": "Histology"
+  },
+  {
+    "question": "What is the process by which an organism undergoes changes over time to adapt to its environment?",
+    "answer": "Evolution"
+  },
+  {
+    "question": "What is the term for the group of organisms of the same species living in a particular area?",
+    "answer": "Population"
+  },
+  {
+    "question": "What is the process by which an organism responds to its external environment?",
+    "answer": "Sensitivity (or response to stimuli)"
+  },
+  {
+    "question": "What is the study of the relationships between different species in an ecosystem?",
+    "answer": "Community ecology"
+  },
+  {
+    "question": "What is the term for the variety of life on Earth, including the different species of organisms?",
+    "answer": "Biodiversity"
+  },
+  {
+    "question": "What is the process by which organisms exchange gases with their environment, often involving the intake of oxygen and release of carbon dioxide?",
+    "answer": "Respiration"
+  },
+  {
+    "question": "What is the study of the structure and function of genes and their role in heredity?",
+    "answer": "Genetics"
+  },
+  {
+    "question": "What is the term for a group of organisms of different species living together in a particular area?",
+    "answer": "Ecosystem"
+  },
+  {
+    "question": "What is the process by which an organism obtains and ingests food?",
+    "answer": "Feeding (or ingestion)"
+  },
+  {
+    "question": "What is the study of the interactions between individuals of the same species?",
+    "answer": "Behavioral ecology"
+  },
+  {
+    "question": "What is the term for the process of a cell breaking down food molecules to release energy?",
+    "answer": "Cellular respiration"
+  },
+  {
+    "question": "What is the study of the structure and function of the nervous system?",
+    "answer": "Neurobiology"
+  },
+  {
+    "question": "What is the term for the process of producing energy by converting sunlight into chemical energy?",
+    "answer": "Photosynthesis"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and disease-causing agents?",
+    "answer": "Medical microbiology"
+  },
+  {
+    "question": "What is the term for the process of a cell dividing into two daughter cells?",
+    "answer": "Cell division"
+  },
+  {
+    "question": "What is the study of the structure and function of the circulatory system?",
+    "answer": "Cardiology"
+  },
+  {
+    "question": "What is the term for the process by which organisms maintain a stable internal environment?",
+    "answer": "Homeostasis"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their parasites?",
+    "answer": "Parasitology"
+  },
+  {
+    "question": "What is the term for the process by which plants and animals release water vapor into the atmosphere?",
+    "answer": "Transpiration"
+  },
+  {
+    "question": "What is the study of the structure and function of the respiratory system?",
+    "answer": "Pulmonology"
+  },
+  {
+    "question": "What is the term for the process of a cell copying its DNA before cell division?",
+    "answer": "DNA replication"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their symbiotic partners?",
+    "answer": "Symbiology"
+  },
+  {
+    "question": "What is the term for the process of a plant bending toward a light source?",
+    "answer": "Phototropism"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their prey and predators?",
+    "answer": "Predation ecology"
+  },
+  {
+    "question": "What is the term for the process of a cell engulfing and breaking down foreign particles?",
+    "answer": "Phagocytosis"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their pollinators?",
+    "answer": "Pollination biology"
+  },
+  {
+    "question": "What is the term for the process of a cell repairing damaged DNA?",
+    "answer": "DNA repair"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their food sources?",
+    "answer": "Trophic ecology"
+  },
+  {
+    "question": "What is the term for the process of a cell copying RNA from DNA?",
+    "answer": "Transcription"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their competitors?",
+    "answer": "Competition ecology"
+  },
+  {
+    "question": "What is the term for the process of a cell using RNA to build proteins?",
+    "answer": "Translation"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their environment over long periods of time?",
+    "answer": "Macroecology"
+  },
+  {
+    "question": "What is the term for the process of a cell dividing into four haploid cells in meiosis?",
+    "answer": "Gametogenesis"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their microbial communities?",
+    "answer": "Microbiome ecology"
+  },
+  {
+    "question": "What is the term for the process of a cell using energy to move substances across its membrane?",
+    "answer": "Active transport"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their surroundings at the molecular level?",
+    "answer": "Molecular ecology"
+  },
+  {
+    "question": "What disease stems from the medieval term that means ‘bad air’?",
+    "answer": "Malaria"
+  },
+  {
+    "question": "What is the chemical symbol for nitrogen?",
+    "answer": "N"
+  },
+  {
+    "question": "What is the smallest particle of an element that retains its properties?",
+    "answer": "Atom"
+  },
+  {
+    "question": "What is the study of the Earth's crust and the rocks that compose it called?",
+    "answer": "Geology"
+  },
+  {
+    "question": "What is the process by which plants lose water vapor through tiny openings called?",
+    "answer": "Transpiration"
+  },
+  {
+    "question": "What is the chemical symbol for neon?",
+    "answer": "Ne"
+  },
+  {
+    "question": "What is the study of heredity and genes called?",
+    "answer": "Genetics"
+  },
+  {
+    "question": "What is the process by which rocks are broken down into smaller pieces by wind, water, or ice?",
+    "answer": "Weathering"
+  },
+  {
+    "question": "What is the chemical symbol for potassium?",
+    "answer": "K"
+  },
+  {
+    "question": "What is the study of the behavior of matter at very low temperatures called?",
+    "answer": "Cryogenics"
+  },
+  {
+    "question": "What is the process by which an organism changes over time in response to its environment?",
+    "answer": "Adaptation"
+  },
+  {
+    "question": "What is the chemical symbol for sulfur?",
+    "answer": "S"
+  },
+  {
+    "question": "What is the study of the origin and development of the universe called?",
+    "answer": "Cosmology"
+  },
+  {
+    "question": "What is the process by which an organism becomes reproductively isolated from other populations?",
+    "answer": "Speciation"
+  },
+  {
+    "question": "What is the chemical symbol for magnesium?",
+    "answer": "Mg"
+  },
+  {
+    "question": "What is the study of the structure of the body and its organs called?",
+    "answer": "Anatomy"
+  },
+  {
+    "question": "What is the process by which rocks are formed from pre-existing rocks?",
+    "answer": "Rock Cycle"
+  },
+  {
+    "question": "What is the chemical symbol for silicon?",
+    "answer": "Si"
+  },
+  {
+    "question": "What is the study of the function of living organisms and their parts called?",
+    "answer": "Physiology"
+  },
+  {
+    "question": "What is the process by which an organism produces offspring called?",
+    "answer": "Reproduction"
+  },
+  {
+    "question": "What is the chemical symbol for chlorine?",
+    "answer": "Cl"
+  },
+  {
+    "question": "What is the study of the interactions between organisms and their environment called?",
+    "answer": "Ecology"
+  },
+  {
+    "question": "What is the process by which plants bend toward light sources?",
+    "answer": "Phototropism"
+  },
+  {
+    "question": "What is the chemical symbol for copper?",
+    "answer": "Cu"
+  },
+  {
+    "question": "What is the study of the classification of living organisms called?",
+    "answer": "Taxonomy"
+  },
+  {
+    "question": "What is the process by which an organism consumes and digests other organisms?",
+    "answer": "Predation"
+  },
+  {
+    "question": "What is the chemical symbol for zinc?",
+    "answer": "Zn"
+  },
+  {
+    "question": "What is the study of the behavior and interactions of matter and energy called?",
+    "answer": "Physics"
+  },
+  {
+    "question": "What is the process by which an organism sheds its outer layer to grow a new one?",
+    "answer": "Molting"
+  },
+  {
+    "question": "What is the chemical symbol for phosphorus?",
+    "answer": "P"
+  },
+  {
+    "question": "What is the study of the Earth's climate and weather patterns called?",
+    "answer": "Meteorology"
+  },
+  {
+    "question": "What is the process by which organisms convert food into energy?",
+    "answer": "Metabolism"
+  },
+  {
+    "question": "What is the chemical symbol for iodine?",
+    "answer": "I"
+  },
+  {
+    "question": "What is the study of the nervous system and its functions called?",
+    "answer": "Neuroscience"
+  },
+  {
+    "question": "What is the process by which a solid turns directly into a gas without passing through the liquid phase?",
+    "answer": "Sublimation"
+  },
+  {
+    "question": "What is the chemical symbol for uranium?",
+    "answer": "U"
+  },
+  {
+    "question": "What is the study of the interactions between living organisms and chemicals in the environment called?",
+    "answer": "Chemical Ecology"
+  },
+  {
+    "question": "What is the process by which a substance changes from a gas to a liquid?",
+    "answer": "Condensation"
+  },
+  {
+    "question": "What is the chemical symbol for tin?",
+    "answer": "Sn"
+  },
+  {
+    "question": "What is the study of the Earth's history as revealed by rocks and fossils called?",
+    "answer": "Stratigraphy"
+  },
+  {
+    "question": "What is the process by which an organism transforms from a larval stage to an adult stage?",
+    "answer": "Metamorphosis"
+  },
+  {
+    "question": "What is the chemical symbol for lead?",
+    "answer": "Pb"
+  },
+  {
+    "question": "What is the study of the relationship between living organisms and their environments called?",
+    "answer": "Ecology"
+  },
+  {
+    "question": "What is the process by which an organism produces its own energy from inorganic substances?",
+    "answer": "Chemotrophy"
+  },
+  {
+    "question": "What is the chemical symbol for mercury?",
+    "answer": "Hg"
+  },
+  {
+    "question": "What is the study of the Earth's magnetic field and its effects on the planet called?",
+    "answer": "Geomagnetism"
+  },
+  {
+    "question": "What kind of energy does an unlit match have?",
+    "answer": "Chemical energy"
+  },
+  {
+    "question": "What is the electrical charge of a neutron?",
+    "answer": "No charge"
+  },
+  {
+    "question": "Mycology is the scientific study of what?",
+    "answer": "Fungi"
+  },
+  {
+    "question": "Which component of an atom might you expect to be orbiting around it?",
+    "answer": "Electrons"
+  },
+  {
+    "question": "Frogs belong to which animal group?",
+    "answer": "Amphibians"
+  },
+  {
+    "question": "According to Apollo astronauts, the Moon smells like what?",
+    "answer": "Burnt gunpowder"
+  },
+  {
+    "question": "What does ‘E’ represent in E=MC2?",
+    "answer": "Energy"
+  },
+  {
+    "question": "What is the symbol of the element silver?",
+    "answer": "Ag"
+  },
+  {
+    "question": "What type of cell division results in two four daughter cells, each with half the number of chromosomes in the parent cells?",
+    "answer": "Meiosis"
+  },
+  {
+    "question": "What is the sun mostly made up of?",
+    "answer": "Hydrogen"
+  },
+  {
+    "question": "Around what percentage of animal species are invertebrates?",
+    "answer": "95%"
+  },
+  {
+    "question": "Which moon of Saturn has a methane cycle?",
+    "answer": "Titan"
+  },
+  {
+    "question": "What is the scientific term for peeling skin?",
+    "answer": "Desquamation"
+  },
+  {
+    "question": "What is the name of the most recent supercontinent?",
+    "answer": "Pangea"
+  },
+  {
+    "question": "About how old is Earth?",
+    "answer": "4.5 billion years"
+  },
+  {
+    "question": "Which psychological concept did Pavlov’s dog help him describe?",
+    "answer": "Conditioning"
+  },
+  {
+    "question": "What is it called when an individual doesn’t offer to help someone in an emergency if there are other people present?",
+    "answer": "Bystander effect"
+  },
+  {
+    "question": "What kind of energy does an unlit match have?",
+    "answer": "Chemical energy"
+  },
+  {
+    "question": "What is the electrical charge of a neutron?",
+    "answer": "No charge"
+  },
+  {
+    "question": "What type of cell division results in two four daughter cells, each with half the number of chromosomes in the parent cells?",
+    "answer": "Meiosis"
+  },
+  {
+    "question": "What element is a diamond composed of?",
+    "answer": "Carbon"
+  },
+  {
+    "question": "What is the unit of force in the International System of Units?",
+    "answer": "Newton"
+  },
+  {
+    "question": "What is the energy of motion?",
+    "answer": "Kinetic"
+  },
+  {
+    "question": "What is the force that opposes motion when two surfaces are in contact?",
+    "answer": "Friction"
+  },
+  {
+    "question": "What is the unit of electrical resistance?",
+    "answer": "Ohm"
+  },
+  {
+    "question": "What is the SI unit of frequency?",
+    "answer": "Hertz"
+  },
+  {
+    "question": "What is the force that attracts two objects with mass?",
+    "answer": "Gravity"
+  },
+  {
+    "question": "What is the unit of electrical current?",
+    "answer": "Ampere"
+  },
+  {
+    "question": "What is the property of a body to resist changes in motion?",
+    "answer": "Inertia"
+  },
+  {
+    "question": "What is the rate of doing work or transferring energy?",
+    "answer": "Power"
+  },
+  {
+    "question": "What is the phenomenon where an object floats in a fluid due to buoyancy?",
+    "answer": "Floatation"
+  },
+  {
+    "question": "What is the bending of light as it passes from one medium to another?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the force that opposes the relative motion or tendency of such motion of two surfaces in contact?",
+    "answer": "Friction"
+  },
+  {
+    "question": "What is the measure of the amount of matter in an object?",
+    "answer": "Mass"
+  },
+  {
+    "question": "What is the distance traveled by an object per unit of time?",
+    "answer": "Speed"
+  },
+  {
+    "question": "What is the measure of how hot or cold an object is?",
+    "answer": "Temperature"
+  },
+  {
+    "question": "What is the force of attraction between all masses in the universe?",
+    "answer": "Gravity"
+  },
+  {
+    "question": "What is the SI unit of electric charge?",
+    "answer": "Coulomb"
+  },
+  {
+    "question": "What is the property of an object to remain at rest or in uniform motion unless acted upon by an external force?",
+    "answer": "Newton's First Law"
+  },
+  {
+    "question": "What is the bending of waves around obstacles and the spreading of waves as they pass through narrow openings?",
+    "answer": "Diffraction"
+  },
+  {
+    "question": "What is the unit of electrical potential difference or voltage?",
+    "answer": "Volt"
+  },
+  {
+    "question": "What is the SI unit of work and energy?",
+    "answer": "Joule"
+  },
+  {
+    "question": "What is the resistance to the flow of electric current?",
+    "answer": "Resistance"
+  },
+  {
+    "question": "What is the product of mass and velocity of an object?",
+    "answer": "Momentum"
+  },
+  {
+    "question": "What is the energy an object possesses due to its motion?",
+    "answer": "Kinetic"
+  },
+  {
+    "question": "What is the phenomenon where a vibrating object transfers energy to another object through a medium?",
+    "answer": "Sound"
+  },
+  {
+    "question": "What is the rate at which an object vibrates in a periodic motion?",
+    "answer": "Frequency"
+  },
+  {
+    "question": "What is the measure of disorder or randomness in a system?",
+    "answer": "Entropy"
+  },
+  {
+    "question": "What is the bending of light around a sharp corner or obstacle?",
+    "answer": "Turbulence"
+  },
+  {
+    "question": "What is the force that opposes the motion of objects through a fluid?",
+    "answer": "Drag"
+  },
+  {
+    "question": "What is the energy stored in an object due to its position or configuration?",
+    "answer": "Potential"
+  },
+  {
+    "question": "What is the phenomenon where an object continues its circular motion even if no force acts on it?",
+    "answer": "Centrifugal"
+  },
+  {
+    "question": "What is the electromagnetic force that opposes the relative motion of objects in contact?",
+    "answer": "Friction"
+  },
+  {
+    "question": "What is the point at which all the mass of an object is concentrated?",
+    "answer": "Center of mass"
+  },
+  {
+    "question": "What is the motion of an object in a circular path at a constant speed?",
+    "answer": "Uniform Circular Motion"
+  },
+  {
+    "question": "What is the force that opposes the motion of objects through a fluid?",
+    "answer": "Resistance"
+  },
+  {
+    "question": "What is the energy of an object at rest?",
+    "answer": "Potential"
+  },
+  {
+    "question": "What is the property of a wave that determines its color?",
+    "answer": "Frequency"
+  },
+  {
+    "question": "What is the unit of electrical power?",
+    "answer": "Watt"
+  },
+  {
+    "question": "What is the property of an object to change its state of motion?",
+    "answer": "Force"
+  },
+  {
+    "question": "What is the bending of light when it passes through a lens or prism?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the product of force and distance?",
+    "answer": "Work"
+  },
+  {
+    "question": "What is the property of a body to resist changes in motion?",
+    "answer": "Inertia"
+  },
+  {
+    "question": "What is the SI unit of pressure?",
+    "answer": "Pascal"
+  },
+  {
+    "question": "What is the change in an object's velocity per unit of time?",
+    "answer": "Acceleration"
+  },
+  {
+    "question": "What is the bending of light when it encounters a medium with a different refractive index?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the resistance to the flow of electric current?",
+    "answer": "Resistance"
+  },
+  {
+    "question": "What is the electromagnetic force that opposes the relative motion of objects in contact?",
+    "answer": "Friction"
+  },
+  {
+    "question": "What is the point at which all the mass of an object is concentrated?",
+    "answer": "Center of mass"
+  },
+  {
+    "question": "What is the motion of an object in a circular path at a constant speed?",
+    "answer": "Uniform Circular Motion"
+  },
+  {
+    "question": "What is the force that opposes the motion of objects through a fluid?",
+    "answer": "Resistance"
+  },
+  {
+    "question": "What is the energy of an object at rest?",
+    "answer": "Potential"
+  },
+  {
+    "question": "What is the property of a wave that determines its color?",
+    "answer": "Frequency"
+  },
+  {
+    "question": "What is the unit of electrical power?",
+    "answer": "Watt"
+  },
+  {
+    "question": "What is the property of an object to change its state of motion?",
+    "answer": "Force"
+  },
+  {
+    "question": "What is the bending of light when it passes through a lens or prism?",
+    "answer": "Refraction"
+  },
+  {
+    "question": "What is the product of force and distance?",
+    "answer": "Work"
+  },
+  {
+    "question": "What is the property of a body to resist changes in motion?",
+    "answer": "Inertia"
+  },
+  {
+    "question": "What is the SI unit of pressure?",
+    "answer": "Pascal"
+  },
+  {
+    "question": "What is the change in an object's velocity per unit of time?",
+    "answer": "Acceleration"
+  },
+  {
+    "question": "Which constellation are the stars Castor and Pollux in?",
+    "answer": "Gemini"
+  },
+  {
+    "question": "What is the galaxy closest in light-years to the Milky Way Galaxy?",
+    "answer": "Andromeda"
+  },
+  {
+    "question": "What are the gaps between nerve cells called?",
+    "answer": "Synapses"
+  },
+  {
+    "question": "What does the ER of a cell stand for?",
+    "answer": "Endoplasmic Reticulum"
+  },
+  {
+    "question": "What flap on your windpipe helps keep out food particles?",
+    "answer": "Epiglottis"
+  },
+  {
+    "question": "What part of the brain controls hunger?",
+    "answer": "Hypothalamus"
+  },
+  {
+    "question": "What is a scientist who specializes in the study of cells called?",
+    "answer": "Cytologist"
+  },
+  {
+    "question": "What is the fin on the backs of fish, some whales, and dolphins called?",
+    "answer": "Dorsal Fin"
+  },
+  {
+    "question": "The process of weathered material moving due to gravity is called what?",
+    "answer": "Erosion"
+  },
+  {
+    "question": "What scientist proposed the theory of continental drift?",
+    "answer": "Alfred Wegener"
+  },
+  {
+    "question": "What is the chemical symbol for lead?",
+    "answer": "Pb"
+  },
+  {
+    "question": "What part of the brain is responsible for vision?",
+    "answer": "Occipital"
+  },
+  {
+    "question": "Who begins food chains?",
+    "answer": "Producers"
+  },
+  {
+    "question": "What is the first phase of mitosis?",
+    "answer": "Interphase"
+  },
+  {
+    "question": "What is the calm center part of a hurricane called?",
+    "answer": "Eye"
+  },
+  {
+    "question": "Who was the first woman in space?",
+    "answer": "Valentina Tereshkova"
+  },
+  {
+    "question": "Which person is known for publishing “The Interpretation of Dreams”?",
+    "answer": "Sigmund Freud"
+  },
+  {
+    "question": "What is made by white blood cells to help fight off infection?",
+    "answer": "Antibodies"
+  },
+  {
+    "question": "What does the gall bladder secrete?",
+    "answer": "Bile"
+  },
+  {
+    "question": "Botulinum toxin is commonly referred to as what?",
+    "answer": "Botox"
+  },
+  {
+    "question": "What instrument do you use to measure wind speed?",
+    "answer": "Anemometer"
+  },
+  {
+    "question": "What is the sticky part of the pistil called?",
+    "answer": "Stigma"
+  },
+  {
+    "question": "What is the splitting of atomic nuclei called?",
+    "answer": "Nuclear Fission"
+  },
+  {
+    "question": "What was the first planet discovered with the aid of a telescope?",
+    "answer": "Uranus"
+  },
+  {
+    "question": "What is the study of behavior and mental processes?",
+    "answer": "Psychology"
+  },
+  {
+    "question": "What is the part of the brain responsible for higher-level thinking and decision-making?",
+    "answer": "Frontal"
+  },
+  {
+    "question": "What is a psychological defense mechanism where undesirable thoughts or feelings are pushed out of awareness?",
+    "answer": "Repression"
+  },
+  {
+    "question": "What is the process of encoding, storing, and retrieving information in the mind?",
+    "answer": "Memory"
+  },
+  {
+    "question": "What is the scientific study of personality and individual differences?",
+    "answer": "Psychometrics"
+  },
+  {
+    "question": "What is the feeling of fear or apprehension in response to a perceived threat?",
+    "answer": "Anxiety"
+  },
+  {
+    "question": "What is the process of learning through associations between stimuli and responses?",
+    "answer": "Conditioning"
+  },
+  {
+    "question": "What is the study of mental disorders and their treatment?",
+    "answer": "Psychopathology"
+  },
+  {
+    "question": "What is a theory of personality that emphasizes unconscious motives and conflicts?",
+    "answer": "Psychoanalysis"
+  },
+  {
+    "question": "What is a psychological disorder characterized by extreme mood swings?",
+    "answer": "Bipolar"
+  },
+  {
+    "question": "What is a condition characterized by excessive worry and fear?",
+    "answer": "Anxiety"
+  },
+  {
+    "question": "What is a neurotransmitter associated with pleasure and reward?",
+    "answer": "Dopamine"
+  },
+  {
+    "question": "What is a form of therapy that focuses on changing irrational thoughts and beliefs?",
+    "answer": "Cognitive"
+  },
+  {
+    "question": "What is the field of psychology that focuses on studying behavior in social contexts?",
+    "answer": "Social"
+  },
+  {
+    "question": "What is a psychological disorder characterized by persistent sadness and loss of interest?",
+    "answer": "Depression"
+  },
+  {
+    "question": "What is the part of the brain responsible for regulating emotions and memory?",
+    "answer": "Hippocampus"
+  },
+  {
+    "question": "What is a defense mechanism where unacceptable thoughts and feelings are redirected onto another person?",
+    "answer": "Projection"
+  },
+  {
+    "question": "What is the psychological theory that emphasizes the role of unconscious conflicts in behavior?",
+    "answer": "Psychoanalysis"
+  },
+  {
+    "question": "What is a technique used in therapy to explore unconscious thoughts and feelings?",
+    "answer": "Dream analysis"
+  },
+  {
+    "question": "What is a psychological disorder characterized by excessive worry and fear?",
+    "answer": "Anxiety"
+  },
+  {
+    "question": "What is a neurotransmitter associated with mood regulation?",
+    "answer": "Serotonin"
+  },
+  {
+    "question": "What is a form of therapy that focuses on changing irrational thoughts and beliefs?",
+    "answer": "Cognitive"
+  },
+  {
+    "question": "What is the field of psychology that focuses on the study of mental processes such as perception, memory, and language?",
+    "answer": "Cognitive"
+  },
+  {
+    "question": "What is a psychological disorder characterized by excessive self-focus and a need for admiration?",
+    "answer": "Narcissism"
+  },
+  {
+    "question": "What is a technique used in therapy to explore unconscious thoughts and feelings?",
+    "answer": "Free association"
+  },
+  {
+    "question": "What is the part of the brain responsible for regulating emotions and memory?",
+    "answer": "Amygdala"
+  },
+  {
+    "question": "What is a psychological defense mechanism where undesirable thoughts or feelings are attributed to another person?",
+    "answer": "Projection"
+  },
+  {
+    "question": "What is the process of learning through associations between stimuli and responses?",
+    "answer": "Conditioning"
+  },
+  {
+    "question": "What is a psychological disorder characterized by persistent sadness and loss of interest?",
+    "answer": "Depression"
+  },
+  {
+    "question": "What is the study of how people think, influence, and relate to one another?",
+    "answer": "Social"
+  },
+  {
+    "question": "What is the psychological theory that emphasizes the role of unconscious conflicts in behavior?",
+    "answer": "Psychoanalysis"
+  },
+  {
+    "question": "What is the field of psychology that focuses on studying behavior in social contexts?",
+    "answer": "Social"
+  },
+  {
+    "question": "What is a defense mechanism where unacceptable thoughts and feelings are redirected onto another person?",
+    "answer": "Projection"
+  },
+  {
+    "question": "What is the part of the brain responsible for regulating emotions and memory?",
+    "answer": "Hippocampus"
+  },
+  {
+    "question": "What is a technique used in therapy to explore unconscious thoughts and feelings?",
+    "answer": "Dream analysis"
+  },
+  {
+    "question": "What is a psychological disorder characterized by excessive worry and fear?",
+    "answer": "Anxiety"
+  },
+  {
+    "question": "What is a neurotransmitter associated with mood regulation?",
+    "answer": "Serotonin"
+  },
+  {
+    "question": "What is a form of therapy that focuses on changing irrational thoughts and beliefs?",
+    "answer": "Cognitive"
+  },
+  {
+    "question": "What is the field of psychology that focuses on the study of mental processes such as perception, memory, and language?",
+    "answer": "Cognitive"
+  },
+  {
+    "question": "What is a psychological disorder characterized by excessive self-focus and a need for admiration?",
+    "answer": "Narcissism"
+  },
+  {
+    "question": "What is a technique used in therapy to explore unconscious thoughts and feelings?",
+    "answer": "Free association"
+  },
+  {
+    "question": "What is the part of the brain responsible for regulating emotions and memory?",
+    "answer": "Amygdala"
+  },
+  {
+    "question": "What is a psychological defense mechanism where undesirable thoughts or feelings are attributed to another person?",
+    "answer": "Projection"
+  },
+  {
+    "question": "What is the process of learning through associations between stimuli and responses?",
+    "answer": "Conditioning"
+  },
+  {
+    "question": "What is a psychological disorder characterized by persistent sadness and loss of interest?",
+    "answer": "Depression"
+  },
+  {
+    "question": "What is the study of how people think, influence, and relate to one another?",
+    "answer": "Social"
+  }
+]

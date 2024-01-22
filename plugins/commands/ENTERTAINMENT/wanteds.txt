@@ -1,0 +1,35 @@
+import fs from 'fs-extra';
+import axios from 'axios';
+import path from 'path';
+
+export const config = {
+  name: "wanted",
+  version: "1.0.0",
+  credits: "Deku (Converted by Grim)",
+  description: "Wanted poster.",
+  usage: "[bounty]",
+  cooldown: 5
+};
+
+export async function onCall({ message, args }) {
+  let pathImg = path.join(
+    global.cachePath,
+    `${Date.now()}_wanted_${message.messageID}.png`
+  );
+  var bounty1 = Math.floor(Math.random() * 1000000) +1000
+  //let bounty1 = bounty[Math.floor(Math.random() * bounty.length)];
+  var text = args[0] || bounty1;
+  let uid = message.senderID;
+  const res1 = await global.api.getUserInfo(uid)
+var name = res1[uid].name
+  let Wanted = (
+    await axios.get(`https://sim.ainz-project.repl.co/canvas/wanted?uid=${uid}&bounty=${text}&name=${name}`, {
+      responseType: "arraybuffer",
+    })
+  ).data;
+  fs.writeFileSync(pathImg, Buffer.from(Wanted, "utf-8"));
+  await message.reply(
+    { attachment: fs.createReadStream(pathImg) },
+    () => fs.unlinkSync(pathImg)
+  );
+};

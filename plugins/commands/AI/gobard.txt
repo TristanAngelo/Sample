@@ -1,0 +1,94 @@
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
+
+export const config = {
+  name: 'gobard',
+  version: '1.0.0',
+  credits: 'ADONIS DEV (ISOY DEV) × (Converted by Grim)',
+  description: 'Get responses from GPT-3.5',
+  cooldown: 5,
+};
+
+export async function onCall({ message, args }) {
+  const question = args.join('');
+
+  if (!question) {
+    return message.reply('Please provide a question or query!');
+  }
+
+  try {
+    const wait = await message.reply('⏳ | Generating response, please wait!');
+
+    const userId = message.senderID;
+    const bardApiEndpoint = 'https://bardapi.easyapi0.repl.co/api/bard';
+
+    let response;
+    if (message.type === 'message_reply' && message.messageReply.attachments && message.messageReply.attachments.length > 0) {
+      for (const attachment of message.messageReply.attachments) {
+        if (attachment.type === 'photo') {
+          const largePreviewUrl = attachment.url;
+          const filename = attachment.filename;
+          const imageResponse = await axios.get(largePreviewUrl, {
+            responseType: 'arraybuffer',
+          });
+          const filePath =  path.join(global.cachePath, `${filename}`);
+
+          fs.writeFileSync(`${filePath}`, Buffer.from(imageResponse.data, 'binary'));
+
+          response = await axios.get(bardApiEndpoint, {
+            params: {
+              message: encodeURIComponent(question),
+              url: `https://myfile.amigohaycyril.repl.co/img/${filename}`,
+              userID: encodeURIComponent(userId),
+              API: 'ISOYXD',
+            },
+          });
+        }
+      }
+    } else {
+      response = await axios.get(bardApiEndpoint, {
+        params: {
+          message: encodeURIComponent(question),
+          userID: encodeURIComponent(userId),
+          api: 'ISOYXD',
+        },
+      });
+    }
+
+    const respond = response.data.content;
+    const imageUrls = response.data.images;
+
+    await global.api.unsendMessage(wait.messageID);
+
+    if (Array.isArray(imageUrls) && imageUrls.length > 0) {
+      const attachments = [];
+
+      for (let i = 0; i < imageUrls.length; i++) {
+        const url = imageUrls[i];
+        const imagePath = path.join(global.cachePath, `${message.threadID}_${Date.now()}_image${i + 1}.png`);
+
+        try {
+          const imageResponse = await axios.get(url, {
+            responseType: 'arraybuffer',
+          });
+
+          fs.writeFileSync(imagePath, imageResponse.data);
+          attachments.push(fs.createReadStream(imagePath));
+        } catch (error) {
+          console.error('Error While Saving Image:', error);
+        }
+      }
+
+      message.reply({
+        body: `${respond}`,
+        attachment: attachments,
+      });
+    } else {
+      message.reply(respond);
+    }
+  } catch (error) {
+    console.error('An error occurred while processing your request:', error);
+    message.reply('An error occurred while processing your request');
+  }
+};

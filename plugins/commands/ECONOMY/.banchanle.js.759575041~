@@ -1,0 +1,164 @@
+import axios from 'axios';
+
+const config = {
+  name: "even-odd",
+  aliases: ["eo"],
+  description: "Play even-odd with multiplayer.",
+  usage: "Use it then you'll know.",
+  cooldown: 3,
+  permissions: [0, 1, 2],
+  isAbsolute: false,
+  isHidden: false,
+  credits: "Sies",
+
+}
+
+const { api } = global;
+async function onCall({ message, args, getLang, extra, data, userPermissions, prefix }) {
+  // Do something
+  try {
+    const { senderID, threadID, messageID, body, send, reply, react } = message;
+    const { Users } = global.controllers
+    global.chanle || (global.chanle = new Map);
+    var bcl = global.chanle.get(message.threadID);
+    const anhbcl = (await axios.get("https://i.imgur.com/u7jZ2Js.jpg", {
+      responseType: "stream"
+    })).data;
+    switch (args[0]) {
+      case "create":
+      case "new":
+      case "-c": {
+        // Check if the game has already started
+        if (gameData.start) {
+          return api.sendMessage("[SIES-WARN ⚠] » The game has already started!", threadID, message.messageID);
+        }
+
+        if (!args[1] || isNaN(args[1])) {
+          return api.sendMessage("[SIES-WARN ⚠] » You need to enter a valid bet amount!", threadID, message.messageID);
+        }
+
+        const betAmount = parseInt(args[1]);
+        const userMoney = await Users.getMoney(senderID) || 0;
+
+        if (userMoney < betAmount) {
+          return api.sendMessage(`[SIES-WARN ⚠] » You don't have enough money to create a new game with a bet of ₱${betAmount}!`, threadID, message.messageID);
+        }
+
+        gameData.moneyPool += betAmount;
+        gameData.player.push({
+          userID: senderID,
+          bet: betAmount,
+        });
+
+        global.chanle.set(threadID, gameData);
+
+        return api.sendMessage(`[SIES-NOTI] » Successfully created a game with a bet of ₱${betAmount}.`, threadID);
+      }
+      case "join":
+      case "-j": {
+        // Check if the game has already started
+        if (gameData.start) {
+          return api.sendMessage("[SIES-WARN ⚠] » The game has already started!", threadID, message.messageID);
+        }
+
+        if (gameData.player.find((player) => player.userID === senderID)) {
+          return api.sendMessage("[SIES-WARN ⚠] » You have already joined this game!", threadID, message.messageID);
+        }
+
+        const playerMoney = await Users.getMoney(senderID) || 0;
+
+        if (playerMoney < gameData.moneyPool) {
+          return api.sendMessage(`[SIES-WARN ⚠] » You don't have enough money to join this game with a bet of ₱${gameData.moneyPool}!`, threadID, message.messageID);
+        }
+
+        gameData.moneyPool += gameData.moneyPool; // Add the bet to the money pool
+        gameData.player.push({
+          userID: senderID,
+          bet: gameData.moneyPool,
+        });
+
+        global.chanle.set(threadID, gameData);
+
+        return api.sendMessage(`[SIES-NOTI] » Successfully joined the game with a bet of ₱${gameData.moneyPool}.`, threadID);
+      }
+      case "start":
+      case "-s": {
+        // Check if the game has already started
+        if (gameData.start) {
+          return api.sendMessage("[SIES-WARN ⚠] » The game has already started!", threadID, message.messageID);
+        }
+
+        if (gameData.player.length <= 1) {
+          return api.sendMessage("[SIES-WARN ⚠] » You need at least two players to start the game!", threadID, message.messageID);
+        }
+
+        // Randomly select 'Even' or 'Odd'
+        const result = Math.random() < 0.5 ? "Even" : "Odd";
+
+        // Determine the winners and losers
+        const winners = gameData.player.filter((player) => (player.bet % 2 === 0 && result === "Even") || (player.bet % 2 !== 0 && result === "Odd"));
+        const losers = gameData.player.filter((player) => !winners.includes(player));
+
+        // Calculate the prize amount for each winner
+        const prizePerWinner = gameData.moneyPool / winners.length;
+
+        // Distribute prizes to winners
+        for (const winner of winners) {
+          const userMoney = await Users.getMoney(winner.userID) || 0;
+          await Users.updateMoney(winner.userID, userMoney + prizePerWinner);
+        }
+
+        // Reset game data
+        global.chanle.delete(threadID);
+
+        // Notify the results
+        api.sendMessage(`[SIES-NOTI] » Game has started!\nResult: ${result}\nWinners: ${winners.length} players\nPrize per winner: ₱${prizePerWinner}`, threadID);
+
+        return api.sendMessage("[SIES-NOTI] » The game has ended. The money has been distributed to the winners.", threadID);
+      }
+      case "end":
+      case "-e":
+        return bcl ? bcl.author != message.senderID ? global.api.sendMessage("[SIES-WARN ⚠] » 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚝𝚑𝚎 𝚌𝚛𝚎𝚊𝚝𝚘𝚛 𝚘𝚏 𝚝𝚑𝚎 𝚐𝚊𝚖𝚎 𝚝𝚊𝚋𝚕𝚎, 𝚜𝚘 𝚢𝚘𝚞 𝚌𝚊𝚗𝚗𝚘𝚝 𝚍𝚎𝚕𝚎𝚝𝚎 𝚝𝚑𝚎 𝚐𝚊𝚖𝚎 𝚝𝚊𝚋𝚕𝚎.", message.threadID, message.messageID) : (global.chanle.delete(message.threadID), global.api.sendMessage("[ SIES-NOTI ] » 𝙳𝚎𝚕𝚎𝚝𝚎𝚍 𝚐𝚊𝚖𝚎 𝚋𝚘𝚊𝚛𝚍!", message.threadID, message.messageID)) : global.api.sendMessage("[SIES-WARN ⚠] » 𝚃𝚑𝚒𝚜 𝚐𝚛𝚘𝚞𝚙 𝚍𝚘𝚎𝚜 𝚗𝚘𝚝 𝚑𝚊𝚟𝚎 𝚊𝚗𝚢 𝚐𝚊𝚖𝚎 𝚝𝚊𝚋𝚕𝚎𝚜 𝚢𝚎𝚝!\n=> 𝙿𝚕𝚎𝚊𝚜𝚎 𝚌𝚛𝚎𝚊𝚝𝚎 𝚊 𝚗𝚎𝚠 𝚐𝚊𝚖𝚎 𝚝𝚊𝚋𝚕𝚎 𝚝𝚘 𝚓𝚘𝚒𝚗!", message.threadID, message.messageID);
+      case "leave":
+      case "-l":
+        if (!global.chanle.has(message.threadID)) return api.sendMessage('[SIES-WARN ⚠] » 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚝𝚑𝚎𝚛𝚎 𝚊𝚛𝚎 𝚗𝚘 𝚐𝚊𝚖𝚎 𝚝𝚊𝚋𝚕𝚎𝚜 𝚏𝚘𝚛 𝚢𝚘𝚞 𝚝𝚘 𝚕𝚎𝚊𝚟𝚎!', message.threadID, message.messageID);
+        if (!bcl.player.find((player) => player.userID == message.senderID)) return api.sendMessage('[SIES-WARN ⚠] » 𝚈𝚘𝚞 𝚍𝚘𝚗’𝚝 𝚑𝚊𝚟𝚎 𝚊𝚗𝚢 𝚐𝚊𝚖𝚎𝚜 𝚕𝚎𝚏𝚝!', threadID, messageID);
+        if (bcl.start == true) return api.sendMessage('[SIES-WARN ⚠] » 𝚈𝚘𝚞 𝚍𝚒𝚍𝚗’𝚝 𝚜𝚎𝚎 𝚝𝚑𝚎 𝚐𝚊𝚖𝚎 𝚍𝚒𝚜𝚊𝚙𝚙𝚎𝚊𝚛 𝚓𝚞𝚜𝚝 𝚊𝚏𝚝𝚎𝚛 𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐!', threadID, messageID);
+        if (bcl.author == message.senderID) {
+          global.chanle.delete(message.threadID);
+          const name = (await global.controllers.Users.getInfo(message.senderID))?.name || message.senderID;
+          return global.api.sendMessage('[SIES-NOTI ⚠] » ➣ <' + name + '> 𝚕𝚎𝚏𝚝 𝚝𝚑𝚎 𝚐𝚊𝚖𝚒𝚗𝚐 𝚝𝚊𝚋𝚕𝚎, 𝚝𝚑𝚎𝚒𝚛 𝚐𝚊𝚖𝚒𝚗𝚐 𝚝𝚊𝚋𝚕𝚎 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚍𝚒𝚜𝚌𝚘𝚞𝚗𝚝𝚎𝚍!', message.threadID, message.messageID);
+        }
+        else {
+          bcl.player.splice(bcl.player.findIndex((player) => player.userID == message.senderID), 1);
+          global.chanle.set(message.threadID, bcl);
+          const name = (await global.controllers.Users.getInfo(message.senderID))?.name || message.senderID;
+          global.api.sendMessage('[SIES-NOTI] » 𝙼𝚘𝚞𝚜𝚎 𝚏𝚊𝚕𝚕𝚜 𝚘𝚏𝚏 𝚝𝚑𝚎 𝚝𝚊𝚋𝚕𝚎!', message.threadID, message.messageID);
+          return global.api.sendMessage('[ SIES-NOTI ] »➣ <' + name + '> left the gaming table!\n=> 𝚃𝚑𝚎𝚒𝚛 𝚐𝚊𝚖𝚒𝚗𝚐 𝚝𝚊𝚋𝚕𝚎 𝚠𝚒𝚕𝚕 𝚋𝚎 𝚍𝚒𝚜𝚌𝚘𝚞𝚗𝚝𝚎𝚍.' + bcl.player.length + ' 𝙿𝚕𝚊𝚢𝚎𝚛 ', message.threadID);
+        }
+        
+      default:
+        return global.api.sendMessage({
+          body: "==【Multiplayer Odd and Even Play】==\n1. !eo -c/create <price> => To create a room.\n2. !eo -j/join => Join to enter the room. \n3. !eo -s/start => To start the game.\n4. !eo -l/leave => To leave the game.\n5. !eo -e/end => To end the game.",
+          attachment: anhbcl
+        }, message.threadID, message.messageID)
+    }
+  } catch (e) {
+    message.send("Error :", e);
+    console.error(e);
+  }
+
+}
+
+
+export default {
+  config,
+  onCall
+}
+
+// or
+// export {
+//     config,
+//     langData,
+//     onCall
+// }

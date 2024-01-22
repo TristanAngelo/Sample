@@ -1,0 +1,30 @@
+import axios from "axios";
+
+export const config = {
+  name: "teachsim",
+  version: "1.0.0",
+  credits: "Jonell Magallanes (Converted by Grim)",
+  description: "Teaching the simini command",
+  usage: "<message> | <response>",
+  cooldown: 5,
+};
+
+export async function onCall({ message, prefix, args }) {
+  const content = args.join(" ");
+  const [ask, ans] = content.split("|").map(item => item.trim());
+
+  // Checking arguments
+  if (!ask || !ans) return message.reply(`Missing query!\nExample usage: ${prefix}sim Hello | Hi`);
+
+  const url = `https://sim-api.nakelaqe.repl.co/teach?ask=${encodeURIComponent(ask)}&ans=${encodeURIComponent(ans)}`;
+
+  try {
+    const response = await axios.get(url);
+    if (response.data) {
+      message.reply(`💡 | Successfully taught!\n\nYour Ask: ${ask}\nBot response: ${ans}`);
+    }
+  } catch (err) {
+    message.reply('Error while teaching.');
+    console.log(err);
+  }
+};

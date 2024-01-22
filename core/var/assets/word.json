@@ -1,0 +1,3619 @@
+[
+  {
+    "word": "quokka",
+    "hint": "A small herbivorous marsupial native to Australia, known for its friendly and smiling appearance."
+  },
+  {
+    "word": "raccoon",
+    "hint": "A medium-sized nocturnal mammal native to North America, recognized by its black mask-like markings around the eyes."
+  },
+  {
+    "word": "sunflower",
+    "hint": "A tall plant with large, yellow flowers that turn to face the sun."
+  },
+  {
+    "word": "tiger",
+    "hint": "A large carnivorous feline with a distinctive orange coat and black stripes."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "sycophantisms",
+    "hint": "The obsequious behavior of a person who acts obediently to gain advantage from another."
+  },
+  {
+    "word": "cachinnations",
+    "hint": "Loud and hearty laughter."
+  },
+  {
+    "word": "expostulating",
+    "hint": "Expressing strong disapproval or disagreement; arguing against something."
+  },
+  {
+    "word": "perspicacious",
+    "hint": "Having a keen insight or understanding; mentally sharp or perceptive."
+  },
+  {
+    "word": "malfeasances",
+    "hint": "Wrongdoing, especially by a public official."
+  },
+  {
+    "word": "belligerently",
+    "hint": "In a hostile, aggressive, or confrontational manner."
+  },
+  {
+    "word": "plethorically",
+    "hint": "Excessively or abundantly; in an overabundant manner."
+  },
+  {
+    "word": "meritoriously",
+    "hint": "Deserving reward or praise; commendably."
+  },
+  {
+    "word": "indefatigable",
+    "hint": "Showing sustained enthusiasm with unflagging vitality."
+  },
+  {
+    "word": "requisitioned",
+    "hint": "Formally requested or demanded the use of something."
+  },
+  {
+    "word": "preponderance",
+    "hint": "The quality or fact of being greater in number, quantity, or importance."
+  },
+  {
+    "word": "introspective",
+    "hint": "Examining one's own thoughts and feelings; inward-looking."
+  },
+  {
+    "word": "perniciousness",
+    "hint": "The quality of causing harm, destruction, or ruin; very harmful or destructive."
+  },
+  {
+    "word": "deleteriously",
+    "hint": "In a harmful or damaging manner."
+  },
+  {
+    "word": "interlocutory",
+    "hint": "Pertaining to or having the nature of an interlocutor; an intermediate decision or order during a legal proceeding."
+  },
+  {
+    "word": "perfidiousness",
+    "hint": "The quality of being deceitful and untrustworthy."
+  },
+  {
+    "word": "antiquarianism",
+    "hint": "The study or pursuit of knowledge about the past through the collection and examination of ancient artifacts, manuscripts, and other historical sources."
+  },
+  {
+    "word": "effervescences",
+    "hint": "The bubbles in a liquid produced by agitation, fermentation, or chemical reaction; vivacity and enthusiasm."
+  },
+  {
+    "word": "anfractuosity",
+    "hint": "The quality of being full of windings and intricate turnings; a tortuous path."
+  },
+  {
+    "word": "intransigently",
+    "hint": "In a manner refusing to compromise or reconcile; stubbornly."
+  },
+  {
+    "word": "parsimoniously",
+    "hint": "In a frugal or stingy manner; unwilling to spend money or use resources."
+  },
+  {
+    "word": "superciliously",
+    "hint": "In a haughtily disdainful or contemptuous manner."
+  },
+  {
+    "word": "insurmountable",
+    "hint": "Too great to be overcome; impossible to surmount."
+  },
+  {
+    "word": "nonchalantness",
+    "hint": "The state or quality of being casually unconcerned or indifferent."
+  },
+  {
+    "word": "reconciliation",
+    "hint": "The restoration of friendly relations; the action of making one view or belief compatible with another."
+  },
+  {
+    "word": "inquisitiveness",
+    "hint": "The quality of being curious or inquiring; eagerness to learn or understand."
+  },
+  {
+    "word": "supernumerary",
+    "hint": "Present in excess of the normal or requisite number; additional or extra."
+  },
+  {
+    "word": "prevarications",
+    "hint": "The act of avoiding the truth by not directly answering a question or by being deliberately ambiguous."
+  },
+  {
+    "word": "procrastinator",
+    "hint": "A person who habitually delays or puts off doing something."
+  },
+  {
+    "word": "conscientious",
+    "hint": "Wishing to do what is right, especially to do one's work or duty well and thoroughly."
+  },
+  {
+    "word": "inopportunely",
+    "hint": "At an inconvenient or inappropriate time."
+  },
+  {
+    "word": "depreciatingly",
+    "hint": "In a manner expressing disapproval or criticism."
+  },
+  {
+    "word": "demonstrations",
+    "hint": "Public displays of group opinion, usually in favor of or against something."
+  },
+  {
+    "word": "exasperatingly",
+    "hint": "In a manner causing irritation or annoyance."
+  },
+  {
+    "word": "ephemeralness",
+    "hint": "The quality of being transient or short-lived; lasting for a very brief time."
+  },
+  {
+    "word": "acrimoniously",
+    "hint": "In a bitter, angry, or harsh manner."
+  },
+  {
+    "word": "mischievously",
+    "hint": "In a playful, teasing, or naughty manner; causing or showing a fondness for causing trouble."
+  },
+  {
+    "word": "philoprogenitive",
+    "hint": "Having a fondness for children; producing many offspring."
+  },
+  {
+    "word": "aristocratically",
+    "hint": "In a manner characteristic of or belonging to the nobility or upper class."
+  },
+  {
+    "word": "incorrigibility",
+    "hint": "The quality of being incapable of being reformed, corrected, or improved."
+  },
+  {
+    "word": "tendentiousness",
+    "hint": "The quality of having or showing a strong tendency or bias, especially a controversial one."
+  },
+  {
+    "word": "ingratiatingly",
+    "hint": "In a manner intended to gain approval or favor; charmingly flattering."
+  },
+  {
+    "word": "incompatibility",
+    "hint": "The quality or state of being incapable of living or working together harmoniously."
+  },
+  {
+    "word": "exhilaratingly",
+    "hint": "In an exciting and invigorating manner; causing great joy or excitement."
+  },
+  {
+    "word": "conciliatorily",
+    "hint": "In a manner intended to reconcile or win over."
+  },
+  {
+    "word": "proprietorship",
+    "hint": "The state or fact of being the sole owner of a business or property."
+  },
+  {
+    "word": "unscrupulously",
+    "hint": "In a manner showing no moral principles; dishonestly or unfairly."
+  },
+  {
+    "word": "multitudinousness",
+    "hint": "The state or quality of being very numerous; vastness in quantity or number."
+  },
+  {
+    "word": "magnanimously",
+    "hint": "In a generous and noble manner; showing a lofty and courageous spirit."
+  },
+  {
+    "word": "inevitableness",
+    "hint": "The quality of being certain to happen; unavoidable."
+  },
+  {
+    "word": "inexorableness",
+    "hint": "The quality of being unyielding or unrelenting; unable to be persuaded or moved by entreaty."
+  },
+  {
+    "word": "inexpressively",
+    "hint": "In a manner that does not convey meaning or emotion clearly."
+  },
+  {
+    "word": "ameliorations",
+    "hint": "The act of making something better; improvement or enhancement."
+  },
+  {
+    "word": "omnipotently",
+    "hint": "In a manner having unlimited power; having the ability to do anything."
+  },
+  {
+    "word": "unsubstantial",
+    "hint": "Lacking substance or reality; not solid or firm."
+  },
+  {
+    "word": "undervaluation",
+    "hint": "The act of assigning too low a value or price; an underestimate of worth."
+  },
+  {
+    "word": "beneficentness",
+    "hint": "The quality of being kind, generous, and beneficial."
+  },
+  {
+    "word": "provisionalism",
+    "hint": "The adherence to a temporary or tentative arrangement."
+  },
+  {
+    "word": "unpretentiousness",
+    "hint": "The quality of being modest, unassuming, and free from ostentation."
+  },
+  {
+    "word": "intransitively",
+    "hint": "In a manner not involving a change of subject; not passing to a direct object."
+  },
+  {
+    "word": "transcendental",
+    "hint": "Relating to a spiritual or nonphysical realm; surpassing the ordinary or material."
+  },
+  {
+    "word": "conspiratorial",
+    "hint": "Relating to or suggestive of a secret plan made by a group of people to do something unlawful or harmful."
+  },
+  {
+    "word": "dishearteningly",
+    "hint": "In a manner that causes someone to lose determination or confidence."
+  },
+  {
+    "word": "demonstratives",
+    "hint": "Pronouns that point out a specific thing or things."
+  },
+  {
+    "word": "indefatigables",
+    "hint": "Characterized by tireless effort and untiring dedication."
+  },
+  {
+    "word": "involuntariness",
+    "hint": "The state or quality of being done without conscious control or intention."
+  },
+  {
+    "word": "illustriously",
+    "hint": "In a manner that is well known, respected, and admired for past achievements."
+  },
+  {
+    "word": "collaborations",
+    "hint": "The act of working jointly on an activity or project."
+  },
+  {
+    "word": "preposterously",
+    "hint": "In a manner contrary to reason, common sense, or nature."
+  },
+  {
+    "word": "profoundnesses",
+    "hint": "The quality of having great insight or deep knowledge."
+  },
+  {
+    "word": "conglomerating",
+    "hint": "The act of gathering together into a mass or whole."
+  },
+  {
+    "word": "inexpensiveness",
+    "hint": "The quality of being affordable or relatively cheap."
+  },
+  {
+    "word": "inconspicuously",
+    "hint": "In a manner not attracting attention; not easily seen or noticed."
+  },
+  {
+    "word": "flamboyantness",
+    "hint": "The quality of being showy, stylish, or confident in an attention-grabbing way."
+  },
+  {
+    "word": "impersonalized",
+    "hint": "Devoid of individuality or personal characteristics."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "yoga",
+    "hint": "A physical, mental, and spiritual practice that originated in ancient India."
+  },
+  {
+    "word": "zeppelin",
+    "hint": "A type of airship characterized by its elongated, cigar-shaped structure."
+  },
+  {
+    "word": "astronaut",
+    "hint": "A person trained to travel and work in space."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  
+  {
+    "word": "lighthearted",
+    "hint": "Carefree, cheerful, or not serious."
+  },
+  {
+    "word": "acknowledgment",
+    "hint": "The act of recognizing or admitting the existence or truth of something."
+  },
+  {
+    "word": "beneficialness",
+    "hint": "The quality of being advantageous or beneficial."
+  },
+  {
+    "word": "comprehensive",
+    "hint": "Including all aspects or elements of something."
+  },
+  {
+    "word": "determination",
+    "hint": "The act of making a firm decision or resolving to do something."
+  },
+  {
+    "word": "extermination",
+    "hint": "The act of completely destroying or eradicating something or someone."
+  },
+  {
+    "word": "fluctuations",
+    "hint": "Irregular variations or changes in an amount, value, or level."
+  },
+  {
+    "word": "gratification",
+    "hint": "Pleasure or satisfaction derived from the fulfillment of one's desires."
+  },
+  {
+    "word": "hypothesized",
+    "hint": "Formulated as a tentative explanation based on limited evidence."
+  },
+  {
+    "word": "inquisitively",
+    "hint": "With a desire to learn or investigate things in a curious manner."
+  },
+  {
+    "word": "juxtaposition",
+    "hint": "The act of placing things close together or side by side for contrasting effect."
+  },
+  {
+    "word": "kaleidoscopic",
+    "hint": "A constantly changing pattern of colors and shapes, like in a kaleidoscope."
+  },
+  {
+    "word": "lightheartedly",
+    "hint": "In a cheerful and carefree manner."
+  },
+  {
+    "word": "manipulations",
+    "hint": "Actions or strategies to control or influence something or someone cleverly."
+  },
+  {
+    "word": "negotiations",
+    "hint": "The process of discussing something in order to reach an agreement or settlement."
+  },
+  {
+    "word": "outstandingly",
+    "hint": "In an exceptionally good or remarkable way."
+  },
+  {
+    "word": "procrastinate",
+    "hint": "To delay or postpone doing something, often out of avoidance or laziness."
+  },
+  {
+    "word": "quartermaster",
+    "hint": "An officer responsible for providing supplies, especially in the military."
+  },
+  {
+    "word": "rehabilitated",
+    "hint": "Restored to health or normal life through therapy or training."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "iguana",
+    "hint": "A large, herbivorous lizard with a long tail and spiky crest along its back."
+  },
+  {
+    "word": "jazz",
+    "hint": "A genre of music characterized by improvisation, syncopation, and distinctive rhythms."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "mountain",
+    "hint": "A large landform that rises steeply above its surroundings."
+  },
+  {
+    "word": "nightingale",
+    "hint": "A small songbird known for its beautiful and melodic nighttime singing."
+  },
+  {
+    "word": "ostrich",
+    "hint": "A large flightless bird with long legs and neck, native to Africa."
+  },
+  {
+    "word": "penguin",
+    "hint": "A flightless bird found in the Southern Hemisphere, often dressed in a tuxedo-like plumage."
+  },
+  {
+    "word": "quilt",
+    "hint": "A warm bed cover made of two layers of cloth filled with padding and stitched together."
+  },
+  {
+    "word": "rain",
+    "hint": "Water falling from the clouds in droplets."
+  },
+  {
+    "word": "sailboat",
+    "hint": "A boat with sails, typically used for recreation or sport."
+  },
+  {
+    "word": "tiger",
+    "hint": "A large carnivorous feline with a distinctive orange coat and black stripes."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "waterfall",
+    "hint": "A cascade of water flowing from a height, often found in rivers and streams."
+  },
+  {
+    "word": "yacht",
+    "hint": "A luxurious and elegant boat used for pleasure or racing."
+  },
+  {
+    "word": "zebra",
+    "hint": "An African mammal with black and white stripes."
+  },
+  {
+    "word": "airplane",
+    "hint": "A powered flying vehicle with fixed wings and a jet or propeller engine."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "vivisectionists",
+    "hint": "Individuals who perform scientific experiments on living animals for research."
+  },
+  {
+    "word": "weatherboardings",
+    "hint": "Long, thin boards used to cover the exterior of buildings."
+  },
+  {
+    "word": "xerographically",
+    "hint": "In a dry photocopying process using electrostatics."
+  },
+  {
+    "word": "youthfulnesses",
+    "hint": "The state or quality of being young or youthful."
+  },
+  {
+    "word": "zoogeographical",
+    "hint": "Related to the geographical distribution of animals."
+  },
+  {
+    "word": "acquaintanceship",
+    "hint": "The state of being acquainted or having a casual relationship with someone."
+  },
+  {
+    "word": "benefactorships",
+    "hint": "The state of being a person who provides help, especially through financial aid."
+  },
+  {
+    "word": "circumnavigated",
+    "hint": "Traveled all the way around a place, typically the Earth."
+  },
+  {
+    "word": "disproportionate",
+    "hint": "Out of proportion in size, quantity, or importance."
+  },
+  {
+    "word": "extracurriculars",
+    "hint": "Activities pursued outside of regular curriculum or work."
+  },
+  {
+    "word": "flabbergastingly",
+    "hint": "In an extremely surprising or shocking manner."
+  },
+  {
+    "word": "gentlemanlikeness",
+    "hint": "The quality of being gentlemanly, refined, and well-mannered."
+  },
+  {
+    "word": "hypoallergenic",
+    "hint": "Unlikely to cause an allergic reaction."
+  },
+  {
+    "word": "inquisitivenesses",
+    "hint": "The plural form of the desire to learn or know about something in a curious manner."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "flibbertigibbet",
+    "hint": "A frivolous or flighty person, usually a young woman."
+  },
+  {
+    "word": "gentlemanliness",
+    "hint": "The quality of being chivalrous, courteous, and well-mannered."
+  },
+  {
+    "word": "heterogeneous",
+    "hint": "Consisting of diverse elements or parts."
+  },
+  {
+    "word": "inquisitiveness",
+    "hint": "The desire to learn or know about something in a curious manner."
+  },
+  {
+    "word": "juxtapositional",
+    "hint": "The act of placing things side by side for comparison or contrast."
+  },
+  {
+    "word": "lexicographical",
+    "hint": "Relating to the writing, editing, or compiling of dictionaries."
+  },
+  {
+    "word": "mnemonics",
+    "hint": "Aids or techniques used to improve memory retention."
+  },
+  {
+    "word": "neuroscientists",
+    "hint": "Scientists who study the nervous system and brain."
+  },
+  {
+    "word": "ostentatiously",
+    "hint": "In a showy or pretentious manner to attract attention."
+  },
+  {
+    "word": "paleontological",
+    "hint": "Relating to the study of prehistoric life through fossils."
+  },
+  {
+    "word": "quantification",
+    "hint": "The process of determining or expressing the quantity of something."
+  },
+  {
+    "word": "responsivenesses",
+    "hint": "The quality of reacting quickly and positively to something."
+  },
+  {
+    "word": "simultaneousness",
+    "hint": "The state of occurring at the same time or instantaneously."
+  },
+  {
+    "word": "theatricalities",
+    "hint": "The quality or behavior of being dramatic or theatrical."
+  },
+  {
+    "word": "uncharacteristic",
+    "hint": "Not typical or characteristic of a person or thing."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jackal",
+    "hint": "A carnivorous mammal resembling a small wolf, native to Africa and Asia."
+  },
+  {
+    "word": "kayak",
+    "hint": "A small, narrow boat used by a single person, propelled with a double-bladed paddle."
+  },
+  {
+    "word": "mosquito",
+    "hint": "A small flying insect known for its irritating bites and ability to transmit diseases."
+  },
+  {
+    "word": "narwhal",
+    "hint": "A medium-sized toothed whale with a long, spiral tusk extending from its upper jaw."
+  },
+  {
+    "word": "cherry",
+    "hint": "A small, round, and juicy fruit with a hard seed in the center."
+  },
+  {
+    "word": "ubiquitous",
+    "hint": "Present, appearing, or found everywhere."
+  },
+  {
+    "word": "quixotic",
+    "hint": "Exceedingly idealistic; unrealistic and impractical."
+  },
+  {
+    "word": "kaleidoscope",
+    "hint": "A constantly changing pattern or sequence of elements."
+  },
+  {
+    "word": "pernicious",
+    "hint": "Having a harmful effect, especially in a gradual or subtle way."
+  },
+  {
+    "word": "ephemeral",
+    "hint": "Lasting for a very short time."
+  },
+  {
+    "word": "mellifluous",
+    "hint": "Sweet-sounding; pleasing to the ear."
+  },
+  {
+    "word": "zeitgeist",
+    "hint": "The defining spirit or mood of a particular period in history."
+  },
+  {
+    "word": "vicissitude",
+    "hint": "A change of circumstances or fortune, typically unwelcome or unpleasant."
+  },
+  {
+    "word": "effervescent",
+    "hint": "Bubbling, fizzy, or lively in personality."
+  },
+  {
+    "word": "quandary",
+    "hint": "A state of uncertainty or indecision in a difficult situation."
+  },
+  {
+    "word": "ennui",
+    "hint": "A feeling of listlessness and dissatisfaction arising from a lack of occupation or excitement."
+  },
+  {
+    "word": "ephemeral",
+    "hint": "Lasting for a very short time."
+  },
+  {
+    "word": "quintessential",
+    "hint": "Representing the most perfect or typical example of a quality or class."
+  },
+  {
+    "word": "effulgent",
+    "hint": "Shining brightly; radiant."
+  },
+  {
+    "word": "juxtapose",
+    "hint": "To place two or more things together, especially in order to suggest a link between them or emphasize the contrast."
+  },
+  {
+    "word": "ameliorate",
+    "hint": "To make something better; improve."
+  },
+  {
+    "word": "expunge",
+    "hint": "To erase or remove completely (something unwanted or unpleasant)."
+  },
+  {
+    "word": "ephemeral",
+    "hint": "Lasting for a very short time."
+  },
+  {
+    "word": "insidious",
+    "hint": "Proceeding in a gradual, subtle way, but with harmful effects."
+  },
+  {
+    "word": "inexorable",
+    "hint": "Impossible to stop or prevent."
+  },
+  {
+    "word": "obfuscate",
+    "hint": "To render obscure, unclear, or unintelligible."
+  },
+  {
+    "word": "trepidation",
+    "hint": "A feeling of fear or agitation about something that may happen."
+  },
+  {
+    "word": "bucolic",
+    "hint": "Relating to the pleasant aspects of the countryside and rural life."
+  },
+  {
+    "word": "egregious",
+    "hint": "Outstandingly bad; shocking."
+  },
+  {
+    "word": "ineffable",
+    "hint": "Too great or extreme to be expressed or described in words."
+  },
+  {
+    "word": "cacophony",
+    "hint": "A harsh, discordant mixture of sounds."
+  },
+  {
+    "word": "recalcitrant",
+    "hint": "Having an obstinately uncooperative attitude toward authority or discipline."
+  },
+  {
+    "word": "antediluvian",
+    "hint": "Of or belonging to the time before the biblical Flood; extremely old or old-fashioned."
+  },
+  {
+    "word": "sesquipedalian",
+    "hint": "Given to using long words."
+  },
+  {
+    "word": "oblivion",
+    "hint": "The state of being unaware or unconscious of what is happening."
+  },
+  {
+    "word": "quagmire",
+    "hint": "A difficult or precarious situation; a predicament."
+  },
+  {
+    "word": "magnanimous",
+    "hint": "Very generous or forgiving, especially toward a rival or someone less powerful than oneself."
+  },
+  {
+    "word": "conundrum",
+    "hint": "A confusing and difficult problem or question."
+  },
+  {
+    "word": "pulchritudinous",
+    "hint": "Physically beautiful; comely."
+  },
+  {
+    "word": "benevolent",
+    "hint": "Well-meaning and kindly."
+  },
+  {
+    "word": "machiavellian",
+    "hint": "Cunning, scheming, and unscrupulous, especially in politics or in advancing one's career."
+  },
+  {
+    "word": "garrulous",
+    "hint": "Excessively talkative, especially on trivial matters."
+  },
+  {
+    "word": "dichotomy",
+    "hint": "A division or contrast between two things that are or are represented as being opposed or entirely different."
+  },
+  {
+    "word": "ambivalent",
+    "hint": "Having mixed feelings or contradictory ideas about something or someone."
+  },
+  {
+    "word": "anachronistic",
+    "hint": "Belonging to a period other than that being portrayed; old-fashioned."
+  },
+  {
+    "word": "labyrinthine",
+    "hint": "Complicated, tortuous, and difficult to understand."
+  },
+  {
+    "word": "vicarious",
+    "hint": "Experienced in the imagination through the feelings or actions of another person."
+  },
+  {
+    "word": "nefarious",
+    "hint": "Wicked, villainous, or criminal."
+  },
+  {
+    "word": "bellicose",
+    "hint": "Demonstrating aggression and willingness to fight."
+  },
+  {
+    "word": "laconic",
+    "hint": "Using very few words; concise."
+  },
+  {
+    "word": "disparate",
+    "hint": "Essentially different in kind; not allowing comparison."
+  },
+  {
+    "word": "supercilious",
+    "hint": "Behaving or looking as though one thinks one is superior to others."
+  },
+  {
+    "word": "quiescent",
+    "hint": "In a state or period of inactivity or dormancy."
+  },
+  {
+    "word": "vociferous",
+    "hint": "Loud, noisy, and vehement in making one's feelings known."
+  },
+  {
+    "word": "malevolent",
+    "hint": "Having or showing a wish to do evil to others."
+  },
+  {
+    "word": "date",
+    "hint": "A sweet and chewy fruit with a wrinkled appearance, often eaten dried."
+  },
+  {
+    "word": "elderberry",
+    "hint": "A dark purple fruit that grows in clusters and is often used for making jam or syrup."
+  },
+  {
+    "word": "fig",
+    "hint": "A pear-shaped fruit with sweet flesh and a thin skin."
+  },
+  {
+    "word": "grape",
+    "hint": "A small, round fruit that grows in clusters on vines."
+  },
+  {
+    "word": "honeydew",
+    "hint": "A sweet and juicy melon with pale green flesh."
+  },
+  {
+    "word": "kiwi",
+    "hint": "A small, brown, and fuzzy fruit with green flesh and black seeds."
+  },
+  {
+    "word": "lemon",
+    "hint": "A sour, yellow fruit with a thick rind and juicy pulp."
+  },
+  {
+    "word": "mango",
+    "hint": "A juicy, tropical fruit with a sweet and tangy flavor."
+  },
+  {
+    "word": "nectarine",
+    "hint": "A smooth-skinned fruit that is similar to a peach but lacks the fuzzy coating."
+  },
+  {
+    "word": "orange",
+    "hint": "A round, citrus fruit with a tough, orange-colored rind and juicy segments."
+  },
+  {
+    "word": "pear",
+    "hint": "A sweet and juicy fruit with a thin skin and a core containing seeds."
+  },
+  {
+    "word": "quince",
+    "hint": "A fragrant fruit that resembles a pear but is firmer and more astringent."
+  },
+  {
+    "word": "raspberry",
+    "hint": "A small, red or black fruit that grows on brambles."
+  },
+  {
+    "word": "strawberry",
+    "hint": "A small, red fruit with tiny seeds on its surface."
+  },
+  {
+    "word": "tangerine",
+    "hint": "A small, citrus fruit that is similar to an orange but easier to peel."
+  },
+  {
+    "word": "ugli fruit",
+    "hint": "A cross between a grapefruit and a tangerine, with a rough, wrinkled skin."
+  },
+  {
+    "word": "vanilla bean",
+    "hint": "The seed pod of the vanilla orchid, used to flavor foods and beverages."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A large, juicy melon with sweet, red or pink flesh."
+  },
+  {
+    "word": "apricot",
+    "hint": "A small, orange fruit with a sweet and slightly tart flavor."
+  },
+  {
+    "word": "blueberry",
+    "hint": "A small, round fruit that is dark blue or purple when ripe."
+  },
+  {
+    "word": "cranberry",
+    "hint": "A small, red fruit that grows on low, trailing plants in acidic bogs."
+  },
+  {
+    "word": "durian",
+    "hint": "A large, spiky fruit with a strong odor and custard-like flesh."
+  },
+  {
+    "word": "elderberry",
+    "hint": "A dark purple fruit that grows in clusters and is often used for making jam or syrup."
+  },
+  {
+    "word": "feijoa",
+    "hint": "A green fruit with a sweet and tangy flavor, native to South America."
+  },
+  {
+    "word": "grapefruit",
+    "hint": "A large citrus fruit with a thick, yellow or pink rind and juicy segments."
+  },
+  {
+    "word": "honeycrisp apple",
+    "hint": "A sweet and crunchy apple variety with a bright red and yellow skin."
+  },
+  {
+    "word": "bouquet",
+    "hint": "A bunch of flowers, often arranged in an attractive way."
+  },
+  {
+    "word": "champion",
+    "hint": "A person who has defeated all rivals in a competition or has outstanding skills."
+  },
+  {
+    "word": "daughter",
+    "hint": "A female child in relation to her parents."
+  },
+  {
+    "word": "favorite",
+    "hint": "Preferred above all others or treated with special preference."
+  },
+  {
+    "word": "gazelle",
+    "hint": "A small to medium-sized antelope known for its speed and grace."
+  },
+  {
+    "word": "hydrate",
+    "hint": "To supply with water or liquid to maintain a proper level of fluid in the body."
+  },
+  {
+    "word": "janitor",
+    "hint": "A person employed to clean and maintain a building."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "monopoly",
+    "hint": "The exclusive possession or control of the supply or trade of a commodity or service."
+  },
+  {
+    "word": "passionate",
+    "hint": "Having or showing intense emotions, enthusiasm, or strong feelings."
+  },
+  {
+    "word": "quicksand",
+    "hint": "A loose, wet sand that traps and engulfs anything that steps on it."
+  },
+  {
+    "word": "resilient",
+    "hint": "Able to withstand or recover quickly from difficult conditions."
+  },
+  {
+    "word": "spectacle",
+    "hint": "An impressive or remarkable public display or performance."
+  },
+  {
+    "word": "tambourine",
+    "hint": "A small musical instrument with jingling metal disks or rings attached to the frame."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "vacuuming",
+    "hint": "The act of cleaning using a vacuum cleaner."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "yesterday",
+    "hint": "The day before today or in the past."
+  },
+  {
+    "word": "zucchini",
+    "hint": "A green summer squash, often used in cooking and salads."
+  },
+  {
+    "word": "abominable",
+    "hint": "Causing moral revulsion or horror."
+  },
+  {
+    "word": "benevolent",
+    "hint": "Well-meaning and kind."
+  },
+  {
+    "word": "celebration",
+    "hint": "The action of marking a significant event with joy and festivity."
+  },
+  {
+    "word": "deceptive",
+    "hint": "Giving an appearance or impression that is misleading or untrue."
+  },
+  {
+    "word": "accelerator",
+    "hint": "A device that increases the speed or rate of something."
+  },
+  {
+    "word": "breathtaking",
+    "hint": "Extremely impressive, awe-inspiring, or stunning."
+  },
+  {
+    "word": "chandelier",
+    "hint": "An ornate, branched lighting fixture suspended from a ceiling."
+  },
+  {
+    "word": "development",
+    "hint": "The process of growth, progress, or advancement."
+  },
+  {
+    "word": "perpendicular",
+    "hint": "At an angle of 90 degrees to a given line, plane, or surface."
+  },
+  {
+    "word": "questionable",
+    "hint": "Doubtful, uncertain, or open to challenge or suspicion."
+  },
+  {
+    "word": "revolutionary",
+    "hint": "Involving or causing a complete or dramatic change."
+  },
+  {
+    "word": "sophisticated",
+    "hint": "Cultured, refined, or developed to a high degree."
+  },
+  {
+    "word": "ultraviolet",
+    "hint": "Beyond the violet end of the visible spectrum, with higher energy and shorter wavelengths."
+  },
+  {
+    "word": "vivaciousness",
+    "hint": "The quality of being lively, animated, and full of energy."
+  },
+  {
+    "word": "whimsicality",
+    "hint": "The quality of being playfully quaint or fanciful."
+  },
+  {
+    "word": "yesteryears",
+    "hint": "The time that has passed or the things of the past."
+  },
+  {
+    "word": "zooplankton",
+    "hint": "Tiny animals that float in the water and are important food sources for many aquatic creatures."
+  },
+  {
+    "word": "abracadabra",
+    "hint": "A word or phrase used in magic tricks and conjuring."
+  },
+  {
+    "word": "benevolence",
+    "hint": "The quality of being well-meaning and kind."
+  },
+  {
+    "word": "consequence",
+    "hint": "The result or outcome of an action or situation."
+  },
+  {
+    "word": "disposition",
+    "hint": "A person's inherent qualities of mind and character."
+  },
+  {
+    "word": "accomplishment",
+    "hint": "An achievement or success resulting from effort and hard work."
+  },
+  {
+    "word": "breathtakingly",
+    "hint": "In a manner that takes one's breath away, extremely impressively."
+  },
+  {
+    "word": "catastrophic",
+    "hint": "Involving or causing great damage or suffering."
+  },
+  {
+    "word": "deliberation",
+    "hint": "Careful consideration and thought before making a decision."
+  },
+  {
+    "word": "effortlessly",
+    "hint": "With ease, without much effort or difficulty."
+  },
+  {
+    "word": "flabbergasting",
+    "hint": "Astounding or shocking in a bewildering way."
+  },
+  {
+    "word": "generalization",
+    "hint": "A broad statement or idea that applies to a group or situation."
+  },
+  {
+    "word": "hypothesize",
+    "hint": "To propose a theory or idea based on limited evidence."
+  },
+  {
+    "word": "impermanence",
+    "hint": "The quality of being temporary or not lasting."
+  },
+  {
+    "word": "jackhammering",
+    "hint": "The act of using a powerful drill to break hard substances."
+  },
+  {
+    "word": "lackadaisical",
+    "hint": "Lacking enthusiasm or determination, lazy or careless."
+  },
+  {
+    "word": "metamorphosis",
+    "hint": "A profound change in form, structure, or nature."
+  },
+  {
+    "word": "negotiation",
+    "hint": "The process of discussing and reaching an agreement or compromise."
+  },
+  {
+    "word": "orchestrating",
+    "hint": "Arranging or coordinating various elements for a specific purpose."
+  },
+  {
+    "word": "perpendiculars",
+    "hint": "Lines or planes at an angle of 90 degrees to each other."
+  },
+  {
+    "word": "questioningly",
+    "hint": "In a manner that shows doubt or uncertainty."
+  },
+  {
+    "word": "revolutionary",
+    "hint": "Involving or causing a complete or dramatic change."
+  },
+  {
+    "word": "sophisticated",
+    "hint": "Cultured, refined, or developed to a high degree."
+  },
+  {
+    "word": "transmissions",
+    "hint": "The act of sending or transmitting something, such as signals or information."
+  },
+  {
+    "word": "ultraviolet",
+    "hint": "Beyond the violet end of the visible spectrum, with higher energy and shorter wavelengths."
+  },
+  {
+    "word": "vivaciousness",
+    "hint": "The quality of being lively, animated, and full of energy."
+  },
+  {
+    "word": "whimsicality",
+    "hint": "The quality of being playfully quaint or fanciful."
+  },
+  {
+    "word": "xylophonist",
+    "hint": "A person who plays the xylophone as a skilled musician."
+  },
+  {
+    "word": "yesteryears",
+    "hint": "The time that has passed or the things of the past."
+  },
+  {
+    "word": "zooplanktonic",
+    "hint": "Relating to tiny animals that float in the water and are important food sources for many aquatic creatures."
+  },
+  {
+    "word": "abracadabratic",
+    "hint": "Relating to a word or phrase used in magic tricks and conjuring."
+  },
+  {
+    "word": "benevolently",
+    "hint": "In a kind and well-meaning manner."
+  },
+  {
+    "word": "consequences",
+    "hint": "The results or outcomes of actions or situations."
+  },
+  {
+    "word": "dispositions",
+    "hint": "A person's inherent qualities of mind and character."
+  },
+  {
+    "word": "extraordinary",
+    "hint": "Remarkable, exceptional, or beyond the usual."
+  },
+  {
+    "word": "fundamentally",
+    "hint": "In a way that relates to the basic principles or essence of something."
+  },
+  {
+    "word": "gobbledygook",
+    "hint": "Language that is meaningless or hard to understand; nonsense."
+  },
+  {
+    "word": "housewarming",
+    "hint": "A party or celebration to welcome someone to a new home."
+  },
+  {
+    "word": "intellectual",
+    "hint": "Relating to the intellect or highly educated and thoughtful."
+  },
+  {
+    "word": "jurisprudence",
+    "hint": "The theory and philosophy of law."
+  },
+  {
+    "word": "knightliness",
+    "hint": "The qualities of honor, chivalry, and bravery associated with knights."
+  },
+  {
+    "word": "stereotypical",
+    "hint": "Conforming to a fixed or conventional image or idea."
+  },
+  {
+    "word": "theatricality",
+    "hint": "The quality of being dramatic, exaggerated, or showy."
+  },
+  {
+    "word": "unpredictable",
+    "hint": "Not able to be anticipated or foreseen."
+  },
+  {
+    "word": "valedictorian",
+    "hint": "The highest-ranking student in a graduating class, typically delivering a farewell speech."
+  },
+  {
+    "word": "wholesomeness",
+    "hint": "The quality of being conducive to good health and well-being."
+  },
+  {
+    "word": "xenophobically",
+    "hint": "In a manner characterized by an intense dislike or fear of people from other countries or cultures."
+  },
+  {
+    "word": "yesterday's",
+    "hint": "Belonging to or occurring in the past, specifically the day before today."
+  },
+  {
+    "word": "zestfulnesses",
+    "hint": "The quality of being full of enthusiasm and energy."
+  },
+  {
+    "word": "accommodations",
+    "hint": "A place to live or stay in, as well as adjustments made for someone's comfort or convenience."
+  },
+  {
+    "word": "benevolently",
+    "hint": "In a kind and charitable manner."
+  },
+  {
+    "word": "circumnavigate",
+    "hint": "To travel all the way around something, especially the Earth."
+  },
+  {
+    "word": "dissemination",
+    "hint": "The act of spreading something, especially information or knowledge."
+  },
+  {
+    "word": "eavesdropping",
+    "hint": "Secretly listening to someone's conversation without their knowledge or permission."
+  },
+  {
+    "word": "fragmentation",
+    "hint": "The process of breaking something into small parts or pieces."
+  },
+  {
+    "word": "gentlemanlike",
+    "hint": "Characterized by qualities considered appropriate in a well-mannered man."
+  },
+  {
+    "word": "hallucinatory",
+    "hint": "Relating to or characterized by hallucinations, which are sensory perceptions without external stimulus."
+  },
+  {
+    "word": "antidisestablishment",
+    "hint": "The movement to separate church and state."
+  },
+  {
+    "word": "biodiversity",
+    "hint": "The variety of plant and animal life in a particular habitat."
+  },
+  {
+    "word": "circumstantial",
+    "hint": "Involving or based on circumstances and evidence, rather than direct proof."
+  },
+  {
+    "word": "discombobulated",
+    "hint": "Confused and disconcerted."
+  },
+  {
+    "word": "exhilaratingly",
+    "hint": "In an exciting and invigorating manner."
+  },
+  {
+    "word": "zyme",
+    "hint": "An enzyme."
+  },
+  {
+    "word": "zeta",
+    "hint": "The sixth letter of the Greek alphabet (Ζ, ζ)."
+  },
+  {
+    "word": "zymo",
+    "hint": "Fermentation; yeast."
+  },
+  {
+    "word": "zymu",
+    "hint": "Of or pertaining to yeast; fermentation."
+  },
+  {
+    "word": "zyme",
+    "hint": "A ferment; enzyme."
+  },
+  {
+    "word": "yule",
+    "hint": "The Christmas season; also Yule log, Yule tide."
+  },
+  {
+    "word": "yuga",
+    "hint": "A major epoch or era in Hindu cosmology."
+  },
+  {
+    "word": "yups",
+    "hint": "Yes; affirmative."
+  },
+  {
+    "word": "yuks",
+    "hint": "Laughs."
+  },
+  {
+    "word": "yuki",
+    "hint": "A female Japanese given name."
+  },
+  {
+    "word": "yuga",
+    "hint": "One of the four ages of the world (Hinduism)."
+  },
+  {
+    "word": "yowe",
+    "hint": "To call; to cry; to yowl."
+  },
+  {
+    "word": "yowl",
+    "hint": "To howl; to wail."
+  },
+  {
+    "word": "yown",
+    "hint": "To yawn."
+  },
+  {
+    "word": "yous",
+    "hint": "You, in Southern US dialect."
+  },
+  {
+    "word": "youn",
+    "hint": "The yew tree."
+  },
+  {
+    "word": "yoni",
+    "hint": "The female reproductive organ in Hinduism."
+  },
+  {
+    "word": "yomp",
+    "hint": "To eat or drink noisily."
+  },
+  {
+    "word": "yill",
+    "hint": "Ale."
+  },
+  {
+    "word": "yids",
+    "hint": "Yiddish-speaking Jews."
+  },
+  {
+    "word": "yett",
+    "hint": "A gate, bar, or its equivalent."
+  },
+  {
+    "word": "yess",
+    "hint": "Yes."
+  },
+  {
+    "word": "yeuk",
+    "hint": "To itch."
+  },
+  {
+    "word": "yerk",
+    "hint": "To throw or thrust with a sudden movement; to jerk."
+  },
+  {
+    "word": "yeow",
+    "hint": "A cry of pain; a yowl."
+  },
+  {
+    "word": "yeni",
+    "hint": "The basic unit of money in Turkey."
+  },
+  {
+    "word": "yelm",
+    "hint": "A helm; a helmet."
+  },
+  {
+    "word": "yell",
+    "hint": "To cry out; to shout."
+  },
+  {
+    "word": "yech",
+    "hint": "An exclamation of disgust."
+  },
+  {
+    "word": "yeas",
+    "hint": "Yeses."
+  },
+  {
+    "word": "yeve",
+    "hint": "An exclamation used by boatmen to signify readiness."
+  },
+  {
+    "word": "yins",
+    "hint": "You, in Pittsburghese."
+  },
+  {
+    "word": "yilt",
+    "hint": "Did yield."
+  },
+  {
+    "word": "yips",
+    "hint": "A condition of nervous tension."
+  },
+  {
+    "word": "yerk",
+    "hint": "To beat; to belabor."
+  },
+  {
+    "word": "yirr",
+    "hint": "To snarl; to growl."
+  },
+  {
+    "word": "yite",
+    "hint": "To sit or lie."
+  },
+  {
+    "word": "yird",
+    "hint": "To bury."
+  },
+  {
+    "word": "yird",
+    "hint": "Earth."
+  },
+  {
+    "word": "yips",
+    "hint": "Nervous tension causing a player to miss an easy shot."
+  },
+  {
+    "word": "yipe",
+    "hint": "To bark sharply or shrilly; to yelp."
+  },
+  {
+    "word": "yird",
+    "hint": "To bury; inter."
+  },
+  {
+    "word": "yips",
+    "hint": "An attack of nerves causing an athlete to perform poorly."
+  },
+  {
+    "word": "yips",
+    "hint": "A state of nervous tension affecting an athlete (golf, etc.) in the performance of a crucial action."
+  },
+  {
+    "word": "yipe",
+    "hint": "To yell or shout."
+  },
+  {
+    "word": "yins",
+    "hint": "You (plural); yourselves."
+  },
+  {
+    "word": "yill",
+    "hint": "Ale; beer."
+  },
+  {
+    "word": "yexs",
+    "hint": "Yes."
+  },
+  {
+    "word": "yeth",
+    "hint": "Yes."
+  },
+  {
+    "word": "yeps",
+    "hint": "Yes."
+  },
+  {
+    "word": "yexs",
+    "hint": "Yes; yeah."
+  },
+  {
+    "word": "yert",
+    "hint": "To yerk; to throw."
+  },
+  {
+    "word": "yerk",
+    "hint": "To throw."
+  },
+  {
+    "word": "yech",
+    "hint": "Disgusting."
+  },
+  {
+    "word": "yank",
+    "hint": "To pull or extract with a quick jerk."
+  },
+  {
+    "word": "yams",
+    "hint": "Sweet potatoes."
+  },
+  {
+    "word": "yags",
+    "hint": "Yagermeister (a brand of German liqueur)."
+  },
+  {
+    "word": "yaud",
+    "hint": "An old ewe."
+  },
+  {
+    "word": "yark",
+    "hint": "To beat."
+  },
+  {
+    "word": "yaps",
+    "hint": "To bark; to yip."
+  },
+  {
+    "word": "yapp",
+    "hint": "To bark sharply or snappishly; to yelp."
+  },
+  {
+    "word": "yaff",
+    "hint": "To bark."
+  },
+  {
+    "word": "yaar",
+    "hint": "A pirate."
+  },
+  {
+    "word": "yaak",
+    "hint": "To stop; to bar; to yack."
+  },
+  {
+    "word": "xyly",
+    "hint": "A hydrocarbon radical, CH2(C6H4)2."
+  },
+  {
+    "word": "xylo",
+    "hint": "Of or pertaining to wood."
+  },
+  {
+    "word": "xyst",
+    "hint": "A covered portico, as a gymnasium."
+  },
+  {
+    "word": "xyst",
+    "hint": "A garden walk planted with trees."
+  },
+  {
+    "word": "xyst",
+    "hint": "In ancient Greece and Rome, a covered portico used as a promenade."
+  },
+  {
+    "word": "xyst",
+    "hint": "A long portico or covered walk, often for athletic exercise."
+  },
+  {
+    "word": "xylo",
+    "hint": "A combining form meaning \"wood,\" used in the formation of compound words."
+  },
+  {
+    "word": "xyst",
+    "hint": "A long covered walk, often for athletic exercise, as in ancient Greece; a covered portico."
+  },
+  {
+    "word": "xyly",
+    "hint": "A univalent hydrocarbon radical, C6H4(CH2)2-6."
+  },
+  {
+    "word": "xyst",
+    "hint": "A covered portico, as a gymnasium or place for exercise in walking; a covered walk."
+  },
+  {
+    "word": "xyly",
+    "hint": "A univalent hydrocarbon radical, C6H4(CH2)4-6."
+  },
+  {
+    "word": "xyst",
+    "hint": "A garden walk planted with trees, or a promenade in a garden; a covered walk."
+  },
+  {
+    "word": "xyst",
+    "hint": "A covered walk, as in a garden."
+  },
+  {
+    "word": "xyst",
+    "hint": "A long covered walk, generally in a garden, for exercise in walking."
+  },
+  {
+    "word": "xyst",
+    "hint": "A garden walk planted with trees; a promenade."
+  },
+  {
+    "word": "xyst",
+    "hint": "A covered walk, or a portico with a covered walk."
+  },
+  {
+    "word": "xyst",
+    "hint": "A long portico or promenade, especially one used by athletes in ancient Greece."
+  },
+  {
+    "word": "apple",
+    "hint": "A red or green fruit."
+  },
+  {
+    "word": "banana",
+    "hint": "A yellow, elongated fruit with a thick skin."
+  },
+  {
+    "word": "chocolate",
+    "hint": "A sweet, brown treat often used in desserts."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "guitar",
+    "hint": "A musical instrument with strings that is played with fingers or a pick."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "mountain",
+    "hint": "A large landform that rises steeply above its surroundings."
+  },
+  {
+    "word": "penguin",
+    "hint": "A flightless bird found in the Southern Hemisphere, often dressed in a tuxedo-like plumage."
+  },
+  {
+    "word": "rainbow",
+    "hint": "A beautiful arc of colors in the sky, often seen after rain showers."
+  },
+  {
+    "word": "starfish",
+    "hint": "A marine animal with a star-shaped body and arms that live on the ocean floor."
+  },
+  {
+    "word": "bicycle",
+    "hint": "A two-wheeled vehicle powered by pedals."
+  },
+  {
+    "word": "book",
+    "hint": "A written or printed work consisting of pages glued or sewn together along one side."
+  },
+  {
+    "word": "butterfly",
+    "hint": "An insect with colorful wings that undergo metamorphosis."
+  },
+  {
+    "word": "castle",
+    "hint": "A large, fortified building often associated with medieval times."
+  },
+  {
+    "word": "coffee",
+    "hint": "A popular beverage made from roasted coffee beans."
+  },
+  {
+    "word": "diamond",
+    "hint": "A precious gemstone known for its brilliance and clarity."
+  },
+  {
+    "word": "fireworks",
+    "hint": "Explosive pyrotechnic displays often used in celebrations."
+  },
+  {
+    "word": "helicopter",
+    "hint": "An aircraft that lifts off vertically and is propelled by rotating blades."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jungle",
+    "hint": "A dense, tropical forest with a wide variety of plant and animal species."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "lamp",
+    "hint": "A portable light source with a bulb and shade."
+  },
+  {
+    "word": "moon",
+    "hint": "A natural satellite that orbits around a planet."
+  },
+  {
+    "word": "ocean",
+    "hint": "A vast body of saltwater that covers most of the Earth's surface."
+  },
+  {
+    "word": "piano",
+    "hint": "A musical instrument with keys that produce sound when struck by hammers."
+  },
+  {
+    "word": "quill",
+    "hint": "A writing instrument made from a bird's feather."
+  },
+  {
+    "word": "rain",
+    "hint": "Water falling from the clouds in droplets."
+  },
+  {
+    "word": "sailboat",
+    "hint": "A boat with sails, typically used for recreation or sport."
+  },
+  {
+    "word": "tiger",
+    "hint": "A large carnivorous feline with a distinctive orange coat and black stripes."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "waterfall",
+    "hint": "A cascade of water flowing from a height, often found in rivers and streams."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yacht",
+    "hint": "A luxurious and elegant boat used for pleasure or racing."
+  },
+  {
+    "word": "zebra",
+    "hint": "An African mammal with black and white stripes."
+  },
+  {
+    "word": "breeze",
+    "hint": "A gentle wind or current of air."
+  },
+  {
+    "word": "camera",
+    "hint": "A device used to capture and record photographs or videos."
+  },
+  {
+    "word": "dolphin",
+    "hint": "A highly intelligent marine mammal known for its playful behavior."
+  },
+  {
+    "word": "earthquake",
+    "hint": "The shaking of the ground caused by sudden movement of tectonic plates."
+  },
+  {
+    "word": "feather",
+    "hint": "A lightweight, flat structure that forms the outer covering of birds' bodies."
+  },
+  {
+    "word": "garden",
+    "hint": "An area where plants, flowers, and sometimes fruits or vegetables are grown."
+  },
+  {
+    "word": "hurricane",
+    "hint": "A severe tropical cyclone with strong winds and heavy rainfall."
+  },
+  {
+    "word": "iceberg",
+    "hint": "A large floating mass of ice detached from a glacier or ice sheet."
+  },
+  {
+    "word": "jigsaw",
+    "hint": "A type of puzzle that requires the assembly of various interlocking pieces to form a picture."
+  },
+  {
+    "word": "kettle",
+    "hint": "A container with a spout and handle used for boiling water."
+  },
+  {
+    "word": "laptop",
+    "hint": "A portable computer designed to be used on one's lap."
+  },
+  {
+    "word": "magnet",
+    "hint": "An object or material that produces a magnetic field and attracts certain metals."
+  },
+  {
+    "word": "notebook",
+    "hint": "A small, lightweight book used for writing, notes, or sketches."
+  },
+  {
+    "word": "octopus",
+    "hint": "A marine mollusk with eight tentacles and a soft, sac-like body."
+  },
+  {
+    "word": "parachute",
+    "hint": "A device used to slow the descent of a person or object through the air."
+  },
+  {
+    "word": "quicksand",
+    "hint": "A loose, wet sand that traps and engulfs anything that steps on it."
+  },
+  {
+    "word": "raincoat",
+    "hint": "A waterproof coat worn to protect against rain."
+  },
+  {
+    "word": "sunflower",
+    "hint": "A tall plant with large, yellow flowers that turn to face the sun."
+  },
+  {
+    "word": "telescope",
+    "hint": "An optical instrument used to view distant objects in space."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "waterfall",
+    "hint": "A cascade of water flowing from a height, often found in rivers and streams."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yacht",
+    "hint": "A luxurious and elegant boat used for pleasure or racing."
+  },
+  {
+    "word": "zebra",
+    "hint": "An African mammal with black and white stripes."
+  },
+  {
+    "word": "airplane",
+    "hint": "A powered flying vehicle with fixed wings and a jet or propeller engine."
+  },
+  {
+    "word": "butterfly",
+    "hint": "An insect with colorful wings that undergo metamorphosis."
+  },
+  {
+    "word": "cactus",
+    "hint": "A spiny, desert plant that can store water in its stems."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fireplace",
+    "hint": "An indoor structure used to contain and control a fire for heating or cooking."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "honeybee",
+    "hint": "A flying insect that collects nectar to produce honey."
+  },
+  {
+    "word": "ice cream",
+    "hint": "A frozen dessert made from dairy products and flavored with various ingredients."
+  },
+  {
+    "word": "jungle",
+    "hint": "A dense, tropical forest with a wide variety of plant and animal species."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "magnolia",
+    "hint": "A fragrant flower with large, showy white or pink petals."
+  },
+  {
+    "word": "nightingale",
+    "hint": "A small songbird known for its beautiful and melodic nighttime singing."
+  },
+  {
+    "word": "ostrich",
+    "hint": "A large flightless bird with long legs and neck, native to Africa."
+  },
+  {
+    "word": "penguin",
+    "hint": "A flightless bird found in the Southern Hemisphere, often dressed in a tuxedo-like plumage."
+  },
+  {
+    "word": "acrobatic",
+    "hint": "Relating to impressive feats of balance, agility, and coordination."
+  },
+  {
+    "word": "ballerina",
+    "hint": "A female ballet dancer who performs graceful and precise movements."
+  },
+  {
+    "word": "cappuccino",
+    "hint": "An Italian coffee drink made with espresso, steamed milk, and frothy milk foam."
+  },
+  {
+    "word": "dinosaur",
+    "hint": "An extinct reptile that lived millions of years ago, known for its massive size."
+  },
+  {
+    "word": "eleven",
+    "hint": "The number following ten."
+  },
+  {
+    "word": "firefighter",
+    "hint": "A person who is trained to extinguish fires and protect life and property."
+  },
+  {
+    "word": "globe",
+    "hint": "A spherical representation of the Earth or celestial objects."
+  },
+  {
+    "word": "hiking",
+    "hint": "The activity of taking long walks in nature, usually along trails and in the mountains."
+  },
+  {
+    "word": "igloo",
+    "hint": "A dome-shaped shelter made from blocks of snow, traditionally used by the Inuit people."
+  },
+  {
+    "word": "juggler",
+    "hint": "A person who can keep several objects in motion in the air simultaneously."
+  },
+  {
+    "word": "koala",
+    "hint": "An Australian marsupial known for its round face and fondness for eucalyptus leaves."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "magnificent",
+    "hint": "Impressively beautiful, grand, or awe-inspiring."
+  },
+  {
+    "word": "ninja",
+    "hint": "A skilled covert mercenary or warrior from feudal Japan."
+  },
+  {
+    "word": "oasis",
+    "hint": "A fertile spot in a desert where water can be found, often surrounded by vegetation."
+  },
+  {
+    "word": "parrot",
+    "hint": "A colorful bird with a strong curved beak, often capable of mimicking human speech."
+  },
+  {
+    "word": "quilt",
+    "hint": "A warm bed cover made of two layers of cloth filled with padding and stitched together."
+  },
+  {
+    "word": "rainbow",
+    "hint": "A beautiful arc of colors in the sky, often seen after rain showers."
+  },
+  {
+    "word": "saxophone",
+    "hint": "A musical instrument of the woodwind family, often used in jazz and classical music."
+  },
+  {
+    "word": "tornado",
+    "hint": "A violent rotating column of air extending from a thunderstorm to the ground."
+  },
+  {
+    "word": "unicorn",
+    "hint": "A mythical horse-like creature with a single twisted horn on its forehead."
+  },
+  {
+    "word": "violin",
+    "hint": "A string instrument played with a bow, producing melodious sounds."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yoga",
+    "hint": "A physical, mental, and spiritual practice that originated in ancient India."
+  },
+  {
+    "word": "zeppelin",
+    "hint": "A type of airship characterized by its elongated, cigar-shaped structure."
+  },
+  {
+    "word": "astronaut",
+    "hint": "A person trained to travel and work in space."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fjord",
+    "hint": "A long, narrow inlet with steep sides, typically formed by glacial activity."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jackal",
+    "hint": "A carnivorous mammal resembling a small wolf, native to Africa and Asia."
+  },
+  {
+    "word": "kayak",
+    "hint": "A small, narrow boat used by a single person, propelled with a double-bladed paddle."
+  },
+  {
+    "word": "llama",
+    "hint": "A South American mammal known for its woolly coat and long neck."
+  },
+  {
+    "word": "mosquito",
+    "hint": "A small flying insect known for its irritating bites and ability to transmit diseases."
+  },
+  {
+    "word": "narwhal",
+    "hint": "A medium-sized toothed whale with a long, spiral tusk extending from its upper jaw."
+  },
+  {
+    "word": "ocean",
+    "hint": "A vast body of saltwater that covers most of the Earth's surface."
+  },
+  {
+    "word": "avalanche",
+    "hint": "A rapid flow of snow down a steep slope."
+  },
+  {
+    "word": "broccoli",
+    "hint": "A green vegetable with tightly packed, edible flower buds."
+  },
+  {
+    "word": "candle",
+    "hint": "A cylindrical block of wax with a wick in the middle, used for lighting."
+  },
+  {
+    "word": "dolphin",
+    "hint": "A highly intelligent marine mammal known for its playful behavior."
+  },
+  {
+    "word": "eleven",
+    "hint": "The number following ten."
+  },
+  {
+    "word": "firefighter",
+    "hint": "A person who is trained to extinguish fires and protect life and property."
+  },
+  {
+    "word": "globe",
+    "hint": "A spherical representation of the Earth or celestial objects."
+  },
+  {
+    "word": "hiking",
+    "hint": "The activity of taking long walks in nature, usually along trails and in the mountains."
+  },
+  {
+    "word": "igloo",
+    "hint": "A dome-shaped shelter made from blocks of snow, traditionally used by the Inuit people."
+  },
+  {
+    "word": "juggler",
+    "hint": "A person who can keep several objects in motion in the air simultaneously."
+  },
+  {
+    "word": "koala",
+    "hint": "An Australian marsupial known for its round face and fondness for eucalyptus leaves."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "magnificent",
+    "hint": "Impressively beautiful, grand, or awe-inspiring."
+  },
+  {
+    "word": "ninja",
+    "hint": "A skilled covert mercenary or warrior from feudal Japan."
+  },
+  {
+    "word": "oasis",
+    "hint": "A fertile spot in a desert where water can be found, often surrounded by vegetation."
+  },
+  {
+    "word": "parrot",
+    "hint": "A colorful bird with a strong curved beak, often capable of mimicking human speech."
+  },
+  {
+    "word": "quilt",
+    "hint": "A warm bed cover made of two layers of cloth filled with padding and stitched together."
+  },
+  {
+    "word": "rainbow",
+    "hint": "A beautiful arc of colors in the sky, often seen after rain showers."
+  },
+  {
+    "word": "saxophone",
+    "hint": "A musical instrument of the woodwind family, often used in jazz and classical music."
+  },
+  {
+    "word": "tornado",
+    "hint": "A violent rotating column of air extending from a thunderstorm to the ground."
+  },
+  {
+    "word": "unicorn",
+    "hint": "A mythical horse-like creature with a single twisted horn on its forehead."
+  },
+  {
+    "word": "violin",
+    "hint": "A string instrument played with a bow, producing melodious sounds."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yoga",
+    "hint": "A physical, mental, and spiritual practice that originated in ancient India."
+  },
+  {
+    "word": "zeppelin",
+    "hint": "A type of airship characterized by its elongated, cigar-shaped structure."
+  },
+  {
+    "word": "astronaut",
+    "hint": "A person trained to travel and work in space."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fjord",
+    "hint": "A long, narrow inlet with steep sides, typically formed by glacial activity."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jackal",
+    "hint": "A carnivorous mammal resembling a small wolf, native to Africa and Asia."
+  },
+  {
+    "word": "kayak",
+    "hint": "A small, narrow boat used by a single person, propelled with a double-bladed paddle."
+  },
+  {
+    "word": "llama",
+    "hint": "A South American mammal known for its woolly coat and long neck."
+  },
+  {
+    "word": "mosquito",
+    "hint": "A small flying insect known for its irritating bites and ability to transmit diseases."
+  },
+  {
+    "word": "narwhal",
+    "hint": "A medium-sized toothed whale with a long, spiral tusk extending from its upper jaw."
+  },
+  {
+    "word": "ocean",
+    "hint": "A vast body of saltwater that covers most of the Earth's surface."
+  },
+  {
+    "word": "panda",
+    "hint": "A large bear-like mammal native to China, known for its distinctive black and white markings."
+  },
+  {
+    "word": "quokka",
+    "hint": "A small herbivorous marsupial native to Australia, known for its friendly and smiling appearance."
+  },
+  {
+    "word": "raccoon",
+    "hint": "A medium-sized nocturnal mammal native to North America, recognized by its black mask-like markings around the eyes."
+  },
+  {
+    "word": "Afghanistan",
+    "hint": "A landlocked country in South Asia, known for its diverse culture and rugged terrain."
+  },
+  {
+    "word": "Albania",
+    "hint": "A small country in Southeast Europe, known for its rich history and stunning landscapes."
+  },
+  {
+    "word": "Algeria",
+    "hint": "A large country in North Africa, known for its Sahara Desert and ancient ruins."
+  },
+  {
+    "word": "Andorra",
+    "hint": "A tiny principality in the Pyrenees mountains, known for its skiing and tax haven status."
+  },
+  {
+    "word": "Angola",
+    "hint": "A country in Southern Africa, known for its natural resources and wildlife."
+  },
+  {
+    "word": "Antigua and Barbuda",
+    "hint": "A Caribbean nation consisting of two major islands and several smaller ones."
+  },
+  {
+    "word": "Argentina",
+    "hint": "A vast country in South America, known for its tango, beef, and diverse landscapes."
+  },
+  {
+    "word": "Armenia",
+    "hint": "A small country in the South Caucasus, known for its ancient history and cultural heritage."
+  },
+  {
+    "word": "Australia",
+    "hint": "A large island country and continent in the Southern Hemisphere, known for its unique wildlife and natural wonders."
+  },
+  {
+    "word": "Austria",
+    "hint": "A Central European country known for its alpine scenery, classical music, and cultural heritage."
+  },
+  {
+    "word": "Azerbaijan",
+    "hint": "A country at the crossroads of Eastern Europe and Western Asia, known for its rich oil reserves and diverse landscapes."
+  },
+  {
+    "word": "Bahamas",
+    "hint": "A Caribbean country comprising 700 islands and over 2,000 cays."
+  },
+  {
+    "word": "Bahrain",
+    "hint": "A small island country in the Persian Gulf, known for its financial sector and modern architecture."
+  },
+  {
+    "word": "Bangladesh",
+    "hint": "A densely populated country in South Asia, known for its fertile delta and vibrant culture."
+  },
+  {
+    "word": "Barbados",
+    "hint": "A Caribbean island country known for its white sandy beaches and warm climate."
+  },
+  {
+    "word": "Belarus",
+    "hint": "A landlocked country in Eastern Europe, known for its rich history and Soviet-era architecture."
+  },
+  {
+    "word": "Belgium",
+    "hint": "A Western European country known for its chocolate, waffles, and beer."
+  },
+  {
+    "word": "Belize",
+    "hint": "A Central American country known for its tropical forests, Mayan ruins, and the Great Blue Hole."
+  },
+  {
+    "word": "Benin",
+    "hint": "A West African country known for its diverse culture and rich history."
+  },
+  {
+    "word": "Bhutan",
+    "hint": "A landlocked country in the Eastern Himalayas, known for its stunning landscapes and Gross National Happiness."
+  },
+  {
+    "word": "Bolivia",
+    "hint": "A landlocked country in South America, known for its Andean mountains and diverse indigenous cultures."
+  },
+  {
+    "word": "Bosnia and Herzegovina",
+    "hint": "A country in Southeast Europe known for its complex history and beautiful landscapes."
+  },
+  {
+    "word": "Botswana",
+    "hint": "A Southern African country known for its wildlife, national parks, and diamond industry."
+  },
+  {
+    "word": "Brazil",
+    "hint": "A vast country in South America, known for its Amazon rainforest, carnival, and soccer prowess."
+  },
+  {
+    "word": "Brunei",
+    "hint": "A small country on the island of Borneo, known for its rich oil reserves and cultural diversity."
+  },
+  {
+    "word": "Bulgaria",
+    "hint": "A country in Southeast Europe known for its ancient ruins, rose valleys, and Black Sea coast."
+  },
+  {
+    "word": "Burkina Faso",
+    "hint": "A landlocked country in West Africa known for its diverse culture and traditional music."
+  },
+  {
+    "word": "Burundi",
+    "hint": "A landlocked country in East Africa known for its lush landscapes and wildlife."
+  },
+  {
+    "word": "Cabo Verde",
+    "hint": "An island country in the Atlantic Ocean known for its beautiful beaches and Creole culture."
+  },
+  {
+    "word": "Cambodia",
+    "hint": "A Southeast Asian country known for its ancient temples, including Angkor Wat."
+  },
+  {
+    "word": "Cameroon",
+    "hint": "A Central African country known for its diverse landscapes and cultures."
+  },
+  {
+    "word": "Canada",
+    "hint": "A vast country in North America known for its stunning natural beauty and multicultural cities."
+  },
+  {
+    "word": "Central African Republic",
+    "hint": "A landlocked country in Central Africa known for its diverse wildlife and natural resources."
+  },
+  {
+    "word": "Chad",
+    "hint": "A landlocked country in Central Africa known for its Sahara Desert and diverse ethnic groups."
+  },
+  {
+    "word": "Chile",
+    "hint": "A long, narrow country in South America known for its diverse geography and wine production."
+  },
+  {
+    "word": "China",
+    "hint": "The world's most populous country, known for its ancient civilization and modern economic power."
+  },
+  {
+    "word": "Colombia",
+    "hint": "A country in South America known for its coffee, emeralds, and diverse landscapes."
+  },
+  {
+    "word": "Comoros",
+    "hint": "A small island country in the Indian Ocean known for its volcanic islands and unique culture."
+  },
+  {
+    "word": "Congo (Congo-Brazzaville)",
+    "hint": "A country in Central Africa known for its rainforests and cultural diversity."
+  },
+  {
+    "word": "Costa Rica",
+    "hint": "A Central American country known for its biodiversity, rainforests, and ecotourism."
+  },
+  {
+    "word": "Croatia",
+    "hint": "A European country known for its stunning Adriatic coastline and rich history."
+  },
+  {
+    "word": "Cuba",
+    "hint": "A Caribbean island country known for its vintage cars, cigars, and vibrant culture."
+  },
+  {
+    "word": "Cyprus",
+    "hint": "An island country in the Eastern Mediterranean known for its beautiful beaches and ancient history."
+  },
+  {
+    "word": "sculpture",
+    "hint": "A three-dimensional work of art created by carving, molding, or shaping materials."
+  },
+  {
+    "word": "toucan",
+    "hint": "A colorful tropical bird with a large, colorful bill."
+  },
+  {
+    "word": "violinist",
+    "hint": "A person who plays the violin as a skilled musician."
+  },
+  {
+    "word": "waterfall",
+    "hint": "A cascade of water flowing from a height, often found in rivers and streams."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yacht",
+    "hint": "A luxurious and elegant boat used for pleasure or racing."
+  },
+  {
+    "word": "zebra",
+    "hint": "An African mammal with black and white stripes."
+  },
+  {
+    "word": "anchor",
+    "hint": "A heavy object dropped to the bottom of a body of water to keep a boat or ship in place."
+  },
+  {
+    "word": "butterfly",
+    "hint": "An insect with colorful wings that undergo metamorphosis."
+  },
+  {
+    "word": "cactus",
+    "hint": "A spiny, desert plant that can store water in its stems."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fjord",
+    "hint": "A long, narrow inlet with steep sides, typically formed by glacial activity."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jackal",
+    "hint": "A carnivorous mammal resembling a small wolf, native to Africa and Asia."
+  },
+  {
+    "word": "kayak",
+    "hint": "A small, narrow boat used by a single person, propelled with a double-bladed paddle."
+  },
+  {
+    "word": "llama",
+    "hint": "A South American mammal known for its woolly coat and long neck."
+  },
+  {
+    "word": "mosquito",
+    "hint": "A small flying insect known for its irritating bites and ability to transmit diseases."
+  },
+  {
+    "word": "narwhal",
+    "hint": "A medium-sized toothed whale with a long, spiral tusk extending from its upper jaw."
+  },
+  {
+    "word": "ocean",
+    "hint": "A vast body of saltwater that covers most of the Earth's surface."
+  },
+  {
+    "word": "panda",
+    "hint": "A large bear-like mammal native to China, known for its distinctive black and white markings."
+  },
+  {
+    "word": "quokka",
+    "hint": "A small herbivorous marsupial native to Australia, known for its friendly and smiling appearance."
+  },
+  {
+    "word": "raccoon",
+    "hint": "A medium-sized nocturnal mammal native to North America, recognized by its black mask-like markings around the eyes."
+  },
+  {
+    "word": "sunflower",
+    "hint": "A tall plant with large, yellow flowers that turn to face the sun."
+  },
+  {
+    "word": "tiger",
+    "hint": "A large carnivorous feline with a distinctive orange coat and black stripes."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yoga",
+    "hint": "A physical, mental, and spiritual practice that originated in ancient India."
+  },
+  {
+    "word": "zeppelin",
+    "hint": "A type of airship characterized by its elongated, cigar-shaped structure."
+  },
+  {
+    "word": "astronaut",
+    "hint": "A person trained to travel and work in space."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fjord",
+    "hint": "A long, narrow inlet with steep sides, typically formed by glacial activity."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "iguana",
+    "hint": "A large, herbivorous lizard with a long tail and spiky crest along its back."
+  },
+  {
+    "word": "jazz",
+    "hint": "A genre of music characterized by improvisation, syncopation, and distinctive rhythms."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "A tall tower with a bright light used to guide ships at sea."
+  },
+  {
+    "word": "mountain",
+    "hint": "A large landform that rises steeply above its surroundings."
+  },
+  {
+    "word": "nightingale",
+    "hint": "A small songbird known for its beautiful and melodic nighttime singing."
+  },
+  {
+    "word": "ostrich",
+    "hint": "A large flightless bird with long legs and neck, native to Africa."
+  },
+  {
+    "word": "penguin",
+    "hint": "A flightless bird found in the Southern Hemisphere, often dressed in a tuxedo-like plumage."
+  },
+  {
+    "word": "quilt",
+    "hint": "A warm bed cover made of two layers of cloth filled with padding and stitched together."
+  },
+  {
+    "word": "rain",
+    "hint": "Water falling from the clouds in droplets."
+  },
+  {
+    "word": "sailboat",
+    "hint": "A boat with sails, typically used for recreation or sport."
+  },
+  {
+    "word": "tiger",
+    "hint": "A large carnivorous feline with a distinctive orange coat and black stripes."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "volcano",
+    "hint": "A mountain or hill that erupts molten lava and gases from its interior."
+  },
+  {
+    "word": "waterfall",
+    "hint": "A cascade of water flowing from a height, often found in rivers and streams."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yacht",
+    "hint": "A luxurious and elegant boat used for pleasure or racing."
+  },
+  {
+    "word": "zebra",
+    "hint": "An African mammal with black and white stripes."
+  },
+  {
+    "word": "airplane",
+    "hint": "A powered flying vehicle with fixed wings and a jet or propeller engine."
+  },
+  {
+    "word": "ballet",
+    "hint": "A classical dance form characterized by grace and precision of movement."
+  },
+  {
+    "word": "caterpillar",
+    "hint": "The larval stage of butterflies and moths, often with a segmented body."
+  },
+  {
+    "word": "dandelion",
+    "hint": "A bright yellow flower with fluffy seeds that disperse in the wind."
+  },
+  {
+    "word": "elephant",
+    "hint": "A large, gray animal with a long trunk and tusks."
+  },
+  {
+    "word": "fjord",
+    "hint": "A long, narrow inlet with steep sides, typically formed by glacial activity."
+  },
+  {
+    "word": "giraffe",
+    "hint": "A tall African mammal with a long neck and distinctive coat pattern."
+  },
+  {
+    "word": "harp",
+    "hint": "A musical instrument with strings played by plucking them with fingers."
+  },
+  {
+    "word": "island",
+    "hint": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jackal",
+    "hint": "A carnivorous mammal resembling a small wolf, native to Africa and Asia."
+  },
+  {
+    "word": "kayak",
+    "hint": "A small, narrow boat used by a single person, propelled with a double-bladed paddle."
+  },
+  {
+    "word": "llama",
+    "hint": "A South American mammal known for its woolly coat and long neck."
+  },
+  {
+    "word": "mosquito",
+    "hint": "A small flying insect known for its irritating bites and ability to transmit diseases."
+  },
+  {
+    "word": "narwhal",
+    "hint": "A medium-sized toothed whale with a long, spiral tusk extending from its upper jaw."
+  },
+  {
+    "word": "cherry",
+    "hint": "A small, round, and juicy fruit with a hard seed in the center."
+  },
+  {
+    "word": "date",
+    "hint": "A sweet and chewy fruit with a wrinkled appearance, often eaten dried."
+  },
+  {
+    "word": "elderberry",
+    "hint": "A dark purple fruit that grows in clusters and is often used for making jam or syrup."
+  },
+  {
+    "word": "fig",
+    "hint": "A pear-shaped fruit with sweet flesh and a thin skin."
+  },
+  {
+    "word": "grape",
+    "hint": "A small, round fruit that grows in clusters on vines."
+  },
+  {
+    "word": "honeydew",
+    "hint": "A sweet and juicy melon with pale green flesh."
+  },
+  {
+    "word": "kiwi",
+    "hint": "A small, brown, and fuzzy fruit with green flesh and black seeds."
+  },
+  {
+    "word": "lemon",
+    "hint": "A sour, yellow fruit with a thick rind and juicy pulp."
+  },
+  {
+    "word": "mango",
+    "hint": "A juicy, tropical fruit with a sweet and tangy flavor."
+  },
+  {
+    "word": "nectarine",
+    "hint": "A smooth-skinned fruit that is similar to a peach but lacks the fuzzy coating."
+  },
+  {
+    "word": "orange",
+    "hint": "A round, citrus fruit with a tough, orange-colored rind and juicy segments."
+  },
+  {
+    "word": "pear",
+    "hint": "A sweet and juicy fruit with a thin skin and a core containing seeds."
+  },
+  {
+    "word": "quince",
+    "hint": "A fragrant fruit that resembles a pear but is firmer and more astringent."
+  },
+  {
+    "word": "raspberry",
+    "hint": "A small, red or black fruit that grows on brambles."
+  },
+  {
+    "word": "strawberry",
+    "hint": "A small, red fruit with tiny seeds on its surface."
+  },
+  {
+    "word": "tangerine",
+    "hint": "A small, citrus fruit that is similar to an orange but easier to peel."
+  },
+  {
+    "word": "ugli fruit",
+    "hint": "A cross between a grapefruit and a tangerine, with a rough, wrinkled skin."
+  },
+  {
+    "word": "vanilla bean",
+    "hint": "The seed pod of the vanilla orchid, used to flavor foods and beverages."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A large, juicy melon with sweet, red or pink flesh."
+  },
+  {
+    "word": "apricot",
+    "hint": "A small, orange fruit with a sweet and slightly tart flavor."
+  },
+  {
+    "word": "blueberry",
+    "hint": "A small, round fruit that is dark blue or purple when ripe."
+  },
+  {
+    "word": "cranberry",
+    "hint": "A small, red fruit that grows on low, trailing plants in acidic bogs."
+  },
+  {
+    "word": "durian",
+    "hint": "A large, spiky fruit with a strong odor and custard-like flesh."
+  },
+  {
+    "word": "elderberry",
+    "hint": "A dark purple fruit that grows in clusters and is often used for making jam or syrup."
+  },
+  {
+    "word": "feijoa",
+    "hint": "A green fruit with a sweet and tangy flavor, native to South America."
+  },
+  {
+    "word": "grapefruit",
+    "hint": "A large citrus fruit with a thick, yellow or pink rind and juicy segments."
+  },
+  {
+    "word": "honeycrisp apple",
+    "hint": "A sweet and crunchy apple variety with a bright red and yellow skin."
+  },
+  {
+    "word": "jabuticaba",
+    "hint": "A grape-like fruit that grows on the trunk of the jabuticaba tree."
+  },
+  {
+    "word": "kiwifruit",
+    "hint": "A small, green fruit with a fuzzy brown skin and juicy green flesh."
+  },
+  {
+    "word": "lime",
+    "hint": "A small, green citrus fruit with a tangy flavor."
+  },
+  {
+    "word": "bouquet",
+    "hint": "A bunch of flowers, often arranged in an attractive way."
+  },
+  {
+    "word": "champion",
+    "hint": "A person who has defeated all rivals in a competition or has outstanding skills."
+  },
+  {
+    "word": "daughter",
+    "hint": "A female child in relation to her parents."
+  },
+  {
+    "word": "favorite",
+    "hint": "Preferred above all others or treated with special preference."
+  },
+  {
+    "word": "gazelle",
+    "hint": "A small to medium-sized antelope known for its speed and grace."
+  },
+  {
+    "word": "hydrate",
+    "hint": "To supply with water or liquid to maintain a proper level of fluid in the body."
+  },
+  {
+    "word": "janitor",
+    "hint": "A person employed to clean and maintain a building."
+  },
+  {
+    "word": "kangaroo",
+    "hint": "A marsupial from Australia known for its powerful hind legs and pouch."
+  },
+  {
+    "word": "monopoly",
+    "hint": "The exclusive possession or control of the supply or trade of a commodity or service."
+  },
+  {
+    "word": "network",
+    "hint": "An interconnected system or group of people, organizations, or objects."
+  },
+  {
+    "word": "abundance",
+    "hint": "A large quantity or plenty of something."
+  },
+  {
+    "word": "broomstick",
+    "hint": "A long stick or handle attached to a broom."
+  },
+  {
+    "word": "challenge",
+    "hint": "A difficult task or situation that requires effort and determination to overcome."
+  },
+  {
+    "word": "defendant",
+    "hint": "A person accused in a court of law."
+  },
+  {
+    "word": "eucalyptus",
+    "hint": "A type of tree native to Australia, known for its aromatic leaves."
+  },
+  {
+    "word": "fascinate",
+    "hint": "To attract and hold someone's attention or interest."
+  },
+  {
+    "word": "generation",
+    "hint": "All the people born and living at the same time or of approximately the same age."
+  },
+  {
+    "word": "harmonica",
+    "hint": "A small musical instrument played by blowing and drawing air through reeds."
+  },
+  {
+    "word": "impressive",
+    "hint": "Making a strong or striking impact on someone's mind or feelings."
+  },
+  {
+    "word": "jubilant",
+    "hint": "Feeling or expressing great joy and happiness."
+  },
+  {
+    "word": "kaleidoscope",
+    "hint": "A constantly changing pattern or sequence of elements."
+  },
+  {
+    "word": "luminous",
+    "hint": "Bright or shining, especially in the dark."
+  },
+  {
+    "word": "medallion",
+    "hint": "A round or oval piece of metal worn as a decoration, often on a necklace."
+  },
+  {
+    "word": "nourishment",
+    "hint": "The process of providing food and other substances necessary for growth, health, and good condition."
+  },
+  {
+    "word": "obsession",
+    "hint": "An intense preoccupation or fixation on something or someone."
+  },
+  {
+    "word": "passionate",
+    "hint": "Having or showing intense emotions, enthusiasm, or strong feelings."
+  },
+  {
+    "word": "quicksand",
+    "hint": "A loose, wet sand that traps and engulfs anything that steps on it."
+  },
+  {
+    "word": "resilient",
+    "hint": "Able to withstand or recover quickly from difficult conditions."
+  },
+  {
+    "word": "spectacle",
+    "hint": "An impressive or remarkable public display or performance."
+  },
+  {
+    "word": "tambourine",
+    "hint": "A small musical instrument with jingling metal disks or rings attached to the frame."
+  },
+  {
+    "word": "umbrella",
+    "hint": "A device used for protection against rain or sunlight, consisting of a collapsible canopy attached to a folding metal frame."
+  },
+  {
+    "word": "vacuuming",
+    "hint": "The act of cleaning using a vacuum cleaner."
+  },
+  {
+    "word": "watermelon",
+    "hint": "A juicy fruit with sweet, red flesh and a green rind."
+  },
+  {
+    "word": "xylophone",
+    "hint": "A musical instrument with wooden bars of different sizes that produce musical tones when struck."
+  },
+  {
+    "word": "yesterday",
+    "hint": "The day before today or in the past."
+  },
+  {
+    "word": "zucchini",
+    "hint": "A green summer squash, often used in cooking and salads."
+  },
+  {
+    "word": "abominable",
+    "hint": "Causing moral revulsion or horror."
+  },
+  {
+    "word": "benevolent",
+    "hint": "Well-meaning and kind."
+  },
+  {
+    "word": "celebration",
+    "hint": "The action of marking a significant event with joy and festivity."
+  },
+  {
+    "word": "deceptive",
+    "hint": "Giving an appearance or impression that is misleading or untrue."
+  },
+  {
+    "word": "accelerator",
+    "hint": "A device that increases the speed or rate of something."
+  },
+  {
+    "word": "breathtaking",
+    "hint": "Extremely impressive, awe-inspiring, or stunning."
+  },
+  {
+    "word": "chandelier",
+    "hint": "An ornate, branched lighting fixture suspended from a ceiling."
+  },
+  {
+    "word": "development",
+    "hint": "The process of growth, progress, or advancement."
+  },
+  {
+    "word": "effervescent",
+    "hint": "Bubbling and emitting small bubbles of gas."
+  },
+  {
+    "word": "flabbergasted",
+    "hint": "Extremely surprised, shocked, or astonished."
+  },
+  {
+    "word": "generation",
+    "hint": "All the people born and living at the same time or of approximately the same age."
+  },
+  {
+    "word": "holographic",
+    "hint": "Involving three-dimensional images created by laser light."
+  },
+  {
+    "word": "incandescent",
+    "hint": "Emitting light as a result of being heated."
+  },
+  {
+    "word": "jackhammer",
+    "hint": "A powerful pneumatic drill used to break hard substances."
+  },
+  {
+    "word": "kaleidoscope",
+    "hint": "A constantly changing pattern or sequence of elements."
+  },
+  {
+    "word": "labyrinthine",
+    "hint": "Complicated and full of confusing passageways or paths."
+  },
+  {
+    "word": "merchandise",
+    "hint": "Goods or products that are bought and sold in business."
+  },
+  {
+    "word": "necessitate",
+    "hint": "To make something necessary or require it."
+  },
+  {
+    "word": "orchestrate",
+    "hint": "To arrange or direct the elements of something for a specific purpose."
+  },
+  {
+    "word": "perpendicular",
+    "hint": "At an angle of 90 degrees to a given line, plane, or surface."
+  },
+  {
+    "word": "questionable",
+    "hint": "Doubtful, uncertain, or open to challenge or suspicion."
+  },
+  {
+    "word": "revolutionary",
+    "hint": "Involving or causing a complete or dramatic change."
+  },
+  {
+    "word": "sophisticated",
+    "hint": "Cultured, refined, or developed to a high degree."
+  },
+  {
+    "word": "transmission",
+    "hint": "The process of sending or transmitting something, such as signals or information."
+  },
+  {
+    "word": "ultraviolet",
+    "hint": "Beyond the violet end of the visible spectrum, with higher energy and shorter wavelengths."
+  },
+  {
+    "word": "vivaciousness",
+    "hint": "The quality of being lively, animated, and full of energy."
+  },
+  {
+    "word": "whimsicality",
+    "hint": "The quality of being playfully quaint or fanciful."
+  },
+  {
+    "word": "xylophonist",
+    "hint": "A person who plays the xylophone as a skilled musician."
+  },
+  {
+    "word": "yesteryears",
+    "hint": "The time that has passed or the things of the past."
+  },
+  {
+    "word": "zooplankton",
+    "hint": "Tiny animals that float in the water and are important food sources for many aquatic creatures."
+  },
+  {
+    "word": "abracadabra",
+    "hint": "A word or phrase used in magic tricks and conjuring."
+  },
+  {
+    "word": "benevolence",
+    "hint": "The quality of being well-meaning and kind."
+  },
+  {
+    "word": "consequence",
+    "hint": "The result or outcome of an action or situation."
+  },
+  {
+    "word": "disposition",
+    "hint": "A person's inherent qualities of mind and character."
+  },
+  {
+    "word": "accomplishment",
+    "hint": "An achievement or success resulting from effort and hard work."
+  },
+  {
+    "word": "breathtakingly",
+    "hint": "In a manner that takes one's breath away, extremely impressively."
+  },
+  {
+    "word": "catastrophic",
+    "hint": "Involving or causing great damage or suffering."
+  },
+  {
+    "word": "deliberation",
+    "hint": "Careful consideration and thought before making a decision."
+  },
+  {
+    "word": "effortlessly",
+    "hint": "With ease, without much effort or difficulty."
+  },
+  {
+    "word": "flabbergasting",
+    "hint": "Astounding or shocking in a bewildering way."
+  },
+  {
+    "word": "generalization",
+    "hint": "A broad statement or idea that applies to a group or situation."
+  },
+  {
+    "word": "hypothesize",
+    "hint": "To propose a theory or idea based on limited evidence."
+  },
+  {
+    "word": "impermanence",
+    "hint": "The quality of being temporary or not lasting."
+  },
+  {
+    "word": "jackhammering",
+    "hint": "The act of using a powerful drill to break hard substances."
+  },
+  {
+    "word": "kaleidoscopic",
+    "hint": "Of rapidly changing colors, patterns, or elements."
+  },
+  {
+    "word": "lackadaisical",
+    "hint": "Lacking enthusiasm or determination, lazy or careless."
+  },
+  {
+    "word": "metamorphosis",
+    "hint": "A profound change in form, structure, or nature."
+  },
+  {
+    "word": "negotiation",
+    "hint": "The process of discussing and reaching an agreement or compromise."
+  },
+  {
+    "word": "orchestrating",
+    "hint": "Arranging or coordinating various elements for a specific purpose."
+  },
+  {
+    "word": "perpendiculars",
+    "hint": "Lines or planes at an angle of 90 degrees to each other."
+  },
+  {
+    "word": "questioningly",
+    "hint": "In a manner that shows doubt or uncertainty."
+  },
+  {
+    "word": "revolutionary",
+    "hint": "Involving or causing a complete or dramatic change."
+  },
+  {
+    "word": "sophisticated",
+    "hint": "Cultured, refined, or developed to a high degree."
+  },
+  {
+    "word": "transmissions",
+    "hint": "The act of sending or transmitting something, such as signals or information."
+  },
+  {
+    "word": "ultraviolet",
+    "hint": "Beyond the violet end of the visible spectrum, with higher energy and shorter wavelengths."
+  },
+  {
+    "word": "vivaciousness",
+    "hint": "The quality of being lively, animated, and full of energy."
+  },
+  {
+    "word": "whimsicality",
+    "hint": "The quality of being playfully quaint or fanciful."
+  },
+  {
+    "word": "xylophonist",
+    "hint": "A person who plays the xylophone as a skilled musician."
+  },
+  {
+    "word": "yesteryears",
+    "hint": "The time that has passed or the things of the past."
+  },
+  {
+    "word": "zooplanktonic",
+    "hint": "Relating to tiny animals that float in the water and are important food sources for many aquatic creatures."
+  },
+  {
+    "word": "abracadabratic",
+    "hint": "Relating to a word or phrase used in magic tricks and conjuring."
+  },
+  {
+    "word": "benevolently",
+    "hint": "In a kind and well-meaning manner."
+  },
+  {
+    "word": "consequences",
+    "hint": "The results or outcomes of actions or situations."
+  },
+  {
+    "word": "dispositions",
+    "hint": "A person's inherent qualities of mind and character."
+  },
+  {
+    "word": "extraordinary",
+    "hint": "Remarkable, exceptional, or beyond the usual."
+  },
+  {
+    "word": "fundamentally",
+    "hint": "In a way that relates to the basic principles or essence of something."
+  },
+  {
+    "word": "gobbledygook",
+    "hint": "Language that is meaningless or hard to understand; nonsense."
+  },
+  {
+    "word": "housewarming",
+    "hint": "A party or celebration to welcome someone to a new home."
+  },
+  {
+    "word": "intellectual",
+    "hint": "Relating to the intellect or highly educated and thoughtful."
+  },
+  {
+    "word": "jurisprudence",
+    "hint": "The theory and philosophy of law."
+  },
+  {
+    "word": "knightliness",
+    "hint": "The qualities of honor, chivalry, and bravery associated with knights."
+  },
+  {
+    "word": "lighthearted",
+    "hint": "Carefree, cheerful, or not serious."
+  },
+  {
+    "word": "acknowledgment",
+    "hint": "The act of recognizing or admitting the existence or truth of something."
+  },
+  {
+    "word": "beneficialness",
+    "hint": "The quality of being advantageous or beneficial."
+  },
+  {
+    "word": "comprehensive",
+    "hint": "Including all aspects or elements of something."
+  },
+  {
+    "word": "determination",
+    "hint": "The act of making a firm decision or resolving to do something."
+  },
+  {
+    "word": "extermination",
+    "hint": "The act of completely destroying or eradicating something or someone."
+  },
+  {
+    "word": "fluctuations",
+    "hint": "Irregular variations or changes in an amount, value, or level."
+  },
+  {
+    "word": "gratification",
+    "hint": "Pleasure or satisfaction derived from the fulfillment of one's desires."
+  },
+  {
+    "word": "hypothesized",
+    "hint": "Formulated as a tentative explanation based on limited evidence."
+  },
+  {
+    "word": "inquisitively",
+    "hint": "With a desire to learn or investigate things in a curious manner."
+  },
+  {
+    "word": "juxtaposition",
+    "hint": "The act of placing things close together or side by side for contrasting effect."
+  },
+  {
+    "word": "kaleidoscopic",
+    "hint": "A constantly changing pattern of colors and shapes, like in a kaleidoscope."
+  },
+  {
+    "word": "lightheartedly",
+    "hint": "In a cheerful and carefree manner."
+  },
+  {
+    "word": "manipulations",
+    "hint": "Actions or strategies to control or influence something or someone cleverly."
+  },
+  {
+    "word": "negotiations",
+    "hint": "The process of discussing something in order to reach an agreement or settlement."
+  },
+  {
+    "word": "outstandingly",
+    "hint": "In an exceptionally good or remarkable way."
+  },
+  {
+    "word": "procrastinate",
+    "hint": "To delay or postpone doing something, often out of avoidance or laziness."
+  },
+  {
+    "word": "quartermaster",
+    "hint": "An officer responsible for providing supplies, especially in the military."
+  },
+  {
+    "word": "rehabilitated",
+    "hint": "Restored to health or normal life through therapy or training."
+  },
+  {
+    "word": "stereotypical",
+    "hint": "Conforming to a fixed or conventional image or idea."
+  },
+  {
+    "word": "theatricality",
+    "hint": "The quality of being dramatic, exaggerated, or showy."
+  },
+  {
+    "word": "unpredictable",
+    "hint": "Not able to be anticipated or foreseen."
+  },
+  {
+    "word": "valedictorian",
+    "hint": "The highest-ranking student in a graduating class, typically delivering a farewell speech."
+  },
+  {
+    "word": "wholesomeness",
+    "hint": "The quality of being conducive to good health and well-being."
+  },
+  {
+    "word": "xenophobically",
+    "hint": "In a manner characterized by an intense dislike or fear of people from other countries or cultures."
+  },
+  {
+    "word": "yesterday's",
+    "hint": "Belonging to or occurring in the past, specifically the day before today."
+  },
+  {
+    "word": "zestfulnesses",
+    "hint": "The quality of being full of enthusiasm and energy."
+  },
+  {
+    "word": "accommodations",
+    "hint": "A place to live or stay in, as well as adjustments made for someone's comfort or convenience."
+  },
+  {
+    "word": "benevolently",
+    "hint": "In a kind and charitable manner."
+  },
+  {
+    "word": "circumnavigate",
+    "hint": "To travel all the way around something, especially the Earth."
+  },
+  {
+    "word": "dissemination",
+    "hint": "The act of spreading something, especially information or knowledge."
+  },
+  {
+    "word": "eavesdropping",
+    "hint": "Secretly listening to someone's conversation without their knowledge or permission."
+  },
+  {
+    "word": "fragmentation",
+    "hint": "The process of breaking something into small parts or pieces."
+  },
+  {
+    "word": "gentlemanlike",
+    "hint": "Characterized by qualities considered appropriate in a well-mannered man."
+  },
+  {
+    "word": "hallucinatory",
+    "hint": "Relating to or characterized by hallucinations, which are sensory perceptions without external stimulus."
+  },
+  {
+    "word": "antidisestablishment",
+    "hint": "The movement to separate church and state."
+  },
+  {
+    "word": "biodiversity",
+    "hint": "The variety of plant and animal life in a particular habitat."
+  },
+  {
+    "word": "circumstantial",
+    "hint": "Involving or based on circumstances and evidence, rather than direct proof."
+  },
+  {
+    "word": "discombobulated",
+    "hint": "Confused and disconcerted."
+  },
+  {
+    "word": "exhilaratingly",
+    "hint": "In an exciting and invigorating manner."
+  },
+  {
+    "word": "flibbertigibbet",
+    "hint": "A frivolous or flighty person, usually a young woman."
+  },
+  {
+    "word": "gentlemanliness",
+    "hint": "The quality of being chivalrous, courteous, and well-mannered."
+  },
+  {
+    "word": "heterogeneous",
+    "hint": "Consisting of diverse elements or parts."
+  },
+  {
+    "word": "inquisitiveness",
+    "hint": "The desire to learn or know about something in a curious manner."
+  },
+  {
+    "word": "juxtapositional",
+    "hint": "The act of placing things side by side for comparison or contrast."
+  },
+  {
+    "word": "kaleidoscopical",
+    "hint": "Having complex patterns of colors and shapes, like a kaleidoscope."
+  },
+  {
+    "word": "lexicographical",
+    "hint": "Relating to the writing, editing, or compiling of dictionaries."
+  },
+  {
+    "word": "mnemonics",
+    "hint": "Aids or techniques used to improve memory retention."
+  },
+  {
+    "word": "neuroscientists",
+    "hint": "Scientists who study the nervous system and brain."
+  },
+  {
+    "word": "ostentatiously",
+    "hint": "In a showy or pretentious manner to attract attention."
+  },
+  {
+    "word": "paleontological",
+    "hint": "Relating to the study of prehistoric life through fossils."
+  },
+  {
+    "word": "quantification",
+    "hint": "The process of determining or expressing the quantity of something."
+  },
+  {
+    "word": "responsivenesses",
+    "hint": "The quality of reacting quickly and positively to something."
+  },
+  {
+    "word": "simultaneousness",
+    "hint": "The state of occurring at the same time or instantaneously."
+  },
+  {
+    "word": "theatricalities",
+    "hint": "The quality or behavior of being dramatic or theatrical."
+  },
+  {
+    "word": "uncharacteristic",
+    "hint": "Not typical or characteristic of a person or thing."
+  },
+  {
+    "word": "vivisectionists",
+    "hint": "Individuals who perform scientific experiments on living animals for research."
+  },
+  {
+    "word": "weatherboardings",
+    "hint": "Long, thin boards used to cover the exterior of buildings."
+  },
+  {
+    "word": "xerographically",
+    "hint": "In a dry photocopying process using electrostatics."
+  },
+  {
+    "word": "youthfulnesses",
+    "hint": "The state or quality of being young or youthful."
+  },
+  {
+    "word": "zoogeographical",
+    "hint": "Related to the geographical distribution of animals."
+  },
+  {
+    "word": "acquaintanceship",
+    "hint": "The state of being acquainted or having a casual relationship with someone."
+  },
+  {
+    "word": "benefactorships",
+    "hint": "The state of being a person who provides help, especially through financial aid."
+  },
+  {
+    "word": "circumnavigated",
+    "hint": "Traveled all the way around a place, typically the Earth."
+  },
+  {
+    "word": "disproportionate",
+    "hint": "Out of proportion in size, quantity, or importance."
+  },
+  {
+    "word": "extracurriculars",
+    "hint": "Activities pursued outside of regular curriculum or work."
+  },
+  {
+    "word": "flabbergastingly",
+    "hint": "In an extremely surprising or shocking manner."
+  },
+  {
+    "word": "gentlemanlikeness",
+    "hint": "The quality of being gentlemanly, refined, and well-mannered."
+  },
+  {
+    "word": "hypoallergenic",
+    "hint": "Unlikely to cause an allergic reaction."
+  },
+  {
+    "word": "inquisitivenesses",
+    "hint": "The plural form of the desire to learn or know about something in a curious manner."
+  }
+]

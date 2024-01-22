@@ -1,0 +1,67 @@
+import axios from 'axios';
+import FormData from 'form-data';
+import fs from 'fs-extra';
+import path from 'path';
+import { image } from 'image-downloader';
+
+const config = {
+  name: 'removebg',
+  version: '1.1.1',
+  credits: '𝙈𝙧𝙏𝙤𝙢𝙓𝙭𝙓/fixed by Jonell (Converted by Grim)',
+  description: 'Edit photo',
+  usages: 'Reply images or url images',
+  cooldown: 5,
+};
+
+async function onCall({ args, message }) {
+  try {
+    if (message.type !== "message_reply") return message.reply("🖼️ | You must to reply the photo you want to removed bg");
+    const removing = await message.reply("🖼 | Removing Background Picture your provide. Please Wait....");
+    if (!message.messageReply.attachments || message.messageReply.attachments.length == 0) return message.reply("✅ | Removed Background Has Been Successfully ");
+    if (message.messageReply.attachments[0].type != "photo") return message.reply("❌ | This Media is not available");
+
+    const content = (message.type == "message_reply") ? message.messageReply.attachments[0].url : args.join(" ");
+    const MtxApi = ["ToQX2FRYSXjWGSvmL5vNCzvT"]
+    const inputPath = path.resolve(
+      global.cachePath,
+      `${Date.now()}_rbg_${message.messageID}.png`
+    );
+    await image({
+      url: content, dest: inputPath
+    });
+    const formData = new FormData();
+    formData.append('size', 'auto');
+    formData.append('image_file', fs.createReadStream(inputPath), path.basename(inputPath));
+    axios({
+      method: 'post',
+      url: 'https://api.remove.bg/v1.0/removebg',
+      data: formData,
+      responseType: 'arraybuffer',
+      headers: {
+        ...formData.getHeaders(),
+        'X-Api-Key': MtxApi[Math.floor(Math.random() * MtxApi.length)],
+      },
+      encoding: null
+    })
+      .then((response) => {
+        if (response.status != 200) return console.error('Error:', response.status, response.statusText);
+        fs.writeFileSync(inputPath, response.data);
+
+        global.api.unsendMessage(removing.messageID);
+        return message.reply({
+          body: "✅ | Removed Background Has Been Successful!",
+          attachment: fs.createReadStream(inputPath) }, () => fs.unlinkSync(inputPath));
+      })
+      .catch((error) => {
+        return console.error("Command removebg's api is down!", error);
+      });
+  } catch (e) {
+    console.log(e)
+    return message.reply(`Error api removed background command!`);
+  }
+}
+
+export default {
+  config,
+  onCall
+}

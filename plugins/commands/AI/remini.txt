@@ -1,0 +1,50 @@
+import axios from 'axios';
+import fs from 'fs-extra';
+import path from 'path';
+
+const config = {
+  name: "remini",
+  version: "1.0.0",
+  credits: "Grim",
+  description: "Sharpen images.",
+  usages: "[reply to the image or provide an image link]",
+  cooldowns: 5
+};
+
+async function onCall({ api, args, message }) {
+  try {
+    if (message.type !== 'message_reply' && args.length === 0) {
+      return message.reply('⚠️ | Please reply to the image or enter the image link!');
+    }
+
+    const linkUp = message.messageReply.attachments[0]?.url || args.join(" ");
+
+    const res = await axios.get(`https://sumiproject.space/imgur?link=${encodeURIComponent(linkUp)}`);
+    const link = res.data.uploaded.image;
+
+    const sharp = await global.api.sendMessage(`⏳ | Sharpening in progress!`, message.threadID, message.messageID);
+
+    const img = (await axios.get(`https://sumiproject.io.vn/lamnet?link=${link}`, { responseType: "arraybuffer" })).data;
+
+    const savePath = path.join(
+      global.cachePath,
+      `${Date.now()}_sharpened_${message.messageID}.png`
+    );
+
+    global.api.unsendMessage(sharp.messageID);
+    fs.writeFileSync(savePath, Buffer.from(img, "utf-8"));
+
+    message.reply({
+      body: `🖼️ | Sharpened photo!`,
+      attachment: fs.createReadStream(savePath)
+    }, () => fs.unlinkSync(savePath));
+  } catch (e) {
+    console.error(e);
+    message.reply(`❌ | Error while processing command!`);
+  }
+}
+
+export default {
+  config,
+  onCall
+};

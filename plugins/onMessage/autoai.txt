@@ -1,0 +1,65 @@
+// Import the necessary module for making HTTP requests
+import axios from 'axios';
+import { Hercai } from 'hercai';
+
+const herc = new Hercai();
+
+export const config = {
+  name: "autoreply",
+  version: "0.0.1-xaviabot-port-refactor",
+  credits: "Clarence DK",
+  description: "auto-reply based on certain keywords"
+};
+
+const getUserInfo = async (api, userID) => {
+  try {
+    const userInfo = await global.api.getUserInfo(userID);
+    return userInfo[userID].firstName;
+  } catch (error) {
+    console.error(`Error fetching user info: ${error}`);
+    return '';
+  }
+};
+
+export async function onCall({ message, eventData }) {
+  const { senderID } = message;
+  if (message.body.length === 0) return;
+
+  const keywordReplies = [
+    { keyword: "@everyone", reply: "Why?" },
+    // Add more keyword-reply pairs here
+  ];
+
+  const lowercaseMessage = message.body.toLowerCase();
+
+  for (const pair of keywordReplies) {
+    if (lowercaseMessage.includes(pair.keyword.toLowerCase())) {
+      return message.reply(pair.reply);
+    }
+  }
+
+  if (lowercaseMessage.includes("Zhuge") || lowercaseMessage.includes("zhuge")) {
+    try {
+      const name = await getUserInfo(api, senderID);
+      const question = message.body; // Use the message body instead of args
+      const prompt = `Pretend that your name is Zhuge Bot, a personal assistant. Your owner and developers are Dymyrius and Creighztan, I'm ${name} and my request is ${question}`;
+      message.react('⏳');
+      global.api.sendTypingIndicator(message.threadID);
+
+      // Replace 'v2' with your desired model if needed
+      herc.question({ model: 'v3-beta', content: prompt })
+        .then((response) => {
+          const reply = response.reply;
+          message.react('☑');
+          message.reply(reply);
+        })
+        .catch((error) => {
+          console.error('Error while making the Hercai API request:', error);
+          message.reply('An error occurred while processing your question.');
+        });
+    } catch (error) {
+      console.error('Error:', error);
+      message.reply('An error occurred while processing your request.');
+    }
+  }
+}

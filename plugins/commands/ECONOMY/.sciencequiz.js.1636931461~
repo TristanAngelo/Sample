@@ -1,0 +1,92 @@
+import fs from 'fs';
+import { join } from 'path';
+
+const config = {
+  name: "sciencequiz",
+  aliases: ["quiz", "sq", "sciencetrivia"],
+  description: "Test your knowledge with a science quiz. Place a bet to win or lose money.",
+  usage: "<bet amount>",
+  cooldown: 10,
+  credits: "Gauxy (Modified by Dymyrius)"
+};
+
+const quizDataPath = join(global.assetsPath, 'sciencequiz.json'); // Specify the path to the sciencequiz.json file
+
+let quizData = [];
+
+// Load quiz questions and answers from the file
+function loadQuizData() {
+  try {
+    const data = fs.readFileSync(quizDataPath, 'utf8');
+    quizData = JSON.parse(data);
+  } catch (err) {
+    console.error('Failed to load quiz data:', err);
+  }
+}
+
+loadQuizData();
+
+async function onCall({ message, args, getLang }) {
+  const { Users } = global.controllers;
+
+  const userBet = parseInt(args[0]);
+
+  if (isNaN(userBet) || userBet <= 0) {
+    return message.reply("Please enter a valid bet amount.");
+  }
+
+  const userBalance = await Users.getMoney(message.senderID);
+
+  if (userBalance < userBet) {
+    return message.reply("You don't have enough money to place this bet.");
+  }
+
+  // Randomly select a quiz question
+  const randomIndex = Math.floor(Math.random() * quizData.length);
+  const questionData = quizData[randomIndex];
+  const question = questionData.question;
+  const correctAnswer = questionData.answer;
+
+  const timeLimit = 20; // Time limit in seconds
+
+  const questionText = `🔬 Science Quiz 🔬\n\n${question}\n━━━━━━━━━━━━━━━\nTime Limit: ${timeLimit} seconds ⏱`;
+
+  message.reply(questionText)
+    .then(data => {
+      const messageId = data.messageID;
+
+      // Set the timer for the time limit
+      const timerId = setTimeout(() => {
+        message.reply("Time's up! You didn't answer in time.")
+          .then(() => global.api.unsendMessage(messageId));
+      }, timeLimit * 1000);
+
+      data.addReplyEvent({ callback: handleScienceQuiz, myData: { correctAnswer, messageId, timerId, userBet } });
+    })
+    .catch(err => console.error(err));
+}
+
+async function handleScienceQuiz({ message, eventData }) {
+  // Clear the timer since the user has answered
+  clearTimeout(eventData.myData.timerId);
+
+  const userAnswer = message.body;
+  const { Users } = global.controllers;
+
+  if (userAnswer.toLowerCase() === eventData.myData.correctAnswer.toLowerCase()) {
+    const winnings = eventData.myData.userBet * 1;
+    await Users.increaseMoney(message.senderID, winnings);
+    message.reply(`Correct answer! You won ₱${winnings}! 🎉`);
+  } else {
+    await Users.decreaseMoney(message.senderID, eventData.myData.userBet);
+    message.reply(`Wrong answer! The correct answer was "${eventData.myData.correctAnswer}". You lost ₱${eventData.myData.userBet}.`);
+  }
+
+  // Unsend the question message
+  global.api.unsendMessage(eventData.myData.messageId);
+}
+
+export default {
+  config,
+  onCall
+};

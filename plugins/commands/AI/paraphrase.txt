@@ -1,0 +1,49 @@
+import axios from 'axios';
+
+export const config = {
+  name: 'paraphrase',
+  version: '1.0.0',
+  credits: 'Your Name',
+  description: 'Paraphrase a given text using an external service.',
+  usage: '[text to paraphrase]',
+  cooldown: 5,
+};
+
+export async function onCall({ message, args }) {
+  try {
+    const textToParaphrase = args.join(' ');
+
+    if (!textToParaphrase) {
+      message.reply('Please provide text to paraphrase. Usage: !paraphrase [text]');
+      return;
+    }
+
+    const apiURL = 'https://paraphrase-genius.p.rapidapi.com/dev/paraphrase/';
+    const options = {
+      method: 'POST',
+      url: apiURL,
+      headers: {
+        'content-type': 'application/json',
+        'X-RapidAPI-Key': '0719bbbe05msh40cf340d8f9be4dp1c5c51jsn5f1c1656de00',
+        'X-RapidAPI-Host': 'paraphrase-genius.p.rapidapi.com',
+      },
+      data: {
+        text: textToParaphrase,
+        result_type: 'single',
+      },
+    };
+
+    const response = await axios.request(options);
+
+    if (response.data) {
+      const paraphrasedText = response.data;
+
+      message.reply(`📖 | 𝗣𝗮𝗿𝗮𝗽𝗵𝗿𝗮𝘀𝗲𝗱 𝗧𝗲𝘅𝘁: ${paraphrasedText}`);
+    } else {
+      message.reply('Error: Paraphrasing failed. Please try again later.');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    message.reply('An error occurred while paraphrasing the text. Please try again later.');
+  }
+}

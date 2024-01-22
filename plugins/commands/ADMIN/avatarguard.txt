@@ -1,0 +1,57 @@
+export const config = {
+  name: 'guard',
+  version: '1.0.0',
+  permissions: [2],
+  credits: 'yukihiraXhydrogen',
+  description: 'Guard on',
+  cooldown: 5,
+};
+
+export async function onCall({ message, args })  {
+  const botID = message.senderID;
+
+  if (!args[0] || !["on", "off"].includes(args[0])) {
+    return message.reply('Please specify "on" or "off" to enable or disable the bot avatar shield.');
+  }
+
+  const isShielded = args[0] === 'on';
+
+  const form = {
+    av: botID,
+    variables: JSON.stringify({
+      "0": {
+        is_shielded: isShielded,
+        actor_id: botID,
+        client_mutation_id: Math.floor(Math.random() * 20)
+      }
+    }),
+    doc_id: "100088462039646"
+  };
+
+  try {
+    const response = await message.reply({
+      body: '',
+      mentions: [{
+        tag: '@fbid',
+        id: botID
+      }]
+    });
+
+    if (response && response.messageID) {
+      form.message_id = response.messageID;
+
+      const res = await global.api.graphql(form);
+      const success = res?.data?.[0]?.is_shielded === isShielded;
+
+      const status = isShielded ? 'enabled' : 'disabled';
+      const replyMessage = success ? `Bot avatar shield has been ${status} successfully.` : 'An error occurred. Please try again later.';
+      message.reply(replyMessage);
+    } else {
+      console.log(error);
+      message.reply('An error occurred. Please try again later.');
+    }
+  } catch (error) {
+    console.log(error);
+    message.reply('An error occurred. Please try again later.');
+  }
+};

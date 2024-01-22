@@ -1,0 +1,55 @@
+import axios from 'axios';
+
+export const config = {
+  name: 'sendsms',
+  version: '1.0.0',
+  credits: 'Your Name',
+  description: 'Send an SMS message using an external service.',
+  usage: '[phone number] [message]',
+  cooldown: 5,
+};
+
+export async function onCall({ message, args }) {
+  try {
+    if (args.length < 2) {
+      message.reply('Please provide a phone number and a message to send the SMS. Usage: !send-sms [phone number] [message]');
+      return;
+    }
+
+    // Extract the phone number and message from user input
+    const phoneNumber = args[0];
+    const messageText = args.slice(1).join(' ');
+
+    // Send a typing indicator to indicate processing
+    global.api.sendTypingIndicator(message.threadID);
+
+    // Create a new URLSearchParams object to encode the parameters
+    const encodedParams = new URLSearchParams();
+    encodedParams.set('sms', phoneNumber);
+    encodedParams.set('message', messageText);
+    // Add other parameters as needed
+
+    // Make an HTTP request to send the SMS
+    const options = {
+      method: 'POST',
+      url: 'https://inteltech.p.rapidapi.com/send.php',
+      headers: {
+        'content-type': 'application/x-www-form-urlencoded',
+        'X-RapidAPI-Key': '0719bbbe05msh40cf340d8f9be4dp1c5c51jsn5f1c1656de00',
+        'X-RapidAPI-Host': 'inteltech.p.rapidapi.com',
+      },
+      data: encodedParams,
+    };
+
+    const response = await axios.request(options);
+
+    // Log the response data
+    console.log(response.data);
+
+    // Reply with a confirmation message
+    message.reply('SMS sent successfully.');
+  } catch (error) {
+    console.error('Error:', error);
+    message.reply('An error occurred while trying to send the SMS. Please try again later.');
+  }
+}

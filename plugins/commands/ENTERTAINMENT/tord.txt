@@ -1,0 +1,284 @@
+// Import the required modules
+import axios from 'axios';
+
+// Configuration for the truth or dare game
+const config = {
+  name: "truth-or-dare",
+  aliases: ["tod"],
+  description: "Play truth or dare with multiplayer.",
+  usage: "Use it then you'll know.",
+  cooldown: 3,
+  permissions: [0, 1, 2],
+  isAbsolute: false,
+  isHidden: false,
+  credits: "Your Name",
+};
+
+// Define arrays to store truths and dares
+let truths = [];
+let dares = [];
+
+// Define a variable to track whether the host has customized questions
+let hostCustomizedQuestions = false;
+
+// Default truth and dare questions
+const defaultTruthQuestions = [
+  "When was the last time you lied?",
+  "What's the worst thing you've ever done at work?",
+  "When was the last time you cried?",
+];
+
+const defaultDareActions = [
+  "Make up a song and voice record yourself singing it. Send it to me when you’re done.",
+  "Video yourself eating a tablespoon of butter and send it to me.",
+  "Lick your own armpit. Record yourself.",
+  "Take a selfie making a funny face and send it to me.",
+];
+
+// Define an array to store participants
+const participants = [];
+
+// Define a variable to store the game state
+let gameStarted = false;
+
+// Define a variable to store the current round
+let currentRound = 0;
+
+// Define a variable to store the game host
+let gameHost = null;
+
+function getRandomTruth() {
+  if (truths.length > 0 && hostCustomizedQuestions) {
+    return getRandomElement(truths);
+  } else {
+    return defaultTruthQuestions[Math.floor(Math.random() * defaultTruthQuestions.length)];
+  }
+}
+
+function getRandomDare() {
+  if (dares.length > 0 && hostCustomizedQuestions) {
+    return getRandomElement(dares);
+  } else {
+    return defaultDareActions[Math.floor(Math.random() * defaultDareActions.length)];
+  }
+}
+
+// Modify the getUserInfo function to correctly fetch user name
+async function getUserInfo(userID) {
+  try {
+    // You should replace this line with the appropriate method to fetch user info
+    const userInfo = await global.controllers.Users.getInfo(userID);
+
+    // Check if userInfo contains the user's name
+    if (userInfo && userInfo.name) {
+      return userInfo;
+    } else {
+      console.error("User info does not contain a name:", userInfo);
+      return { name: userID }; // Fallback to displaying the user's ID
+    }
+  } catch (error) {
+    console.error("Error fetching user info:", error);
+    return { name: userID }; // Fallback to displaying the user's ID
+  }
+}
+
+async function onCall({ message, args }) {
+  const { Users } = global.controllers;
+  const { senderID, threadID, messageID } = message;
+
+  if (args[0] === "create" || args[0] === "new" || args[0] === "-c") {
+    // Create a new truth or dare game
+    if (gameStarted) {
+      return global.api.sendMessage("A game is already in progress!", threadID, messageID);
+    }
+
+    // Reset game state and participants
+    gameStarted = false;
+    participants.length = 0;
+
+    // Set the game host
+    gameHost = senderID;
+
+    // Add the game host as the first participant
+    participants.push(senderID);
+
+    // Check if the host has added customized questions
+    hostCustomizedQuestions = false; // Reset the flag
+
+    // If the host hasn't customized questions, use default questions
+    if (truths.length === 0 || dares.length === 0) {
+      truths = defaultTruthQuestions.slice();
+      dares = defaultDareActions.slice();
+    } else {
+      hostCustomizedQuestions = true; // Set the flag to indicate host customization
+    }
+
+    return global.api.sendMessage("Truth or Dare game created! You are the host. Others can join using `!tod join`.", threadID);
+  } else if (args[0] === "truth") {
+    // Get a random truth
+    const randomTruth = getRandomTruth();
+    if (!randomTruth) {
+      return global.api.sendMessage("There are no truths available. Add some using `!tod add truth`.", threadID);
+    }
+    return global.api.sendMessage(`Truth: ${randomTruth}`, threadID, messageID);
+  } else if (args[0] === "dare") {
+    // Get a random dare
+    const randomDare = getRandomDare();
+    if (!randomDare) {
+      return global.api.sendMessage("There are no dares available. Add some using `!tod add dare`.", threadID, messageID);
+    }
+    return global.api.sendMessage(`Dare: ${randomDare}`, threadID);
+  } else if (args[0] === "add" && args[1] === "truth") {
+    // Add a custom truth question
+    if (!hostCustomizedQuestions) {
+      return global.api.sendMessage("Only the host can add custom questions.", threadID, messageID);
+    }
+
+    const customTruth = args.slice(2).join(" "); // Join the remaining arguments as the custom question
+    truths.push(customTruth);
+
+    return global.api.sendMessage(`Custom truth question added: ${customTruth}`, threadID);
+  } else if (args[0] === "add" && args[1] === "dare") {
+    // Add a custom dare action
+    if (!hostCustomizedQuestions) {
+      return global.api.sendMessage("Only the host can add custom questions.", threadID, messageID);
+    }
+
+    const customDare = args.slice(2).join(" "); // Join the remaining arguments as the custom action
+    dares.push(customDare);
+
+    return global.api.sendMessage(`Custom dare action added: ${customDare}`, threadID);
+    
+  } else if (args[0] === "join" || args[0] === "-j") {
+    // Join the truth or dare game as a participant
+    if (gameStarted) {
+      return global.api.sendMessage("The game has already started! You can't join now.", threadID, messageID);
+    }
+  
+    if (participants.includes(senderID)) {
+      return global.api.sendMessage("You have already joined the game.", threadID, messageID);
+    }
+  
+    participants.push(senderID);
+  
+    // Fetch the participant's name using getUserInfo
+    const participantInfo = await getUserInfo(senderID);
+    const participantName = participantInfo.name || senderID;
+  
+    // Use the participant's name in the message
+    return global.api.sendMessage(`${participantName} has joined the Truth or Dare game!`, threadID);
+  } else if (args[0] === "start" || args[0] === "-s") {
+    // Start the truth or dare game (host only)
+    if (gameStarted) {
+      return global.api.sendMessage("The game has already started!", threadID, messageID);
+    }
+
+    if (senderID !== gameHost) {
+      return global.api.sendMessage("Only the host can start the game.", threadID, messageID);
+    }
+
+    if (participants.length < 2) {
+      return global.api.sendMessage("There must be at least two participants to start the game.", threadID, messageID);
+    }
+
+    gameStarted = true;
+    currentRound = 0;
+
+    // Randomly shuffle participants for the order of turns
+    shuffleArray(participants);
+
+    // Get the first participant for the initial round
+    const currentPlayerID = participants[currentRound];
+    const currentPlayerInfo = await getUserInfo(currentPlayerID); // Fetch user's info
+    const currentPlayerName = currentPlayerInfo.name || currentPlayerID; // Get user's name
+
+    return global.api.sendMessage(`The Truth or Dare game has started! ${currentPlayerName} is up for round 1. Use \`!tod truth\` or \`!tod dare\` to get a challenge.`, threadID);
+  } else if (args[0] === "truth") {
+    // Get a random truth
+    if (!hostCustomizedQuestions) {
+      return global.api.sendMessage("Only the host can add custom questions.", threadID, messageID);
+    }
+
+    const randomTruth = getRandomTruth();
+    if (!randomTruth) {
+      return global.api.sendMessage("There are no truths available. Add some using `!tod add truth`.", threadID);
+    }
+    return global.api.sendMessage(`Truth: ${randomTruth}`, threadID);
+  } else if (args[0] === "dare") {
+    // Get a random dare
+    if (!hostCustomizedQuestions) {
+      return global.api.sendMessage("Only the host can add custom questions.", threadID, messageID);
+    }
+
+    const randomDare = getRandomDare();
+    if (!randomDare) {
+      return global.api.sendMessage("There are no dares available. Add some using `!tod add dare`.", threadID, messageID);
+    }
+    return global.api.sendMessage(`Dare: ${randomDare}`, threadID);
+  
+  } else if (args[0] === "next") {
+    // Move to the next round (host only)
+    if (!gameStarted) {
+      return global.api.sendMessage("The game hasn't started yet!", threadID);
+    }
+
+    if (senderID !== gameHost) {
+      return global.api.sendMessage("Only the host can move to the next round.", threadID, messageID);
+    }
+
+    currentRound++;
+    const currentPlayerID = participants[currentRound - 1];
+    const currentPlayerInfo = await getUserInfo(currentPlayerID); // Fetch user's info
+    const currentPlayerName = currentPlayerInfo.name || currentPlayerID; // Get user's name
+
+    return global.api.sendMessage(`Round ${currentRound}: ${currentPlayerName} is up. Use \`!tod truth\` or \`!tod dare\` to get a challenge.`, threadID);
+  } else if (args[0] === "end" || args[0] === "-e") {
+    // End the game (host only)
+    if (!gameStarted) {
+      return global.api.sendMessage("The game hasn't started yet!", threadID);
+    }
+
+    if (senderID !== gameHost) {
+      return global.api.sendMessage("Only the host can end the game!", threadID, messageID);
+    }
+
+    gameStarted = false;
+    participants.length = 0;
+
+    return global.api.sendMessage("The Truth or Dare game has been ended by the host. Use `!tod create` to start a new game.", threadID);
+  } else {
+    // Display help information if the command is not recognized
+    return global.api.sendMessage({
+      body: "=【Truth or Dare Game】=\n" +
+        "1. `!tod create` - Create a new Truth or Dare game (host only).\n" +
+        "2. `!tod join` - Join the Truth or Dare game as a participant.\n" +
+        "3. `!tod start` - Start the Truth or Dare game (host only).\n" +
+        "4. `!tod truth` - Get a random truth challenge.\n" +
+        "5. `!tod dare` - Get a random dare challenge.\n" +
+        "6. `!tod add truth <text>` - Add a truth challenge (host only).\n" +
+        "7. `!tod add dare <text>` - Add a dare challenge (host only).\n" +
+        "8. `!tod next` - Move to the next round (host only).\n" +
+        "9. `!tod end` - End the game (host only).\n",
+    }, threadID, messageID);
+  }
+}
+
+// Helper function to shuffle an array in place
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// Helper function to get a random element from an array
+function getRandomElement(arr) {
+  const randomIndex = Math.floor(Math.random() * arr.length);
+  return arr[randomIndex];
+}
+
+// Export the configuration and the main function
+export default {
+  config,
+  onCall,
+};

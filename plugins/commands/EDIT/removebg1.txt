@@ -1,0 +1,32 @@
+import axios from 'axios';
+
+export default {
+  config: {
+    name: "removebg",
+    aliases: ["rbg"],
+    version: "1.0",
+    credits: "Rishad",
+    cooldown: 10,
+    description: "Remove background from an image",
+    usage: "<reply to image>"
+  },
+
+  onCall: async function ({ message }) {
+    const imageLink = message.messageReply?.attachments[0]?.url;
+    if (!imageLink) {
+      return message.reply('Please reply to an image.');
+    }
+
+    try {
+      const apiUrl = `https://for-devs.rishadapis.repl.co/api/rbg?imageUrl=${encodeURIComponent(imageLink)}&apikey=fuck`;
+      const imageStream = await global.getStream(apiUrl);
+      if (!imageStream) {
+        return message.reply('Failed to generate art from the image.');
+      }
+      return message.reply({ attachment: imageStream });
+    } catch (error) {
+      console.log(error);
+      return message.reply('Failed to Remove background from image.');
+    }
+  }
+};
